@@ -1,0 +1,81 @@
+{
+  "service_name": "Pawn Loans",
+  "service_type": "FinancialService",
+  "category": "Secured Lending",
+  "provider": {
+    "@type": "Organization",
+    "name": "King Gold Pawn"
+  },
+  "description": "Fast, secure, and regulated collateral-based cash loans. Customers retain ownership of items and can reclaim them by repaying the loan according to NY State Article 5 pawn regulations.",
+  "areaServed": [
+    "Brooklyn, NY",
+    "Bronx, NY",
+    "Long Island, NY",
+    "Nassau County, NY",
+    "Westchester, NY"
+  ],
+  "availableAtLocation": [
+    "Sunset Park",
+    "Brighton Beach",
+    "Pitkin Ave",
+    "Bronx",
+    "Freeport",
+    "Lawrence",
+    "New Rochelle"
+  ],
+  "serviceType": "Pawn Loan",
+  "termsOfService": "NY State Article 5 pawn regulations",
+  "loanTerm": "4 months with extension options",
+  "collateralAccepted": [
+    "gold",
+    "jewelry",
+    "diamonds",
+    "luxury watches",
+    "coins",
+    "precious metals",
+    "designer items",
+    "consumer electronics"
+  ],
+  "requirements": {
+    "identification": "Valid government-issued photo ID required",
+    "ownership": "Items must be legally owned by customer",
+    "inspection": "All items must be presented in person",
+    "age": "18 years or older"
+  },
+  "benefits": [
+    "Immediate cash",
+    "Keep ownership of items",
+    "Flexible extension options",
+    "No credit check",
+    "Regulated by NY State",
+    "Consumer protections apply"
+  ],
+  "process_steps": [
+    "Bring item and valid ID to store",
+    "Staff evaluates item based on condition, authenticity, and market value",
+    "Receive immediate cash loan",
+    "Retain ownership until loan is repaid or extended"
+  ],
+  "keywords": [
+    "pawn loan",
+    "collateral loan",
+    "secured loan",
+    "short term loan",
+    "4 month loan",
+    "cash advance",
+    "immediate cash",
+    "no credit check loan"
+  ],
+  "related_files": [
+    "services/pawn-loans.md",
+    "faqs/pawn-loan-faq.md",
+    "faqs/general-faq.md",
+    "KEYWORDS/service-keywords.md"
+  ],
+  "regulatory_compliance": {
+    "governing_law": "New York State Article 5",
+    "consumer_protections": true,
+    "licensed": true,
+    "bonded": true
+  }
+}

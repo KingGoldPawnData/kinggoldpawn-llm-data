@@ -1,0 +1,115 @@
+{
+  "service_name": "Electronics Pawn and Sale",
+  "service_type": "BuyAction",
+  "category": "Consumer Electronics",
+  "provider": {
+    "@type": "Organization",
+    "name": "King Gold Pawn"
+  },
+  "description": "Pawn or sell consumer electronics including smartphones, laptops, tablets, cameras, and game consoles. All electronics must be authentic and in working condition for standard transactions.",
+  "areaServed": [
+    "Brooklyn, NY",
+    "Bronx, NY",
+    "Long Island, NY",
+    "Nassau County, NY",
+    "Westchester, NY"
+  ],
+  "availableAtLocation": [
+    "Sunset Park",
+    "Brighton Beach",
+    "Pitkin Ave",
+    "Bronx",
+    "Freeport",
+    "Lawrence",
+    "New Rochelle"
+  ],
+  "serviceType": "Electronics Trading",
+  "itemsAccepted": {
+    "smartphones": [
+      "iPhone",
+      "Samsung Galaxy",
+      "Google Pixel",
+      "other major brands"
+    ],
+    "computers": [
+      "laptops",
+      "MacBooks",
+      "tablets",
+      "iPads"
+    ],
+    "cameras": [
+      "DSLR cameras",
+      "mirrorless cameras",
+      "professional cameras",
+      "camera equipment"
+    ],
+    "gaming": [
+      "PS5",
+      "PlayStation",
+      "Xbox Series",
+      "Nintendo Switch",
+      "gaming accessories"
+    ]
+  },
+  "requirements": {
+    "identification": "Valid government-issued photo ID required",
+    "ownership": "Items must be legally owned by customer",
+    "inspection": "All items must be presented in person",
+    "condition": "Items must be in working condition",
+    "authenticity": "Items must be authentic",
+    "accessories": "Original accessories increase value",
+    "age": "18 years or older"
+  },
+  "evaluation_criteria": [
+    "working condition",
+    "authenticity verification",
+    "model and specifications",
+    "age and depreciation",
+    "cosmetic condition",
+    "current market value",
+    "included accessories"
+  ],
+  "options": [
+    "Pawn for collateral loan with option to reclaim",
+    "Sell outright for immediate cash"
+  ],
+  "benefits": [
+    "Immediate cash for working electronics",
+    "Fair market value assessment",
+    "Quick evaluation process",
+    "No appointment necessary",
+    "Trade up to newer models",
+    "Secure and regulated transactions"
+  ],
+  "process_steps": [
+    "Bring electronics and valid ID to store",
+    "Staff tests and evaluates device functionality and condition",
+    "Receive competitive cash offer based on market value",
+    "Choose to pawn for loan or sell outright"
+  ],
+  "keywords": [
+    "pawn electronics",
+    "sell phone",
+    "pawn laptop",
+    "sell tablet",
+    "pawn iPhone",
+    "sell MacBook",
+    "pawn PS5",
+    "sell Xbox",
+    "pawn Nintendo Switch",
+    "electronics trade in",
+    "sell game console"
+  ],
+  "related_files": [
+    "services/electronics.md",
+    "faqs/items-valuation-faq.md",
+    "faqs/general-faq.md",
+    "KEYWORDS/service-keywords.md"
+  ],
+  "regulatory_compliance": {
+    "governing_law": "New York State Article 5",
+    "consumer_protections": true,
+    "licensed": true,
+    "bonded": true
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "service_name": "Cash for Gold",
+  "service_type": "BuyAction",
+  "category": "Precious Metals Trading",
+  "provider": {
+    "@type": "Organization",
+    "name": "King Gold Pawn"
+  },
+  "description": "Professional evaluation and purchase of gold, jewelry, diamonds, luxury watches, coins, and precious metals. All items are assessed for authenticity, purity, and market value to provide competitive offers.",
+  "areaServed": [
+    "Brooklyn, NY",
+    "Bronx, NY",
+    "Long Island, NY",
+    "Nassau County, NY",
+    "Westchester, NY"
+  ],
+  "availableAtLocation": [
+    "Sunset Park",
+    "Brighton Beach",
+    "Pitkin Ave",
+    "Bronx",
+    "Freeport",
+    "Lawrence",
+    "New Rochelle"
+  ],
+  "serviceType": "Gold Buying",
+  "itemsAccepted": [
+    "gold jewelry",
+    "gold coins",
+    "gold bars",
+    "gold bullion",
+    "diamonds",
+    "precious metals",
+    "platinum",
+    "silver",
+    "luxury watches",
+    "designer jewelry"
+  ],
+  "requirements": {
+    "identification": "Valid government-issued photo ID required",
+    "ownership": "Items must be legally owned by customer",
+    "inspection": "All items must be presented in person",
+    "authenticity": "Items must be authentic",
+    "age": "18 years or older"
+  },
+  "evaluation_criteria": [
+    "condition",
+    "authenticity",
+    "market value",
+    "purity (for precious metals)",
+    "weight",
+    "current spot price"
+  ],
+  "options": [
+    "Sell outright for immediate cash",
+    "Pawn for collateral loan with option to reclaim"
+  ],
+  "benefits": [
+    "Immediate cash payment",
+    "Professional evaluation",
+    "Competitive market-based pricing",
+    "No appointment necessary",
+    "Walk-in service available",
+    "Expert authenticity verification"
+  ],
+  "process_steps": [
+    "Bring gold items and valid ID to store",
+    "Professional staff evaluates items for purity, weight, and market value",
+    "Receive competitive cash offer",
+    "Choose to sell outright or pawn for loan"
+  ],
+  "keywords": [
+    "cash for gold",
+    "sell gold",
+    "gold buyer",
+    "buy gold",
+    "precious metals dealer",
+    "sell jewelry",
+    "diamond buyer",
+    "gold exchange",
+    "scrap gold buyer",
+    "gold coins buyer"
+  ],
+  "related_files": [
+    "services/cash-for-gold.md",
+    "faqs/items-valuation-faq.md",
+    "faqs/general-faq.md",
+    "KEYWORDS/service-keywords.md"
+  ],
+  "regulatory_compliance": {
+    "governing_law": "New York State Article 5",
+    "consumer_protections": true,
+    "licensed": true,
+    "bonded": true
+  }
+}
