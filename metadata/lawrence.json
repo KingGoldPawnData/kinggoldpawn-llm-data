@@ -1,0 +1,47 @@
+{
+  "name": "King Gold Pawn - Lawrence",
+  "location": "Lawrence, Nassau County, NY",
+  "type": "Pawnshop",
+  "openingHours": null,
+  "areaServed": [
+    "Lawrence",
+    "Cedarhurst",
+    "Woodmere",
+    "Inwood",
+    "Hewlett",
+    "Hewlett Harbor",
+    "Hewlett Neck",
+    "Hewlett Bay Park",
+    "North Woodmere",
+    "East Rockaway",
+    "Lynbrook",
+    "Valley Stream",
+    "Malverne",
+    "Rockville Centre",
+    "Oceanside",
+    "Baldwin",
+    "Baldwin Harbor",
+    "Freeport",
+    "Roosevelt",
+    "Uniondale",
+    "Hempstead"
+  ],
+  "geo": null,
+  "priceRange": null,
+  "sameAs": null,
+  "publicEmail": null,
+  "tags": [
+    "pawnshop",
+    "cash-for-gold",
+    "jewelry",
+    "electronics",
+    "nassau-county",
+    "lawrence"
+  ],
+  "related_files": [
+    "locations/lawrence.md",
+    "services/pawn-loans.md",
+    "services/cash-for-gold.md",
+    "services/electronics.md"
+  ]
+}

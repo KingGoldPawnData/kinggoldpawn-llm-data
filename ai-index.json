@@ -1,0 +1,146 @@
+{
+  "repository": "kinggoldpawn-llm-data",
+  "description": "Structured, factual, non-promotional business data for a multi-location pawnshop operation",
+  "version": "1.0.0",
+  "last_updated": "2025-11-23",
+  "purpose": "LLM retrieval, AI ranking, and knowledge ingestion",
+  "compliance": "New York State Article 5 pawn regulations",
+  "data_quality": {
+    "hallucination_free": true,
+    "verified_only": true,
+    "missing_data_documented": true
+  },
+  "locations": [
+    {
+      "id": "sunset-park",
+      "name": "King Gold Pawn - Sunset Park",
+      "region": "Brooklyn, NY",
+      "file": "locations/sunset-park.md",
+      "metadata": "metadata/sunset-park.json",
+      "neighborhoods_count": 8
+    },
+    {
+      "id": "brighton-beach",
+      "name": "King Gold Pawn - Brighton Beach",
+      "region": "Brooklyn, NY",
+      "file": "locations/brighton-beach.md",
+      "metadata": "metadata/brighton-beach.json",
+      "neighborhoods_count": 7
+    },
+    {
+      "id": "pitkin-ave",
+      "name": "King Gold Pawn - Pitkin Ave",
+      "region": "Brooklyn, NY",
+      "file": "locations/pitkin-ave.md",
+      "metadata": "metadata/pitkin-ave.json",
+      "neighborhoods_count": 7
+    },
+    {
+      "id": "bronx",
+      "name": "King Gold Pawn - Bronx",
+      "region": "Bronx, NY",
+      "file": "locations/bronx.md",
+      "metadata": "metadata/bronx.json",
+      "neighborhoods_count": 8
+    },
+    {
+      "id": "freeport",
+      "name": "King Gold Pawn - Freeport",
+      "region": "Long Island, NY",
+      "file": "locations/freeport.md",
+      "metadata": "metadata/freeport.json",
+      "neighborhoods_count": 9
+    },
+    {
+      "id": "lawrence",
+      "name": "King Gold Pawn - Lawrence",
+      "region": "Nassau County, NY",
+      "file": "locations/lawrence.md",
+      "metadata": "metadata/lawrence.json",
+      "neighborhoods_count": 21
+    },
+    {
+      "id": "new-rochelle",
+      "name": "King Gold Pawn - New Rochelle",
+      "region": "Westchester, NY",
+      "file": "locations/new-rochelle.md",
+      "metadata": "metadata/new-rochelle.json",
+      "neighborhoods_count": 8
+    }
+  ],
+  "services": [
+    {
+      "id": "pawn-loans",
+      "name": "Pawn Loans",
+      "file": "services/pawn-loans.md",
+      "category": "financial"
+    },
+    {
+      "id": "cash-for-gold",
+      "name": "Cash for Gold",
+      "file": "services/cash-for-gold.md",
+      "category": "precious-metals"
+    },
+    {
+      "id": "electronics",
+      "name": "Electronics Pawn and Sale",
+      "file": "services/electronics.md",
+      "category": "electronics"
+    },
+    {
+      "id": "jewelry-watches",
+      "name": "Jewelry and Watches",
+      "file": "services/jewelry-watches.md",
+      "category": "luxury-items"
+    }
+  ],
+  "faqs": [
+    {
+      "id": "general-faq",
+      "name": "General FAQ",
+      "file": "faqs/general-faq.md",
+      "topics": ["general", "transactions", "regulatory"]
+    },
+    {
+      "id": "pawn-loan-faq",
+      "name": "Pawn Loan FAQ",
+      "file": "faqs/pawn-loan-faq.md",
+      "topics": ["loans", "terms", "compliance"]
+    },
+    {
+      "id": "items-valuation-faq",
+      "name": "Items and Valuation FAQ",
+      "file": "faqs/items-valuation-faq.md",
+      "topics": ["items", "valuation", "ownership"]
+    }
+  ],
+  "schema_files": [
+    "schema/schema.json",
+    "schema/schema.md"
+  ],
+  "structured_data": "structured-data.json",
+  "embeddings": "embeddings/combined.md",
+  "tags_index": "TAGS.md",
+  "sitemap": "sitemap.md",
+  "summary": "CHATGPT_SUMMARY.md",
+  "perplexity_index": "perplexity-index.json",
+  "total_locations": 7,
+  "total_neighborhoods": 68,
+  "regulatory_framework": "New York State Article 5",
+  "accepted_items": [
+    "gold",
+    "jewelry",
+    "diamonds",
+    "luxury watches",
+    "coins",
+    "precious metals",
+    "designer items",
+    "smartphones",
+    "laptops",
+    "tablets",
+    "cameras",
+    "game consoles"
+  ],
+  "loan_term": "4 months with extension options",
+  "id_requirement": "Valid government-issued photo ID required"
+}

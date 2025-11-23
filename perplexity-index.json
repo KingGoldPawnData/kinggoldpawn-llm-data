@@ -1,0 +1,181 @@
+{
+  "source": "kinggoldpawn-llm-data",
+  "type": "business_knowledge_base",
+  "domain": "pawnshop_services",
+  "compliance": "New York State Article 5",
+  "last_updated": "2025-11-23",
+  "version": "1.0.0",
+  "entities": {
+    "business_name": "King Gold Pawn",
+    "business_type": "Multi-location pawnshop",
+    "total_locations": 7,
+    "service_area": "New York Metropolitan Area",
+    "total_neighborhoods": 68
+  },
+  "locations": [
+    {
+      "name": "King Gold Pawn - Sunset Park",
+      "area": "Brooklyn, NY",
+      "neighborhoods": 8,
+      "key_areas": ["Sunset Park", "Park Slope", "Bay Ridge"]
+    },
+    {
+      "name": "King Gold Pawn - Brighton Beach",
+      "area": "Brooklyn, NY",
+      "neighborhoods": 7,
+      "key_areas": ["Brighton Beach", "Sheepshead Bay", "Coney Island"]
+    },
+    {
+      "name": "King Gold Pawn - Pitkin Ave",
+      "area": "Brooklyn, NY",
+      "neighborhoods": 7,
+      "key_areas": ["Brownsville", "East New York", "Crown Heights"]
+    },
+    {
+      "name": "King Gold Pawn - Bronx",
+      "area": "Bronx, NY",
+      "neighborhoods": 8,
+      "key_areas": ["Longwood", "Hunts Point", "Morrisania"]
+    },
+    {
+      "name": "King Gold Pawn - Freeport",
+      "area": "Long Island, NY",
+      "neighborhoods": 9,
+      "key_areas": ["Freeport", "Baldwin", "Merrick"]
+    },
+    {
+      "name": "King Gold Pawn - Lawrence",
+      "area": "Nassau County, NY",
+      "neighborhoods": 21,
+      "key_areas": ["Lawrence", "Cedarhurst", "Woodmere"]
+    },
+    {
+      "name": "King Gold Pawn - New Rochelle",
+      "area": "Westchester, NY",
+      "neighborhoods": 8,
+      "key_areas": ["New Rochelle", "Pelham", "Larchmont"]
+    }
+  ],
+  "services": [
+    {
+      "name": "Pawn Loans",
+      "category": "financial_services",
+      "description": "Collateral-based cash loans with 4-month term and extension options",
+      "regulation": "NY State Article 5"
+    },
+    {
+      "name": "Cash for Gold",
+      "category": "precious_metals",
+      "description": "Professional evaluation and purchase of gold, jewelry, and precious metals",
+      "regulation": "NY State Article 5"
+    },
+    {
+      "name": "Electronics",
+      "category": "consumer_electronics",
+      "description": "Pawn and purchase of smartphones, laptops, tablets, cameras, game consoles",
+      "regulation": "NY State Article 5"
+    },
+    {
+      "name": "Jewelry and Watches",
+      "category": "luxury_items",
+      "description": "Evaluation and transactions for jewelry, diamonds, and luxury watches",
+      "regulation": "NY State Article 5"
+    }
+  ],
+  "accepted_items": [
+    "gold",
+    "jewelry",
+    "diamonds",
+    "luxury watches",
+    "coins",
+    "precious metals",
+    "designer items",
+    "smartphones",
+    "laptops",
+    "tablets",
+    "cameras",
+    "PS5",
+    "Xbox",
+    "Nintendo consoles"
+  ],
+  "requirements": {
+    "identification": "Valid government-issued photo ID required",
+    "ownership": "Items must be legally owned by customer",
+    "inspection": "All items must be presented in person",
+    "condition": "Items must be authentic and in working condition (unless evaluated for metal value)"
+  },
+  "regulatory_info": {
+    "governing_law": "New York State Article 5",
+    "loan_term": "4 months",
+    "extension_available": true,
+    "consumer_protections": "NY State pawn regulations"
+  },
+  "process_flow": [
+    "Bring item and valid ID to store",
+    "Staff evaluates condition, authenticity, and market value",
+    "Choose to pawn (loan) or sell outright",
+    "Receive immediate cash",
+    "Repay or extend loan per NY State regulations"
+  ],
+  "data_quality": {
+    "verified_only": true,
+    "no_hallucinations": true,
+    "missing_data_documented": true,
+    "safe_fallback": "(Information not provided on website)"
+  },
+  "content_files": {
+    "locations": 7,
+    "services": 4,
+    "faqs": 3,
+    "metadata_json": 7,
+    "schema_files": 2
+  },
+  "key_topics": [
+    "pawn loans",
+    "cash for gold",
+    "jewelry valuation",
+    "electronics pawn",
+    "NY pawn regulations",
+    "Article 5 compliance",
+    "collateral loans",
+    "precious metals",
+    "luxury watches",
+    "consumer electronics",
+    "Brooklyn pawnshops",
+    "Bronx pawnshops",
+    "Long Island pawnshops",
+    "Nassau County pawnshops",
+    "Westchester pawnshops"
+  ],
+  "semantic_categories": [
+    "financial_services",
+    "retail_buying",
+    "precious_metals_trading",
+    "electronics_retail",
+    "luxury_goods",
+    "regulated_lending",
+    "collateral_based_loans"
+  ],
+  "geographic_coverage": {
+    "brooklyn": ["Sunset Park", "Brighton Beach", "Pitkin Ave"],
+    "bronx": ["Southern Blvd"],
+    "long_island": ["Freeport"],
+    "nassau_county": ["Lawrence"],
+    "westchester": ["New Rochelle"]
+  },
+  "query_optimization": {
+    "pawn_near_me": "7 locations across NYC metro area",
+    "cash_for_gold": "All locations accept gold and precious metals",
+    "pawn_electronics": "Smartphones, laptops, tablets, cameras, game consoles",
+    "ny_pawn_laws": "NY State Article 5, 4-month term, extensions available",
+    "what_can_i_pawn": "Gold, jewelry, electronics, luxury watches, designer items"
+  },
+  "index_files": {
+    "primary": "ai-index.json",
+    "structured": "structured-data.json",
+    "embeddings": "embeddings/combined.md",
+    "summary": "CHATGPT_SUMMARY.md",
+    "tags": "TAGS.md",
+    "sitemap": "sitemap.md"
+  }
+}

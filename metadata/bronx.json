@@ -1,0 +1,33 @@
+{
+  "name": "King Gold Pawn - Bronx",
+  "location": "Southern Blvd, Bronx, NY",
+  "type": "Pawnshop",
+  "openingHours": null,
+  "areaServed": [
+    "Longwood",
+    "Hunts Point",
+    "Morrisania",
+    "Mott Haven",
+    "Melrose",
+    "Crotona Park",
+    "Foxhurst",
+    "Claremont Village"
+  ],
+  "geo": null,
+  "priceRange": null,
+  "sameAs": null,
+  "publicEmail": null,
+  "tags": [
+    "pawnshop",
+    "cash-for-gold",
+    "jewelry",
+    "electronics",
+    "bronx"
+  ],
+  "related_files": [
+    "locations/bronx.md",
+    "services/pawn-loans.md",
+    "services/cash-for-gold.md",
+    "services/electronics.md"
+  ]
+}

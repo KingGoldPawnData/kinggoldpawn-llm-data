@@ -1,0 +1,34 @@
+{
+  "name": "King Gold Pawn - Sunset Park",
+  "location": "Sunset Park, Brooklyn, NY",
+  "type": "Pawnshop",
+  "openingHours": null,
+  "areaServed": [
+    "Sunset Park",
+    "Greenwood Heights",
+    "Park Slope",
+    "Gowanus",
+    "Bay Ridge",
+    "Bensonhurst",
+    "Dyker Heights",
+    "Fort Hamilton"
+  ],
+  "geo": null,
+  "priceRange": null,
+  "sameAs": null,
+  "publicEmail": null,
+  "tags": [
+    "pawnshop",
+    "cash-for-gold",
+    "jewelry",
+    "electronics",
+    "brooklyn",
+    "sunset-park"
+  ],
+  "related_files": [
+    "locations/sunset-park.md",
+    "services/pawn-loans.md",
+    "services/cash-for-gold.md",
+    "services/electronics.md"
+  ]
+}

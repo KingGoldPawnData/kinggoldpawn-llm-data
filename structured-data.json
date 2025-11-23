@@ -1,0 +1,206 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "#sunset-park",
+      "name": "King Gold Pawn - Sunset Park",
+      "description": "Pawnshop offering cash for gold, jewelry, electronics, and other valuables in Sunset Park, Brooklyn",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Brooklyn",
+        "addressRegion": "NY",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        "Sunset Park",
+        "Greenwood Heights",
+        "Park Slope",
+        "Gowanus",
+        "Bay Ridge",
+        "Bensonhurst",
+        "Dyker Heights",
+        "Fort Hamilton"
+      ],
+      "openingHours": null,
+      "geo": null,
+      "priceRange": null,
+      "paymentAccepted": "Cash",
+      "currenciesAccepted": "USD"
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "#brighton-beach",
+      "name": "King Gold Pawn - Brighton Beach",
+      "description": "Pawnshop offering cash for gold, jewelry, electronics, and other valuables in Brighton Beach, Brooklyn",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Brooklyn",
+        "addressRegion": "NY",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        "Brighton Beach",
+        "Sheepshead Bay",
+        "Manhattan Beach",
+        "Homecrest",
+        "Midwood",
+        "Gravesend",
+        "Coney Island"
+      ],
+      "openingHours": null,
+      "geo": null,
+      "priceRange": null,
+      "paymentAccepted": "Cash",
+      "currenciesAccepted": "USD"
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "#pitkin-ave",
+      "name": "King Gold Pawn - Pitkin Ave",
+      "description": "Pawnshop offering cash for gold, jewelry, electronics, and other valuables in Pitkin Ave, Brooklyn",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Brooklyn",
+        "addressRegion": "NY",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        "Brownsville",
+        "East New York",
+        "Ocean Hill",
+        "Crown Heights",
+        "Bedford-Stuyvesant (East)",
+        "Flatbush (North)",
+        "Canarsie"
+      ],
+      "openingHours": null,
+      "geo": null,
+      "priceRange": null,
+      "paymentAccepted": "Cash",
+      "currenciesAccepted": "USD"
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "#bronx",
+      "name": "King Gold Pawn - Bronx",
+      "description": "Pawnshop offering cash for gold, jewelry, electronics, and other valuables in Southern Blvd, Bronx",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bronx",
+        "addressRegion": "NY",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        "Longwood",
+        "Hunts Point",
+        "Morrisania",
+        "Mott Haven",
+        "Melrose",
+        "Crotona Park",
+        "Foxhurst",
+        "Claremont Village"
+      ],
+      "openingHours": null,
+      "geo": null,
+      "priceRange": null,
+      "paymentAccepted": "Cash",
+      "currenciesAccepted": "USD"
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "#freeport",
+      "name": "King Gold Pawn - Freeport",
+      "description": "Pawnshop offering cash for gold, jewelry, electronics, and other valuables in Freeport, Long Island",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Freeport",
+        "addressRegion": "NY",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        "Freeport",
+        "Baldwin",
+        "Baldwin Harbor",
+        "Merrick",
+        "Roosevelt",
+        "Uniondale",
+        "Hempstead",
+        "Oceanside",
+        "Rockville Centre"
+      ],
+      "openingHours": null,
+      "geo": null,
+      "priceRange": null,
+      "paymentAccepted": "Cash",
+      "currenciesAccepted": "USD"
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "#lawrence",
+      "name": "King Gold Pawn - Lawrence",
+      "description": "Pawnshop offering cash for gold, jewelry, electronics, and other valuables in Lawrence, Nassau County",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Lawrence",
+        "addressRegion": "NY",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        "Lawrence",
+        "Cedarhurst",
+        "Woodmere",
+        "Inwood",
+        "Hewlett",
+        "Hewlett Harbor",
+        "Hewlett Neck",
+        "Hewlett Bay Park",
+        "North Woodmere",
+        "East Rockaway",
+        "Lynbrook",
+        "Valley Stream",
+        "Malverne",
+        "Rockville Centre",
+        "Oceanside",
+        "Baldwin",
+        "Baldwin Harbor",
+        "Freeport",
+        "Roosevelt",
+        "Uniondale",
+        "Hempstead"
+      ],
+      "openingHours": null,
+      "geo": null,
+      "priceRange": null,
+      "paymentAccepted": "Cash",
+      "currenciesAccepted": "USD"
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "#new-rochelle",
+      "name": "King Gold Pawn - New Rochelle",
+      "description": "Pawnshop offering cash for gold, jewelry, electronics, and other valuables in New Rochelle, Westchester",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New Rochelle",
+        "addressRegion": "NY",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        "New Rochelle",
+        "Pelham",
+        "Pelham Manor",
+        "Mount Vernon (South)",
+        "Larchmont",
+        "Mamaroneck (West End)",
+        "Bronxville (South)",
+        "Eastchester (Southern Section)"
+      ],
+      "openingHours": null,
+      "geo": null,
+      "priceRange": null,
+      "paymentAccepted": "Cash",
+      "currenciesAccepted": "USD"
+    }
+  ]
+}

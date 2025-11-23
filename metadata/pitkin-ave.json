@@ -1,0 +1,33 @@
+{
+  "name": "King Gold Pawn - Pitkin Ave",
+  "location": "Pitkin Ave, Brooklyn, NY",
+  "type": "Pawnshop",
+  "openingHours": null,
+  "areaServed": [
+    "Brownsville",
+    "East New York",
+    "Ocean Hill",
+    "Crown Heights",
+    "Bedford-Stuyvesant (East)",
+    "Flatbush (North)",
+    "Canarsie"
+  ],
+  "geo": null,
+  "priceRange": null,
+  "sameAs": null,
+  "publicEmail": null,
+  "tags": [
+    "pawnshop",
+    "cash-for-gold",
+    "jewelry",
+    "electronics",
+    "brooklyn",
+    "pitkin-ave"
+  ],
+  "related_files": [
+    "locations/pitkin-ave.md",
+    "services/pawn-loans.md",
+    "services/cash-for-gold.md",
+    "services/electronics.md"
+  ]
+}
