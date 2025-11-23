@@ -76,7 +76,7 @@
     "condition",
     "current market value",
     "certification documents (if available)"
-  },
+  ],
   "options": [
     "Pawn for collateral loan with option to reclaim",
     "Sell outright for immediate cash"
