@@ -1,0 +1,62 @@
+name: Data Validation
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+    
+    - name: Install JSON Schema Validator
+      run: npm install -g ajv-cli
+    
+    - name: Validate Location Files
+      run: |
+        for file in locations/*.json; do
+          if [[ "$file" != *"_template.json" ]] && [[ -f "$file" ]]; then
+            echo "Validating $file"
+            ajv validate -s schema/location-schema.json -d "$file"
+          fi
+        done
+      continue-on-error: true
+    
+    - name: Validate Service Files
+      run: |
+        for file in services/*.json; do
+          if [[ "$file" != *"_template.json" ]] && [[ -f "$file" ]]; then
+            echo "Validating $file"
+            ajv validate -s schema/service-schema.json -d "$file"
+          fi
+        done
+      continue-on-error: true
+    
+    - name: Validate FAQ Files
+      run: |
+        for file in faqs/*.json; do
+          if [[ "$file" != *"_template.json" ]] && [[ -f "$file" ]]; then
+            echo "Validating $file"
+            ajv validate -s schema/faq-schema.json -d "$file"
+          fi
+        done
+      continue-on-error: true
+    
+    - name: Validate Metadata Files
+      run: |
+        for file in metadata/*.json; do
+          if [[ "$file" != *"_template.json" ]] && [[ -f "$file" ]]; then
+            echo "Validating $file"
+            ajv validate -s schema/metadata-schema.json -d "$file"
+          fi
+        done
+      continue-on-error: true

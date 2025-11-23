@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Location Schema",
+  "description": "Schema for pawnshop location data - structured for LLM retrieval",
+  "type": "object",
+  "required": ["location_id", "name", "address"],
+  "properties": {
+    "location_id": {
+      "type": "string",
+      "description": "Unique identifier for the location"
+    },
+    "name": {
+      "type": "string",
+      "description": "Official business name"
+    },
+    "address": {
+      "type": "object",
+      "required": ["street", "city", "state", "zip"],
+      "properties": {
+        "street": {
+          "type": "string",
+          "description": "Street address"
+        },
+        "city": {
+          "type": "string",
+          "description": "City name"
+        },
+        "state": {
+          "type": "string",
+          "description": "State code (e.g., NY)"
+        },
+        "zip": {
+          "type": "string",
+          "description": "ZIP code"
+        }
+      }
+    },
+    "phone": {
+      "type": "string",
+      "description": "Contact phone number (verified only)"
+    },
+    "neighborhoods_served": {
+      "type": "array",
+      "description": "List of neighborhoods served by this location",
+      "items": {
+        "type": "string"
+      }
+    },
+    "coordinates": {
+      "type": "object",
+      "properties": {
+        "latitude": {
+          "type": "number"
+        },
+        "longitude": {
+          "type": "number"
+        }
+      }
+    },
+    "license_number": {
+      "type": "string",
+      "description": "NY pawnbroker license number (if verified)"
+    },
+    "compliance": {
+      "type": "object",
+      "properties": {
+        "ny_article_5_compliant": {
+          "type": "boolean",
+          "description": "NY Article 5 pawn regulations compliance"
+        }
+      }
+    }
+  }
+}

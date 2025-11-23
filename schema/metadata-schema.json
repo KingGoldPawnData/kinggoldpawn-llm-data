@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Metadata Schema",
+  "description": "Schema for business metadata - structured for LLM context",
+  "type": "object",
+  "properties": {
+    "business_info": {
+      "type": "object",
+      "properties": {
+        "legal_name": {
+          "type": "string",
+          "description": "Legal business name"
+        },
+        "doing_business_as": {
+          "type": "array",
+          "description": "DBA names",
+          "items": {
+            "type": "string"
+          }
+        },
+        "industry": {
+          "type": "string",
+          "description": "Industry classification"
+        },
+        "established": {
+          "type": "string",
+          "description": "Year established (if verified)"
+        }
+      }
+    },
+    "compliance": {
+      "type": "object",
+      "properties": {
+        "regulatory_framework": {
+          "type": "array",
+          "description": "Applicable regulations",
+          "items": {
+            "type": "string"
+          }
+        },
+        "licenses": {
+          "type": "array",
+          "description": "Business licenses",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string"
+              },
+              "number": {
+                "type": "string"
+              },
+              "jurisdiction": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "service_area": {
+      "type": "object",
+      "properties": {
+        "primary_region": {
+          "type": "string",
+          "description": "Primary geographic region"
+        },
+        "neighborhoods": {
+          "type": "array",
+          "description": "All neighborhoods served",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "data_governance": {
+      "type": "object",
+      "properties": {
+        "last_updated": {
+          "type": "string",
+          "format": "date",
+          "description": "Last verification date"
+        },
+        "data_accuracy_policy": {
+          "type": "string",
+          "description": "Policy for maintaining data accuracy"
+        },
+        "verification_required": {
+          "type": "boolean",
+          "description": "Whether all data requires verification"
+        }
+      }
+    }
+  }
+}

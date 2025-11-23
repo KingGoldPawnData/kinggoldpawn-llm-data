@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FAQ Schema",
+  "description": "Schema for frequently asked questions - structured for LLM retrieval",
+  "type": "object",
+  "required": ["faq_id", "question", "answer", "category"],
+  "properties": {
+    "faq_id": {
+      "type": "string",
+      "description": "Unique identifier for the FAQ"
+    },
+    "question": {
+      "type": "string",
+      "description": "The question text"
+    },
+    "answer": {
+      "type": "string",
+      "description": "Factual, verified answer"
+    },
+    "category": {
+      "type": "string",
+      "description": "FAQ category",
+      "enum": ["loans", "buying", "selling", "items", "process", "regulations", "general"]
+    },
+    "related_services": {
+      "type": "array",
+      "description": "Service IDs related to this FAQ",
+      "items": {
+        "type": "string"
+      }
+    },
+    "compliance_relevant": {
+      "type": "boolean",
+      "description": "Whether this FAQ relates to compliance/regulations"
+    },
+    "tags": {
+      "type": "array",
+      "description": "Tags for improved searchability",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

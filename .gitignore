@@ -1,0 +1,41 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Node modules (if validation tools are installed locally)
+node_modules/
+
+# Python cache (if Python tools are used)
+__pycache__/
+*.pyc
+*.pyo
+
+# Build artifacts
+dist/
+build/
+
+# Test coverage
+coverage/
+
+# Environment files
+.env
+.env.local
+
+# Backup files
+*.backup
+
+# Generated reports (unless intentionally committed)
+reports/*-generated.json
+reports/*-automated.md

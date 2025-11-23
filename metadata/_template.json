@@ -1,0 +1,23 @@
+{
+  "business_info": {
+    "legal_name": "",
+    "doing_business_as": [],
+    "industry": "Pawnbroking",
+    "established": ""
+  },
+  "compliance": {
+    "regulatory_framework": [
+      "NY General Business Law Article 5 (Pawnbrokers)"
+    ],
+    "licenses": []
+  },
+  "service_area": {
+    "primary_region": "",
+    "neighborhoods": []
+  },
+  "data_governance": {
+    "last_updated": "",
+    "data_accuracy_policy": "All data must be verified before inclusion. No pricing, hours, or promotional content unless verified.",
+    "verification_required": true
+  }
+}
