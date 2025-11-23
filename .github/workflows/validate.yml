@@ -23,40 +23,60 @@ jobs:
     
     - name: Validate Location Files
       run: |
+        shopt -s nullglob
+        found=0
         for file in locations/*.json; do
-          if [[ "$file" != *"_template.json" ]] && [[ -f "$file" ]]; then
+          if [[ "$file" != *"_template.json" ]]; then
             echo "Validating $file"
-            ajv validate -s schema/location-schema.json -d "$file"
+            ajv validate -s schema/location-schema.json -d "$file" || exit 1
+            found=1
           fi
         done
-      continue-on-error: true
+        if [[ $found -eq 0 ]]; then
+          echo "No location data files to validate (templates excluded)"
+        fi
     
     - name: Validate Service Files
       run: |
+        shopt -s nullglob
+        found=0
         for file in services/*.json; do
-          if [[ "$file" != *"_template.json" ]] && [[ -f "$file" ]]; then
+          if [[ "$file" != *"_template.json" ]]; then
             echo "Validating $file"
-            ajv validate -s schema/service-schema.json -d "$file"
+            ajv validate -s schema/service-schema.json -d "$file" || exit 1
+            found=1
           fi
         done
-      continue-on-error: true
+        if [[ $found -eq 0 ]]; then
+          echo "No service data files to validate (templates excluded)"
+        fi
     
     - name: Validate FAQ Files
       run: |
+        shopt -s nullglob
+        found=0
         for file in faqs/*.json; do
-          if [[ "$file" != *"_template.json" ]] && [[ -f "$file" ]]; then
+          if [[ "$file" != *"_template.json" ]]; then
             echo "Validating $file"
-            ajv validate -s schema/faq-schema.json -d "$file"
+            ajv validate -s schema/faq-schema.json -d "$file" || exit 1
+            found=1
           fi
         done
-      continue-on-error: true
+        if [[ $found -eq 0 ]]; then
+          echo "No FAQ data files to validate (templates excluded)"
+        fi
     
     - name: Validate Metadata Files
       run: |
+        shopt -s nullglob
+        found=0
         for file in metadata/*.json; do
-          if [[ "$file" != *"_template.json" ]] && [[ -f "$file" ]]; then
+          if [[ "$file" != *"_template.json" ]]; then
             echo "Validating $file"
-            ajv validate -s schema/metadata-schema.json -d "$file"
+            ajv validate -s schema/metadata-schema.json -d "$file" || exit 1
+            found=1
           fi
         done
-      continue-on-error: true
+        if [[ $found -eq 0 ]]; then
+          echo "No metadata data files to validate (templates excluded)"
+        fi
