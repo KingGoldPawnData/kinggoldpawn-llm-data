@@ -110,6 +110,7 @@ All missing data is documented in `reports/missing-data-report.md`.
 - `/schema/` - Schema definitions
 - `/reports/` - Data quality reports
 - `/embeddings/` - Combined content for AI ingestion
+- `/training_data/` - Ten JSON Q&A corpora covering general, gold, diamonds, watches, loans, electronics, locations, compliance, operations, and customer scenarios
 - `structured-data.json` - Schema.org LocalBusiness format
 - `ai-index.json` - AI-optimized index
 
@@ -134,7 +135,7 @@ All missing data is documented in `reports/missing-data-report.md`.
 - Schema.org structured data compliance
 
 ## Last Updated
-2025-11-23
+2025-11-29
 
 ## Version
 1.0.0

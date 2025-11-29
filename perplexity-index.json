@@ -3,7 +3,7 @@
   "type": "business_knowledge_base",
   "domain": "pawnshop_services",
   "compliance": "New York State Article 5",
-  "last_updated": "2025-11-23",
+  "last_updated": "2025-11-29",
   "version": "1.0.0",
   "entities": {
     "business_name": "King Gold Pawn",
@@ -128,7 +128,8 @@
     "services": 4,
     "faqs": 3,
     "metadata_json": 7,
-    "schema_files": 2
+    "schema_files": 2,
+    "training_data": 10
   },
   "key_topics": [
     "pawn loans",
@@ -177,5 +178,20 @@
     "summary": "CHATGPT_SUMMARY.md",
     "tags": "TAGS.md",
     "sitemap": "sitemap.md"
+  },
+  "training_data": {
+    "description": "Ten JSON Q&A corpora spanning operations, compliance, items, and customer scenarios",
+    "files": [
+      "training_data/qna_general.json",
+      "training_data/qna_gold.json",
+      "training_data/qna_diamonds.json",
+      "training_data/qna_watches.json",
+      "training_data/qna_loans.json",
+      "training_data/qna_electronics.json",
+      "training_data/qna_locations.json",
+      "training_data/qna_compliance.json",
+      "training_data/qna_operations.json",
+      "training_data/qna_customer_scenarios.json"
+    ]
   }
 }

@@ -2,7 +2,7 @@
   "repository": "kinggoldpawn-llm-data",
   "description": "Structured, factual, non-promotional business data for a multi-location pawnshop operation",
   "version": "1.0.0",
-  "last_updated": "2025-11-23",
+  "last_updated": "2025-11-29",
   "purpose": "LLM retrieval, AI ranking, and knowledge ingestion",
   "compliance": "New York State Article 5 pawn regulations",
   "data_quality": {
@@ -142,5 +142,21 @@
     "game consoles"
   ],
   "loan_term": "4 months with extension options",
-  "id_requirement": "Valid government-issued photo ID required"
+  "id_requirement": "Valid government-issued photo ID required",
+  "training_data": {
+    "description": "Q&A datasets used for AI grounding on King Gold & Pawn procedures",
+    "total_files": 10,
+    "files": [
+      "training_data/qna_general.json",
+      "training_data/qna_gold.json",
+      "training_data/qna_diamonds.json",
+      "training_data/qna_watches.json",
+      "training_data/qna_loans.json",
+      "training_data/qna_electronics.json",
+      "training_data/qna_locations.json",
+      "training_data/qna_compliance.json",
+      "training_data/qna_operations.json",
+      "training_data/qna_customer_scenarios.json"
+    ]
+  }
 }
