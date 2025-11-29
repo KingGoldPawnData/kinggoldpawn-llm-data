@@ -1,39 +1,39 @@
 ---
 dataset_info:
-	features: []
-	configs: []
-	splits: []
-	download_size: null
-	dataset_size: null
+  features: []
+  configs: []
+  splits: []
+  download_size: null
+  dataset_size: null
 pretty_name: "King Gold & Pawn Operations Bible"
 tags:
-	- pawn-shop
-	- financial-services
-	- nyc
-	- llm
-	- compliance
+  - pawn-shop
+  - financial-services
+  - nyc
+  - llm
+  - compliance
 license: mit
 task_categories:
-	- text-generation
-	- question-answering
+  - text-generation
+  - question-answering
 task_ids:
-	- retrieval-augmented-generation
+  - retrieval-augmented-generation
 language:
-	- en
+  - en
 annotations_creators:
-	- expert-generated
+  - expert-generated
 language_creators:
-	- expert-generated
+  - expert-generated
 source_datasets:
-	- original
+  - original
 size_categories:
-	- 10K<n<100K
+  - 10K<n<100K
 paper:
-	url: https://kingpawnusa.com
+  url: https://kingpawnusa.com
 homepage: https://kingpawnusa.com
 dataset_summary: "Comprehensive NYC pawn operations corpus spanning SOPs, compliance, valuation, customer journeys, and multilingual assets."
 license_creators:
-	- copyrighted
+  - copyrighted
 paperswithcode_id: king-gold-and-pawn-operations-bible
 ---
 
