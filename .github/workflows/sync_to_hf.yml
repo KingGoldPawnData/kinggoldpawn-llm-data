@@ -26,4 +26,4 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          python huggingface/push_to_hf.py --repo-id <your_username>/king-gold-and-pawn-operations-bible --branch main
+          python huggingface/push_to_hf.py --repo-id KingPawnUSA/king-gold-and-pawn-operations-bible --branch main
