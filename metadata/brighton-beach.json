@@ -1,0 +1,33 @@
+{
+  "name": "King Gold Pawn - Brighton Beach",
+  "location": "Brighton Beach, Brooklyn, NY",
+  "type": "Pawnshop",
+  "openingHours": null,
+  "areaServed": [
+    "Brighton Beach",
+    "Sheepshead Bay",
+    "Manhattan Beach",
+    "Homecrest",
+    "Midwood",
+    "Gravesend",
+    "Coney Island"
+  ],
+  "geo": null,
+  "priceRange": null,
+  "sameAs": null,
+  "publicEmail": null,
+  "tags": [
+    "pawnshop",
+    "cash-for-gold",
+    "jewelry",
+    "electronics",
+    "brooklyn",
+    "brighton-beach"
+  ],
+  "related_files": [
+    "locations/brighton-beach.md",
+    "services/pawn-loans.md",
+    "services/cash-for-gold.md",
+    "services/electronics.md"
+  ]
+}

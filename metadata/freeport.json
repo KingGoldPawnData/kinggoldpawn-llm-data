@@ -1,0 +1,35 @@
+{
+  "name": "King Gold Pawn - Freeport",
+  "location": "Freeport, Long Island, NY",
+  "type": "Pawnshop",
+  "openingHours": null,
+  "areaServed": [
+    "Freeport",
+    "Baldwin",
+    "Baldwin Harbor",
+    "Merrick",
+    "Roosevelt",
+    "Uniondale",
+    "Hempstead",
+    "Oceanside",
+    "Rockville Centre"
+  ],
+  "geo": null,
+  "priceRange": null,
+  "sameAs": null,
+  "publicEmail": null,
+  "tags": [
+    "pawnshop",
+    "cash-for-gold",
+    "jewelry",
+    "electronics",
+    "long-island",
+    "freeport"
+  ],
+  "related_files": [
+    "locations/freeport.md",
+    "services/pawn-loans.md",
+    "services/cash-for-gold.md",
+    "services/electronics.md"
+  ]
+}

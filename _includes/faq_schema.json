@@ -1,0 +1,101 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Pawnshop Frequently Asked Questions",
+  "description": "Comprehensive FAQ covering pawn loans, items accepted, regulations, and more",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does a pawn loan work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A pawn loan provides immediate cash by using your valuable item as collateral. You bring your item (jewelry, electronics, etc.) to the pawnshop along with a valid ID. The item is evaluated, and you receive a loan based on its value—typically 60-70% of resale value. In New York, you have a 4-month term under Article 5 regulations to repay the loan plus interest (typically ~4% monthly). When you repay, you get your item back. No credit check is required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What items can I pawn?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most pawn shops accept: Jewelry (gold, diamonds, watches), Electronics (PS5, Xbox, iPhones, laptops, tablets, cameras), Precious Metals (gold coins, silver bullion), and Luxury Items (designer handbags, high-end accessories). All items must be authentic, legally owned, and presented in person."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if I can't pay back my pawn loan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If you can't repay your loan by the end of the 4-month term in New York, you have options: extend by paying the interest, surrender the item (no credit impact), or make partial payments if allowed. There's no negative impact on your credit score since pawn loans don't require credit checks and aren't reported to credit bureaus."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much interest do pawn shops charge?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In New York, pawn shops typically charge around 4% monthly interest. This rate is regulated by NY State Article 5 pawn regulations. The exact rate may vary slightly by shop and loan amount."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need good credit to get a pawn loan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No! Pawn loans require no credit check. Your item serves as collateral, so your credit history doesn't matter. This makes pawn loans accessible to everyone regardless of credit score."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I pawn electronics like PS5 or laptops?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely! Electronics are popular pawn items including gaming consoles (PS5, Xbox Series X, Nintendo Switch), laptops and tablets (especially MacBooks), smartphones (iPhone, Samsung Galaxy), and cameras. Electronics must be in working condition with all necessary cables."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a pawn loan last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In New York, the standard pawn loan term is 4 months under Article 5 regulations. Many shops offer extension options if you need more time by paying the accumulated interest."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What percentage of an item's value do pawn shops loan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pawn shops typically loan 60-70% of an item's resale value. The exact percentage depends on item condition, market demand, authenticity verification, and resale potential."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it better to pawn or sell my item?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pawn if you want to keep the item and just need temporary cash. Sell if you don't want the item back and prefer maximum cash. Pawning gives you flexibility—you can always choose not to redeem the item if circumstances change."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What do I need to bring to pawn an item?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Required items include: your valuab le item(s), valid government-issued photo ID (driver's license, passport, or state ID), and proof of ownership if applicable. You must be 18 or older to pawn items."
+      }
+    }
+  ],
+  "about": {
+    "@type": "Thing",
+    "name": "Pawn Loans and Pawn Shop Services"
+  },
+  "inLanguage": ["en", "es"],
+  "url": "https://kinggoldpawndata.github.io/kinggoldpawn-llm-data/FAQ_EN.html",
+  "datePublished": "2025-11-23",
+  "dateModified": "2025-11-23",
+  "publisher": {
+    "@type": "Organization",
+    "name": "King Gold Pawn Data",
+    "url": "https://github.com/KingGoldPawnData/kinggoldpawn-llm-data"
+  }
+}

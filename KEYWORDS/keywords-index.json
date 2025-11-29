@@ -1,0 +1,272 @@
+{
+  "keywords_index": {
+    "version": "1.0.0",
+    "last_updated": "2025-11-23",
+    "total_keywords": "500+",
+    "total_categories": 5,
+    "purpose": "LLM optimization, SEO enhancement, natural language query matching"
+  },
+  "categories": {
+    "primary_keywords": {
+      "file": "KEYWORDS/primary-keywords.md",
+      "count": "60+",
+      "subcategories": [
+        "core_business",
+        "service_keywords",
+        "item_keywords",
+        "transaction_keywords",
+        "geographic_keywords",
+        "regulatory_keywords",
+        "action_keywords"
+      ]
+    },
+    "location_keywords": {
+      "file": "KEYWORDS/location-keywords.md",
+      "count": "150+",
+      "subcategories": [
+        "brooklyn_locations",
+        "bronx_location",
+        "long_island_location",
+        "nassau_county_location",
+        "westchester_location",
+        "multi_location",
+        "zip_codes"
+      ],
+      "coverage": "7 locations, 68 neighborhoods"
+    },
+    "service_keywords": {
+      "file": "KEYWORDS/service-keywords.md",
+      "count": "200+",
+      "subcategories": [
+        "pawn_loans",
+        "cash_for_gold",
+        "electronics",
+        "jewelry_watches",
+        "designer_items",
+        "precious_metals",
+        "service_combinations",
+        "process_keywords",
+        "competitive_keywords"
+      ]
+    },
+    "long_tail_keywords": {
+      "file": "KEYWORDS/long-tail-keywords.md",
+      "count": "150+",
+      "subcategories": [
+        "question_based",
+        "need_based",
+        "location_specific",
+        "item_specific",
+        "service_combinations",
+        "regulatory",
+        "comparison",
+        "seasonal"
+      ]
+    },
+    "semantic_keywords": {
+      "file": "KEYWORDS/semantic-keywords.md",
+      "count": "200+",
+      "subcategories": [
+        "synonyms",
+        "industry_terms",
+        "action_related",
+        "geographic_terms",
+        "customer_needs",
+        "quality_trust",
+        "regulatory_terms",
+        "condition_terms",
+        "related_business",
+        "emotional_benefits",
+        "temporal_terms"
+      ]
+    }
+  },
+  "top_primary_keywords": [
+    "pawn shop",
+    "cash for gold",
+    "pawn loans",
+    "sell jewelry",
+    "pawn electronics",
+    "gold buyer",
+    "jewelry buyer",
+    "luxury watches",
+    "Brooklyn pawn shop",
+    "Bronx pawn shop"
+  ],
+  "top_location_keywords": [
+    "pawn shop Brooklyn",
+    "pawn shop Bronx",
+    "pawn shop Long Island",
+    "Nassau County pawn shop",
+    "Westchester pawn shop",
+    "Sunset Park pawn shop",
+    "Brighton Beach pawn shop",
+    "Freeport pawn shop",
+    "Lawrence pawn shop",
+    "New Rochelle pawn shop"
+  ],
+  "top_service_keywords": [
+    "pawn loan",
+    "cash for gold",
+    "sell gold",
+    "pawn jewelry",
+    "sell electronics",
+    "luxury watch buyer",
+    "diamond buyer",
+    "collateral loan",
+    "instant cash",
+    "same day cash"
+  ],
+  "top_long_tail_keywords": [
+    "how to pawn jewelry",
+    "where to sell gold in Brooklyn",
+    "best pawn shop near me",
+    "cash for gold near me",
+    "pawn shop open today",
+    "sell jewelry fast Brooklyn",
+    "need cash today NYC",
+    "pawn iPhone Brooklyn",
+    "sell Rolex watch NYC",
+    "NY Article 5 pawn shop"
+  ],
+  "search_intent_mapping": {
+    "transactional": [
+      "sell gold",
+      "pawn jewelry",
+      "get cash now",
+      "cash for electronics"
+    ],
+    "navigational": [
+      "King Gold Pawn",
+      "pawn shop near me",
+      "Brooklyn pawn shop",
+      "Sunset Park location"
+    ],
+    "informational": [
+      "how pawn loans work",
+      "what is Article 5",
+      "pawn shop requirements",
+      "loan term length"
+    ],
+    "commercial": [
+      "best pawn shop",
+      "top gold buyer",
+      "competitive rates",
+      "trusted pawn broker"
+    ]
+  },
+  "keyword_density_targets": {
+    "primary_keywords": "2-3%",
+    "location_keywords": "3-5%",
+    "service_keywords": "4-6%",
+    "long_tail_keywords": "1-2%",
+    "semantic_keywords": "natural_integration"
+  },
+  "integration_guidelines": {
+    "location_pages": [
+      "Include location name + 'pawn shop' 5-7 times",
+      "Include neighborhood names naturally",
+      "Include ZIP codes where relevant",
+      "Include service + location combinations"
+    ],
+    "service_pages": [
+      "Include service name prominently",
+      "Include item-specific keywords",
+      "Include process-related terms",
+      "Include regulatory keywords"
+    ],
+    "faq_pages": [
+      "Use question-based keywords in headers",
+      "Include long-tail keywords in answers",
+      "Natural language integration",
+      "Semantic variations in content"
+    ]
+  },
+  "competitive_keywords": {
+    "comparison_terms": [
+      "best",
+      "top",
+      "highest paying",
+      "most trusted",
+      "competitive rates",
+      "fair prices"
+    ],
+    "differentiation_terms": [
+      "NY Article 5 compliant",
+      "licensed",
+      "regulated",
+      "multiple locations",
+      "7 locations",
+      "68 neighborhoods"
+    ]
+  },
+  "seasonal_keywords": {
+    "year_round": [
+      "emergency cash",
+      "quick cash",
+      "need money now"
+    ],
+    "holiday_season": [
+      "sell unwanted gifts",
+      "cash for holiday shopping",
+      "pawn holiday jewelry"
+    ],
+    "tax_season": [
+      "tax season cash",
+      "quick money for taxes"
+    ],
+    "back_to_school": [
+      "pawn electronics",
+      "sell old devices",
+      "upgrade funds"
+    ]
+  },
+  "excluded_keywords": {
+    "reason": "Not relevant or potentially misleading",
+    "list": [
+      "title loans",
+      "payday loans",
+      "car title pawn",
+      "online pawn",
+      "mail-in service",
+      "no ID required",
+      "no verification"
+    ]
+  },
+  "regulatory_compliance_keywords": {
+    "must_include": [
+      "NY Article 5",
+      "New York State pawn regulations",
+      "valid government-issued photo ID",
+      "4-month loan term",
+      "licensed pawn broker"
+    ],
+    "context": "These keywords ensure regulatory compliance messaging"
+  },
+  "localization_strategy": {
+    "brooklyn": {
+      "emphasis": "neighborhoods, subway access, borough identity",
+      "keywords": ["Brooklyn pawn", "Kings County", "BK"]
+    },
+    "bronx": {
+      "emphasis": "borough pride, accessibility, community",
+      "keywords": ["Bronx pawn", "BX", "Southern Blvd"]
+    },
+    "long_island": {
+      "emphasis": "suburban convenience, Nassau County",
+      "keywords": ["LI pawn", "Long Island", "Nassau"]
+    },
+    "westchester": {
+      "emphasis": "upscale service, Westchester County",
+      "keywords": ["Westchester pawn", "914 area"]
+    }
+  },
+  "related_files": [
+    "ai-index.json",
+    "perplexity-index.json",
+    "structured-data.json",
+    "TAGS.md",
+    "locations/*.md",
+    "services/*.md"
+  ]
+}

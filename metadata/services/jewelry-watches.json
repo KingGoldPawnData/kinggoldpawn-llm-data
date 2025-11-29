@@ -1,0 +1,128 @@
+{
+  "service_name": "Jewelry and Watches",
+  "service_type": "BuyAction",
+  "category": "Luxury Items",
+  "provider": {
+    "@type": "Organization",
+    "name": "King Gold Pawn"
+  },
+  "description": "Professional evaluation and transactions for fine jewelry, diamonds, and luxury watches. All items are assessed for authenticity, quality, and market value to provide competitive offers.",
+  "areaServed": [
+    "Brooklyn, NY",
+    "Bronx, NY",
+    "Long Island, NY",
+    "Nassau County, NY",
+    "Westchester, NY"
+  ],
+  "availableAtLocation": [
+    "Sunset Park",
+    "Brighton Beach",
+    "Pitkin Ave",
+    "Bronx",
+    "Freeport",
+    "Lawrence",
+    "New Rochelle"
+  ],
+  "serviceType": "Jewelry and Watch Trading",
+  "itemsAccepted": {
+    "fine_jewelry": [
+      "diamond rings",
+      "engagement rings",
+      "wedding bands",
+      "necklaces",
+      "bracelets",
+      "earrings",
+      "pendants",
+      "brooches"
+    ],
+    "precious_stones": [
+      "diamonds",
+      "rubies",
+      "sapphires",
+      "emeralds",
+      "other gemstones"
+    ],
+    "luxury_watches": [
+      "Rolex",
+      "Cartier",
+      "Omega",
+      "TAG Heuer",
+      "Breitling",
+      "Patek Philippe",
+      "Audemars Piguet",
+      "other luxury brands"
+    ],
+    "designer_jewelry": [
+      "Tiffany & Co.",
+      "Cartier",
+      "Bulgari",
+      "David Yurman",
+      "other designer brands"
+    ]
+  },
+  "requirements": {
+    "identification": "Valid government-issued photo ID required",
+    "ownership": "Items must be legally owned by customer",
+    "inspection": "All items must be presented in person",
+    "authenticity": "Items must be authentic",
+    "age": "18 years or older"
+  },
+  "evaluation_criteria": [
+    "authenticity verification",
+    "brand and designer",
+    "metal purity (karat)",
+    "gemstone quality (4Cs for diamonds)",
+    "craftsmanship",
+    "condition",
+    "current market value",
+    "certification documents (if available)"
+  ],
+  "options": [
+    "Pawn for collateral loan with option to reclaim",
+    "Sell outright for immediate cash"
+  ],
+  "benefits": [
+    "Expert authentication",
+    "Professional gemological evaluation",
+    "Competitive luxury market pricing",
+    "Confidential and secure transactions",
+    "No pressure sales environment",
+    "Immediate cash offers",
+    "Respect for sentimental value"
+  ],
+  "process_steps": [
+    "Bring jewelry or watch and valid ID to store",
+    "Professional gemologist evaluates authenticity and quality",
+    "Assessment based on materials, craftsmanship, and market value",
+    "Receive competitive offer",
+    "Choose to pawn for loan or sell outright"
+  ],
+  "keywords": [
+    "sell jewelry",
+    "pawn jewelry",
+    "diamond buyer",
+    "sell diamond ring",
+    "luxury watch buyer",
+    "sell Rolex",
+    "sell engagement ring",
+    "fine jewelry buyer",
+    "sell gold jewelry",
+    "designer jewelry buyer",
+    "estate jewelry",
+    "sell Cartier watch",
+    "sell luxury watch"
+  ],
+  "related_files": [
+    "services/jewelry-watches.md",
+    "services/cash-for-gold.md",
+    "faqs/items-valuation-faq.md",
+    "faqs/general-faq.md",
+    "KEYWORDS/service-keywords.md"
+  ],
+  "regulatory_compliance": {
+    "governing_law": "New York State Article 5",
+    "consumer_protections": true,
+    "licensed": true,
+    "bonded": true
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "King Gold Pawn Business Data Schema",
+  "description": "Schema for King Gold Pawn multi-location pawnshop business data",
+  "version": "1.0.0",
+  "definitions": {
+    "location": {
+      "type": "object",
+      "required": ["name", "location", "type", "areaServed"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Full name of the location"
+        },
+        "location": {
+          "type": "string",
+          "description": "Geographic location description"
+        },
+        "type": {
+          "type": "string",
+          "description": "Business type"
+        },
+        "openingHours": {
+          "oneOf": [
+            {"type": "string"},
+            {"type": "null"}
+          ],
+          "description": "Operating hours or null if not available"
+        },
+        "areaServed": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of neighborhoods served by this location"
+        },
+        "geo": {
+          "type": "null",
+          "description": "Geographic coordinates (not available)"
+        },
+        "priceRange": {
+          "type": "null",
+          "description": "Price range (not available)"
+        },
+        "sameAs": {
+          "type": "null",
+          "description": "Social media or web URLs (not available)"
+        },
+        "publicEmail": {
+          "type": "null",
+          "description": "Public contact email (not available)"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Tags inferred from file names and content"
+        },
+        "related_files": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Related markdown and data files"
+        }
+      }
+    },
+    "service": {
+      "type": "object",
+      "required": ["overview", "what_we_accept", "how_it_works", "requirements"],
+      "properties": {
+        "overview": {
+          "type": "string",
+          "description": "Service overview following NY Article 5 pawn regulations"
+        },
+        "what_we_accept": {
+          "type": "string",
+          "description": "Items and conditions for acceptance"
+        },
+        "how_it_works": {
+          "type": "string",
+          "description": "Process description including loan terms"
+        },
+        "requirements": {
+          "type": "string",
+          "description": "Legal and regulatory requirements"
+        }
+      }
+    }
+  }
+}
