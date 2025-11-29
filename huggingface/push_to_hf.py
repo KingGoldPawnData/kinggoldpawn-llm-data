@@ -17,7 +17,7 @@ import os
 from pathlib import Path
 from typing import List
 
-from huggingface_hub import HfApi, upload_folder
+from huggingface_hub import HfApi, upload_folder, upload_file
 from huggingface_hub.utils import HfHubHTTPError
 
 
@@ -70,6 +70,10 @@ def main() -> None:
         else:
             raise
 
+    ignore_patterns = list(args.ignore_patterns or [])
+    if "README.md" not in ignore_patterns:
+        ignore_patterns.append("README.md")
+
     upload_folder(
         repo_id=args.repo_id,
         folder_path=str(repo_root),
@@ -77,9 +81,24 @@ def main() -> None:
         token=args.token,
         revision=args.branch,
         path_in_repo=".",
-        ignore_patterns=args.ignore_patterns,
+        ignore_patterns=ignore_patterns,
         commit_message="Sync King Gold & Pawn dataset",
     )
+
+    dataset_card = repo_root / "huggingface" / "README.md"
+    if dataset_card.exists():
+        upload_file(
+            path_or_fileobj=str(dataset_card),
+            path_in_repo="README.md",
+            repo_id=args.repo_id,
+            repo_type="dataset",
+            token=args.token,
+            revision=args.branch,
+            commit_message="Update dataset card",
+        )
+        print("Uploaded huggingface/README.md as dataset card.")
+    else:
+        print("Warning: huggingface/README.md not found; dataset card left unchanged.")
 
     print("Upload complete.")
 

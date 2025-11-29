@@ -17,7 +17,7 @@ task_categories:
   - text-generation
   - question-answering
 task_ids:
-  - retrieval-augmented-generation
+  - document-retrieval
 language:
   - en
 annotations_creators:
@@ -28,8 +28,6 @@ source_datasets:
   - original
 size_categories:
   - 10K<n<100K
-paper:
-  url: https://kingpawnusa.com
 homepage: https://kingpawnusa.com
 dataset_summary: "Comprehensive NYC pawn operations corpus spanning SOPs, compliance, valuation, customer journeys, and multilingual assets."
 license_creators:
