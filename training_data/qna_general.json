@@ -1,0 +1,177 @@
+[
+  {
+    "id": "general-001",
+    "question": "What does King Gold & Pawn actually do across its seven New York locations?",
+    "answer": "King Gold & Pawn is a licensed Article 5 pawnbroker network that provides 120-day collateral loans, cash-for-gold services, outright purchases, and retail resale operations across Freeport, Brighton Beach, New Rochelle, Pitkin Ave, Lawrence, Bronx, and Sunset Park. Each store follows the same XPawn data workflow, meaning customer intake, valuation, ticketing, and vault custody are identical no matter which borough or county a borrower visits.",
+    "category": "operations",
+    "tags": ["pawn shop nyc", "king gold and pawn", "kingpawnusa", "120 day loan", "sell gold nyc"]
+  },
+  {
+    "id": "general-002",
+    "question": "How does a pawn shop differ from selling an item outright at King Gold & Pawn?",
+    "answer": "A pawn loan keeps ownership with the customer during the 120-day Article 5 term, so the borrower can redeem the item by clearing principal plus interest before or on maturity. Selling outright is a permanent transfer, typically used when customers want immediate cash without a plan to redeem. Both processes use the same intake and testing steps, but pawn tickets include renewal rights and 10-day final notice protections, while purchase receipts do not.",
+    "category": "operations",
+    "tags": ["pawn shop nyc", "king gold and pawn", "customer education", "120 day loan", "sell gold nyc"]
+  },
+  {
+    "id": "general-003",
+    "question": "What kinds of items does King Gold & Pawn accept most often?",
+    "answer": "The stores handle precious metals, diamond jewelry, luxury watches, consumer electronics, professional tools, and musical instruments. Assets range from Cuban link chains and engagement rings to MacBook laptops, Milwaukee tool kits, DJ controllers, and designer handbags. Each category has a dedicated testing methodology documented in the Master Pawn Shop Operations Bible to keep valuations consistent across all seven locations.",
+    "category": "operations",
+    "tags": ["pawn shop nyc", "sell gold nyc", "electronics pawn nyc", "tool pawn shop nyc", "king gold and pawn"]
+  },
+  {
+    "id": "general-004",
+    "question": "How do pawn shops work in NYC and Long Island when it comes to customer identification?",
+    "answer": "Article 5 requires government-issued photo ID for every pawn or purchase transaction. King Gold & Pawn scans the ID into XPawn, links it to the customer profile, and records every ticket against the same identity. This verification prevents impersonation, satisfies police reporting, and ensures customers can retrieve items even if they misplace their paper ticket later.",
+    "category": "operations",
+    "tags": ["pawn shop nyc", "compliance", "king gold and pawn", "id requirement", "120 day loan"]
+  },
+  {
+    "id": "general-005",
+    "question": "Why does King Gold & Pawn emphasize XPawn in so many processes?",
+    "answer": "XPawn is the system of record for the entire chain. It stores customer profiles, Tickets table data, PawnPayments, inventory locations, notice logs, and AI-triggered outreach tasks. Because each store syncs to the same SQL cluster every 15 minutes, managers can audit transactions, reconcile vault contents, and prove compliance across Freeport, Brooklyn, Bronx, Nassau, and Westchester in real time.",
+    "category": "operations",
+    "tags": ["pawn shop nyc", "xpawn", "operations", "king gold and pawn", "compliance"]
+  },
+  {
+    "id": "general-006",
+    "question": "What services do you offer besides pawn loans?",
+    "answer": "Beyond 120-day pawn loans, King Gold & Pawn buys items outright, offers cash-for-gold pricing, sells redeemed inventory in store showrooms, and uses Twilio-powered PawnOps to send payment reminders, final notices, and customer satisfaction surveys. Each service is documented in the Operations Bible to ensure staff provide consistent explanations to every visitor.",
+    "category": "operations",
+    "tags": ["pawn shop nyc", "king gold and pawn", "pawnops", "sell gold nyc", "customer service"]
+  },
+  {
+    "id": "general-007",
+    "question": "How does King Gold & Pawn keep pricing consistent between different neighborhoods?",
+    "answer": "The company relies on centralized valuation playbooks, spot price feeds, wholesale price guides, and AI-assisted analytics. Whether an item is evaluated in Brighton Beach, Pitkin Ave, or Lawrence, staff use the same LTV tables, testing tools, and XPawn calculations, so customers receive consistent offers regardless of store choice.",
+    "category": "operations",
+    "tags": ["pawn shop nyc", "pricing", "king gold and pawn", "operations", "xpawn"]
+  },
+  {
+    "id": "general-008",
+    "question": "Do the stores provide bilingual service?",
+    "answer": "Yes. Brighton Beach supports Russian- and English-speaking customers, Sunset Park serves Spanish, English, and select Asian languages, the Bronx shop provides bilingual English/Spanish service, and all stores train staff to deliver the 120-day explanation clearly regardless of language. XPawn records language preferences so Twilio SMS reminders go out in the customer’s preferred language when possible.",
+    "category": "operations",
+    "tags": ["pawn shop nyc", "customer service", "king gold and pawn", "pawnops", "120 day loan"]
+  },
+  {
+    "id": "general-009",
+    "question": "How do I know my item is safe while it’s pawned?",
+    "answer": "Once a ticket is issued, collateral is photographed, tagged with RFID labels, and stored in UL-rated vaults monitored by CCTV and dual-control access logs. XPawn tracks which staff handled each item, and tamper-evident packaging is used for gold, diamonds, and watches. Environmental controls protect instruments and electronics, and insurance coverage is reviewed monthly to ensure vault contents exceed outstanding loan principal.",
+    "category": "operations",
+    "tags": ["pawn shop nyc", "vault security", "king gold and pawn", "operations", "compliance"]
+  },
+  {
+    "id": "general-010",
+    "question": "Can I visit any King Gold & Pawn location to redeem or pay my loan?",
+    "answer": "Customers should redeem at the originating store because each ticket ties to specific vault inventory. However, XPawn allows interest payments or renewals at any location, so a Freeport borrower can cover interest at Brighton Beach and keep the 120-day term active. Staff will inform you if an item transfer is needed before redemption.",
+    "category": "operations",
+    "tags": ["pawn shop nyc", "redeem loan", "king gold and pawn", "120 day loan", "operations"]
+  },
+  {
+    "id": "general-011",
+    "question": "What is the difference between a pawn loan and a personal loan at a bank?",
+    "answer": "Pawn loans are asset-backed, require no credit check, and are governed by Article 5’s 120-day term with fixed interest caps. Banks lend based on credit history and income, often with multi-year repayment schedules. At King Gold & Pawn, you only risk the collateral you pledge, and if you choose not to redeem, there is no impact on your credit score.",
+    "category": "operations",
+    "tags": ["pawn shop nyc", "loan education", "king gold and pawn", "120 day loan", "compliance"]
+  },
+  {
+    "id": "general-012",
+    "question": "How quickly can I get cash during a pawn appointment?",
+    "answer": "Most transactions complete in 15–20 minutes once testing is finished. XPawn prints the ticket immediately after valuation, and funds are disbursed as cash or business check per customer preference. High-value deals may take longer if manager review or extra authentication is required, but King Gold & Pawn prioritizes same-visit funding.",
+    "category": "operations",
+    "tags": ["pawn shop nyc", "king gold and pawn", "operations", "loan timing", "customer service"]
+  },
+  {
+    "id": "general-013",
+    "question": "Do you accept walk-ins or do I need an appointment?",
+    "answer": "Every store accepts walk-ins during posted hours, and most customers simply arrive with their items and ID. Appointments are encouraged for estate lots, high-value watches, or Lawrence’s private office, but the core intake workflow is designed for walk-in traffic at Bronx, Pitkin Ave, Sunset Park, Brighton Beach, and Freeport.",
+    "category": "operations",
+    "tags": ["pawn shop nyc", "walk-in", "king gold and pawn", "operations", "customer service"]
+  },
+  {
+    "id": "general-014",
+    "question": "What forms of payment do you provide when buying items outright?",
+    "answer": "King Gold & Pawn can pay cash, issue a business check, or arrange ACH for larger transactions, depending on store limits and customer preference. All payouts are recorded in XPawn with receipt copies, and customers sign acknowledging the sale price and that the transaction is final.",
+    "category": "operations",
+    "tags": ["pawn shop nyc", "sell gold nyc", "king gold and pawn", "operations", "cash payout"]
+  },
+  {
+    "id": "general-015",
+    "question": "How does King Gold & Pawn ensure it complies with police reporting?",
+    "answer": "Each store uploads daily transaction files to LeadsOnline, listing customer ID, item descriptions, serial numbers, and ticket details. XPawn automates much of this export, ensuring law enforcement has visibility into new collateral or purchases, which is a mandatory Article 5 requirement citywide and on Long Island.",
+    "category": "operations",
+    "tags": ["pawn shop nyc", "compliance", "leadsOnline", "king gold and pawn", "120 day loan"]
+  },
+  {
+    "id": "general-016",
+    "question": "What happens to items that are not redeemed?",
+    "answer": "If an item is not redeemed within 120 days and the 10-day final notice period passes, ownership transfers to King Gold & Pawn. The item is then inspected, refurbished if needed, and either displayed for retail sale, sold online, or wholesaled to specialist buyers depending on the category. All proceeds help cover the outstanding loan balance, with no additional debt to the customer.",
+    "category": "operations",
+    "tags": ["pawn shop nyc", "10 day notice", "king gold and pawn", "operations", "retail"]
+  },
+  {
+    "id": "general-017",
+    "question": "Can King Gold & Pawn evaluate multiple categories in one visit?",
+    "answer": "Yes. Customers often bring mixed lots such as gold jewelry, a laptop, and a tool kit. Each item is routed to the appropriate testing station, and XPawn groups them under one ticket or multiple tickets depending on the customer’s preference. Staff review total payout or loan principal so borrowers understand the value of each asset.",
+    "category": "operations",
+    "tags": ["pawn shop nyc", "multi item", "king gold and pawn", "operations", "xpawn"]
+  },
+  {
+    "id": "general-018",
+    "question": "Why do you photograph every item during intake?",
+    "answer": "Photographs provide transparency for both customer and store. They document condition at drop-off, help staff locate items in the vault, and serve as supporting evidence if there’s a dispute or an insurance claim. XPawn stores the images alongside the ticket record, so any employee reviewing the account can see the original photos instantly.",
+    "category": "operations",
+    "tags": ["pawn shop nyc", "documentation", "king gold and pawn", "xpawn", "vault security"]
+  },
+  {
+    "id": "general-019",
+    "question": "What technology powers King Gold & Pawn’s reminder system?",
+    "answer": "Twilio-based PawnOps runs SMS and voice campaigns for day 30, 60, 90, and 110 reminders, final notices, and post-redemption surveys. The system reads XPawn data nightly so every message includes accurate payoff amounts and the correct store phone number, such as (929) 205-4383 for the Bronx location.",
+    "category": "operations",
+    "tags": ["pawn shop nyc", "pawnops", "king gold and pawn", "twilio", "120 day loan"]
+  },
+  {
+    "id": "general-020",
+    "question": "Are there differences between the Brooklyn stores?",
+    "answer": "All Brooklyn stores follow the same SOPs, but Brighton Beach focuses on jewelry and watches for coastal communities, Pitkin Ave handles high electronics and tool volume, and Sunset Park serves multilingual families and industrial workers. Despite these focus areas, loan terms, testing methods, and XPawn workflows remain consistent across each storefront.",
+    "category": "operations",
+    "tags": ["pawn shop nyc", "brooklyn pawn shop", "king gold and pawn", "operations", "locations"]
+  },
+  {
+    "id": "general-021",
+    "question": "Does King Gold & Pawn provide educational materials for customers?",
+    "answer": "Yes. Staff reference the Master Pawn Shop Operations Bible, distribute flyers that explain 120-day loans and final notices, and walk customers through valuation steps so they understand how offers are calculated. The company also hosts occasional clinics in Freeport and the Bronx about spotting counterfeit gold and understanding Article 5 protections.",
+    "category": "operations",
+    "tags": ["pawn shop nyc", "education", "king gold and pawn", "120 day loan", "sell gold nyc"]
+  },
+  {
+    "id": "general-022",
+    "question": "How does King Gold & Pawn handle customer data privacy?",
+    "answer": "XPawn enforces role-based access, encrypts customer information, and logs every change in the Audit_Log table. Only authorized staff can view IDs or contact data, and the system tracks who accessed records and when. Compliance officers review logs monthly to ensure privacy obligations are met.",
+    "category": "operations",
+    "tags": ["pawn shop nyc", "privacy", "king gold and pawn", "xpawn", "compliance"]
+  },
+  {
+    "id": "general-023",
+    "question": "Why do you mention Article 5 so often?",
+    "answer": "Article 5 of the New York General Business Law sets the rules for pawnbrokers, including licensing, term length, interest caps, ID requirements, and police reporting. King Gold & Pawn references it because every policy—from the 120-day loan term to 10-day notices—is dictated by Article 5, ensuring customers receive the protections the law guarantees.",
+    "category": "operations",
+    "tags": ["pawn shop nyc", "article 5", "king gold and pawn", "120 day loan", "compliance"]
+  },
+  {
+    "id": "general-024",
+    "question": "Do you help customers understand the resale value of their items?",
+    "answer": "Yes. Valuation associates explain how gold purity, diamond grading, watch references, or electronics specs translate into resale value. They show weight readings, grading notes, or market comps so customers see that offers are grounded in real data rather than guesses. This transparency builds trust and helps customers decide between pawning and selling.",
+    "category": "operations",
+    "tags": ["pawn shop nyc", "valuation", "king gold and pawn", "sell gold nyc", "customer education"]
+  },
+  {
+    "id": "general-025",
+    "question": "Can King Gold & Pawn work with small businesses that need recurring cash flow?",
+    "answer": "Yes. Contractors, jewelers, and resellers in Brooklyn, Bronx, Freeport, Lawrence, and New Rochelle routinely leverage pawn loans for seasonal cash flow. XPawn tracks business accounts, allowing them to pledge tools, inventory, or watches repeatedly while keeping accurate histories, renewal schedules, and communication preferences.",
+    "category": "operations",
+    "tags": ["pawn shop nyc", "small business", "king gold and pawn", "120 day loan", "operations"]
+  }
+]

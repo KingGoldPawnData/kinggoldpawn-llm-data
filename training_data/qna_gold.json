@@ -1,0 +1,177 @@
+[
+  {
+    "id": "gold-001",
+    "question": "How does King Gold & Pawn test the karat purity of my gold chain?",
+    "answer": "Appraisers start with a visual inspection for hallmarks, then apply magnet screening, scratch the chain on a test stone, and use nitric acid solutions calibrated for 10K, 14K, 18K, 22K, and 24K. For high-value pieces, they confirm results with an electronic tester or XRF device. Every reading is logged in the XPawn Gold_Assay table so the karat rating is documented before a loan or purchase offer is made.",
+    "category": "gold",
+    "tags": ["pawn shop nyc", "gold testing", "sell gold nyc", "king gold and pawn", "karat"]
+  },
+  {
+    "id": "gold-002",
+    "question": "Why do you weigh my gold without the stones or clasp?",
+    "answer": "Loan and purchase offers are based on net gold weight. Staff removes or deducts the weight of stones, springs, and non-precious components so the melt calculation reflects actual gold content. This ensures the offer matches the metal value determined by purity testing and spot pricing.",
+    "category": "gold",
+    "tags": ["pawn shop nyc", "gold weight", "sell gold nyc", "king gold and pawn", "valuation"]
+  },
+  {
+    "id": "gold-003",
+    "question": "How is melt value determined at King Gold & Pawn?",
+    "answer": "Melt value equals the live spot price multiplied by the purity percentage and net weight, minus refining fees. XPawn pulls spot data, applies the karat conversion (for example, 14K equals 58.5% gold), then calculates the raw melt figure. Loan-to-value or purchase margins are based on that melt value combined with market demand for the style.",
+    "category": "gold",
+    "tags": ["pawn shop nyc", "melt value", "king gold and pawn", "spot price", "sell gold nyc"]
+  },
+  {
+    "id": "gold-004",
+    "question": "Do you pay more for designer pieces like Cartier or Cuban chains?",
+    "answer": "Yes. While melt value sets the floor, King Gold & Pawn can add premiums for branded pieces, heavy Cuban links, or items with resale demand. Appraisers in Bronx, Pitkin Ave, and Brighton Beach often price Cartier Love bracelets or thick chains above melt because customers in those neighborhoods shop for them on the retail floor.",
+    "category": "gold",
+    "tags": ["pawn shop nyc", "cartier", "cuban chain", "king gold and pawn", "sell gold nyc"]
+  },
+  {
+    "id": "gold-005",
+    "question": "What is a common sign that gold might be plated?",
+    "answer": "Plated pieces often show flaking near the clasp, discoloration, or base-metal exposure at edges. Magnet tests can reveal ferrous cores, and acid tests will bubble or turn green if the underlying metal reacts. King Gold & Pawn documents these findings so customers understand why an item may be declined or valued lower.",
+    "category": "gold",
+    "tags": ["pawn shop nyc", "gold plating", "king gold and pawn", "valuation", "sell gold nyc"]
+  },
+  {
+    "id": "gold-006",
+    "question": "Do all stores follow the same gold testing process?",
+    "answer": "Yes. Freeport, Pitkin Ave, Bronx, Brighton Beach, Lawrence, New Rochelle, and Sunset Park use identical SOPs: hallmark check, magnet test, acid test, electronic confirmation, weight recording, and XPawn documentation. This unified approach keeps payouts consistent, even though each store serves different communities.",
+    "category": "gold",
+    "tags": ["pawn shop nyc", "gold testing", "king gold and pawn", "operations", "sell gold nyc"]
+  },
+  {
+    "id": "gold-007",
+    "question": "Can I pawn broken gold jewelry?",
+    "answer": "Yes. Broken chains, single earrings, and damaged bangles still have melt value. Staff weighs the gold, determines purity, and offers a loan or purchase quote based on the net metal content. XPawn photos document the damage so there is no confusion when you redeem.",
+    "category": "gold",
+    "tags": ["pawn shop nyc", "broken jewelry", "king gold and pawn", "sell gold nyc", "melt value"]
+  },
+  {
+    "id": "gold-008",
+    "question": "Why might Freeport quote differently than Pitkin Ave on the same day?",
+    "answer": "While the testing process is identical, each store may emphasize different resale channels. Freeport often buys marine-themed jewelry and might add premiums for waterfront-friendly pieces, whereas Pitkin Ave focuses on fast-turn inventory for Brooklyn retail. Any variation is logged in XPawn so regional managers can audit and keep pricing aligned with the Operations Bible.",
+    "category": "gold",
+    "tags": ["pawn shop nyc", "freeport", "pitkin ave", "king gold and pawn", "sell gold nyc"]
+  },
+  {
+    "id": "gold-009",
+    "question": "How do you explain karat purity to customers?",
+    "answer": "Staff reference the gold purity chart: 10K is 41.7% gold, 14K is 58.5%, 18K is 75%, 22K is 91.6%, and 24K is 99.9%. They demonstrate acid test reactions or electronic readings so customers see why, for example, a 10K chain weighs the same as a 14K chain but receives a lower offer because it contains less gold.",
+    "category": "gold",
+    "tags": ["pawn shop nyc", "karat", "king gold and pawn", "customer education", "sell gold nyc"]
+  },
+  {
+    "id": "gold-010",
+    "question": "Do you buy dental gold or scrap filings?",
+    "answer": "Yes. Dental gold and filings are weighed, tested for purity, and priced strictly on melt value. Customers should bring any documentation or alloy information to speed up testing, but even without paperwork, King Gold & Pawn can determine the karat level and pay accordingly.",
+    "category": "gold",
+    "tags": ["pawn shop nyc", "dental gold", "king gold and pawn", "sell gold nyc", "melt value"]
+  },
+  {
+    "id": "gold-011",
+    "question": "How do you handle hollow chains?",
+    "answer": "Hollow chains can appear heavy but contain less gold than solid ones. Appraisers take extra care when scratching for acid testing to avoid collapsing the chain, then compare expected weight to actual weight to confirm the construction. Offers reflect the true gold mass so customers don’t unknowingly take a loan based on inflated expectations.",
+    "category": "gold",
+    "tags": ["pawn shop nyc", "hollow chain", "king gold and pawn", "valuation", "sell gold nyc"]
+  },
+  {
+    "id": "gold-012",
+    "question": "Can I get a loan on 24K bullion coins?",
+    "answer": "Absolutely. Coins like American Gold Eagles or Canadian Maple Leafs are tested for authenticity, weighed, and compared to live bullion markets. Because these items are liquid, LTV ratios can be higher—often 75–80% of melt value—and XPawn tracks each coin’s serial or packaging number for security.",
+    "category": "gold",
+    "tags": ["pawn shop nyc", "gold bullion", "king gold and pawn", "sell gold nyc", "ltv"]
+  },
+  {
+    "id": "gold-013",
+    "question": "What if my gold piece has gemstones?",
+    "answer": "Gemstones are evaluated separately. If you want loan value for both the gold and stones, appraisers will grade the diamonds or gems using the relevant guide. Otherwise, stones are weighed and returned after testing so the quote reflects only the gold content. XPawn notes which option you chose to avoid confusion at redemption.",
+    "category": "gold",
+    "tags": ["pawn shop nyc", "gold and diamonds", "king gold and pawn", "sell gold nyc", "valuation"]
+  },
+  {
+    "id": "gold-014",
+    "question": "Do you pay cash for gold at the Bronx store?",
+    "answer": "Yes. The Bronx location at 1054 Southern Blvd, phone (929) 205-4383, handles high volumes of gold buying. After testing and weighing, you can choose cash, business check, or ACH depending on the transaction size. Receipts itemize the karat, weight, and agreed payout for transparency.",
+    "category": "gold",
+    "tags": ["pawn shop nyc", "bronx", "cash for gold", "king gold and pawn", "sell gold nyc"]
+  },
+  {
+    "id": "gold-015",
+    "question": "How does Pitkin Ave handle large gold lots from small businesses?",
+    "answer": "Pitkin Ave’s gold lab can process multi-pound lots by separating karats, running batch assays, and printing detailed XPawn reports. Businesses receive a spreadsheet that shows each lot’s weight, purity, melt value, and payout, making it easy to reconcile inventory or accounting records.",
+    "category": "gold",
+    "tags": ["pawn shop nyc", "pitkin ave", "sell gold nyc", "king gold and pawn", "business services"]
+  },
+  {
+    "id": "gold-016",
+    "question": "Why does the Freeport store emphasize marine-themed gold?",
+    "answer": "Freeport serves waterfront customers who often bring anchor pendants, nautical bracelets, and heavy chains worn on the docks. Because local retail demand for these styles is high, Freeport may add resale premiums above melt when evaluating such pieces, while still documenting purity and weight like every other store.",
+    "category": "gold",
+    "tags": ["pawn shop nyc", "freeport", "sell gold nyc", "king gold and pawn", "resale"]
+  },
+  {
+    "id": "gold-017",
+    "question": "Do you charge customers to test their gold?",
+    "answer": "Testing is complimentary when you’re seeking a loan or sale. King Gold & Pawn performs the full assay before quoting any offer, and there’s no obligation to accept the loan. If you decline, staff returns the item immediately.",
+    "category": "gold",
+    "tags": ["pawn shop nyc", "gold testing", "king gold and pawn", "customer service", "sell gold nyc"]
+  },
+  {
+    "id": "gold-018",
+    "question": "Why might two items stamped 14K receive different offers?",
+    "answer": "Weight, construction, and resale demand all matter. A hollow 14K chain weighs less gold than a solid Cuban link, and designer hallmarks or intricate craftsmanship can justify premiums. King Gold & Pawn explains these nuances during valuation so you know why offers differ even with the same karat stamp.",
+    "category": "gold",
+    "tags": ["pawn shop nyc", "valuation", "king gold and pawn", "sell gold nyc", "karat"]
+  },
+  {
+    "id": "gold-019",
+    "question": "How do you handle gold coins that come with certificates?",
+    "answer": "Certificates help verify authenticity, but staff still weighs and tests the coin. The certificate number and any serials are entered into XPawn, and the document is stored with the collateral in a tamper-evident sleeve so it can be returned at redemption.",
+    "category": "gold",
+    "tags": ["pawn shop nyc", "gold coins", "king gold and pawn", "sell gold nyc", "documentation"]
+  },
+  {
+    "id": "gold-020",
+    "question": "Can I get different loan amounts by visiting different stores on the same day?",
+    "answer": "Loan amounts may vary slightly because each store weighs premiums differently, but the underlying melt calculation and LTV structure are standardized. If you receive multiple evaluations, staff can explain any differences, and regional managers review XPawn reports to keep the network aligned.",
+    "category": "gold",
+    "tags": ["pawn shop nyc", "ltv", "king gold and pawn", "sell gold nyc", "operations"]
+  },
+  {
+    "id": "gold-021",
+    "question": "Do you offer written appraisals for insurance?",
+    "answer": "Pawn evaluations are designed for lending or purchasing, not formal insurance appraisals. While King Gold & Pawn provides detailed tickets and receipts, those documents describe melt value rather than retail replacement cost. Customers seeking insurance appraisals should consult a licensed appraiser.",
+    "category": "gold",
+    "tags": ["pawn shop nyc", "appraisal", "king gold and pawn", "sell gold nyc", "customer education"]
+  },
+  {
+    "id": "gold-022",
+    "question": "Will polishing my gold increase the loan amount?",
+    "answer": "Polishing improves appearance but doesn’t change weight or karat, so it rarely affects melt-based offers. For designer pieces with resale potential, clean presentation can help, but King Gold & Pawn primarily values gold based on purity and weight.",
+    "category": "gold",
+    "tags": ["pawn shop nyc", "gold care", "king gold and pawn", "sell gold nyc", "valuation"]
+  },
+  {
+    "id": "gold-023",
+    "question": "Do you accept gold nuggets or raw gold?",
+    "answer": "Yes, but raw gold requires additional verification to ensure it is genuine and free of contaminants. Staff may use XRF analyzers and consult refining partners before quoting an offer. Customers should be prepared for a slightly longer intake process while purity is confirmed.",
+    "category": "gold",
+    "tags": ["pawn shop nyc", "raw gold", "king gold and pawn", "sell gold nyc", "testing"]
+  },
+  {
+    "id": "gold-024",
+    "question": "How do I know the scale is accurate?",
+    "answer": "Scales are calibrated daily with certified weights, and calibration logs are stored for compliance audits. Customers can watch the entire weighing process and request to see the calibration sticker, ensuring transparency and trust.",
+    "category": "gold",
+    "tags": ["pawn shop nyc", "scale", "king gold and pawn", "sell gold nyc", "compliance"]
+  },
+  {
+    "id": "gold-025",
+    "question": "What if my gold tests lower than the stamped karat?",
+    "answer": "King Gold & Pawn bases offers on verified purity, not the stamp. If testing shows a 14K stamp actually reads closer to 10K, staff demonstrates the acid reaction or electronic reading so you understand why. The discrepancy is recorded in XPawn along with photos for future reference.",
+    "category": "gold",
+    "tags": ["pawn shop nyc", "karat testing", "king gold and pawn", "sell gold nyc", "customer education"]
+  }
+]

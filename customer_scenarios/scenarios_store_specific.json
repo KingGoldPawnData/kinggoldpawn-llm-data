@@ -1,0 +1,242 @@
+[
+  {
+    "id": "stores-001",
+    "roleplay_type": "store-specific",
+    "customer_message": "I'm near Pitkin Ave. What kinds of items do you buy there?",
+    "agent_response": "Pitkin Ave (1683 Pitkin Ave, Brooklyn, (929) 203-4646) buys and lends on gold, diamonds, watches, electronics, tools, and sneakers. Walk in with ID and the team will evaluate on the spot.",
+    "stores_involved": ["Pitkin"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-002",
+    "roleplay_type": "store-specific",
+    "customer_message": "Is the Bronx store open today?",
+    "agent_response": "Bronx (1054 Southern Blvd, (929) 205-4383) is open Monday through Saturday 10am–6pm and Sunday 11am–4pm. Call if you're arriving close to closing so we can prep paperwork.",
+    "stores_involved": ["Bronx"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-003",
+    "roleplay_type": "store-specific",
+    "customer_message": "Does the Freeport shop handle luxury watches?",
+    "agent_response": "Yes. Freeport at 24 W Merrick Rd (516-844-0304) has a private appraisal booth for Rolex, AP, and Patek. Call ahead if you want a reserved slot, though walk-ins are welcome.",
+    "stores_involved": ["Freeport"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-004",
+    "roleplay_type": "store-specific",
+    "customer_message": "How do I get to Brighton Beach store by train?",
+    "agent_response": "Take the B or Q to Brighton Beach station, exit toward Brighton Beach Ave, and walk two blocks to 510 Brighton Beach Ave (718-676-6762). Look for the gold and red awning.",
+    "stores_involved": ["Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-005",
+    "roleplay_type": "store-specific",
+    "customer_message": "Does Lawrence require appointments?",
+    "agent_response": "Lawrence (636 Rockaway Turnpike, (516) 344-8433) encourages appointments for high-value items but still accepts walk-ins. Appointments guarantee access to the private appraisal office and secure parking behind the building.",
+    "stores_involved": ["Lawrence"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-006",
+    "roleplay_type": "store-specific",
+    "customer_message": "Is New Rochelle bilingual?",
+    "agent_response": "Yes. The New Rochelle team at 217 North Ave (914-809-8980) serves English and Spanish speakers and regularly works with commuters from the Metro-North station one block away.",
+    "stores_involved": ["New Rochelle"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-007",
+    "roleplay_type": "store-specific",
+    "customer_message": "Does the Sunset Park location take power tools?",
+    "agent_response": "Yes. 4507 5th Ave (929-209-3364) handles Milwaukee, DeWalt, Makita, and more. Bring batteries and chargers so we can fully test before issuing a loan or purchase offer.",
+    "stores_involved": ["Sunset Park"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-008",
+    "roleplay_type": "store-specific",
+    "customer_message": "Can I drop off in Bronx and pick up in Brighton Beach?",
+    "agent_response": "Yes. Pay any interest or redemption amount at either store and we'll arrange a secure transfer. Once the item arrives at 510 Brighton Beach Ave, we call you to schedule pickup.",
+    "stores_involved": ["Bronx", "Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-009",
+    "roleplay_type": "store-specific",
+    "customer_message": "Does Pitkin Ave accept walk-ins for gold testing on Sundays?",
+    "agent_response": "Pitkin opens Sundays 11am–4pm for quick gold transactions. Testing is done at the counter, and you can pawn or sell in the same visit.",
+    "stores_involved": ["Pitkin"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-010",
+    "roleplay_type": "store-specific",
+    "customer_message": "Is there parking near the Freeport shop?",
+    "agent_response": "Yes, there's street parking on W Merrick Rd and a municipal lot behind the store. Call (516) 844-0304 if you need curbside assistance bringing items inside.",
+    "stores_involved": ["Freeport"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-011",
+    "roleplay_type": "store-specific",
+    "customer_message": "Does the Bronx store buy sneakers?",
+    "agent_response": "Yes. Bring original boxes, receipts if available, and ensure the sneakers are clean. The Bronx team authenticates popular releases alongside jewelry and electronics.",
+    "stores_involved": ["Bronx"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-012",
+    "roleplay_type": "store-specific",
+    "customer_message": "What number do I call for Brighton Beach questions?",
+    "agent_response": "Dial (718) 676-6762 for Brighton Beach. The staff can quote estimated values, confirm hours, and set appointments for luxury watch or diamond consultations.",
+    "stores_involved": ["Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-013",
+    "roleplay_type": "store-specific",
+    "customer_message": "Is Sunset Park good for Spanish-speaking customers?",
+    "agent_response": "Absolutely. Nearly the entire 4507 5th Ave team is bilingual. They can walk you through Article 5 requirements and loan options in Spanish or English.",
+    "stores_involved": ["Sunset Park"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-014",
+    "roleplay_type": "store-specific",
+    "customer_message": "Which store handles estate jewelry most often?",
+    "agent_response": "Lawrence and Freeport see the most estate pieces. Lawrence has private offices for family consultations, while Freeport offers quick evaluations for commuters heading to Nassau County destinations.",
+    "stores_involved": ["Lawrence", "Freeport"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-015",
+    "roleplay_type": "store-specific",
+    "customer_message": "Does New Rochelle handle musical instruments?",
+    "agent_response": "Yes. Bring guitars, keyboards, or brass instruments to 217 North Ave. They test electronics on-site and store instruments on padded racks so they remain gig-ready.",
+    "stores_involved": ["New Rochelle"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-016",
+    "roleplay_type": "store-specific",
+    "customer_message": "Which location is closest to the beach in Brooklyn?",
+    "agent_response": "Brighton Beach at 510 Brighton Beach Ave is a few steps from the boardwalk. Locals drop in before or after hitting the beach, making it perfect for quick summer loans.",
+    "stores_involved": ["Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-017",
+    "roleplay_type": "store-specific",
+    "customer_message": "Does Pitkin Ave handle firearm loans?",
+    "agent_response": "No. New York prohibits pawn loans on firearms. Pitkin focuses on jewelry, watches, electronics, sneakers, and tools in compliance with city regulations.",
+    "stores_involved": ["Pitkin"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-018",
+    "roleplay_type": "store-specific",
+    "customer_message": "Where do I go for a quick gold sale in Long Island?",
+    "agent_response": "Freeport and Lawrence both serve Long Island. Freeport is ideal for South Shore commuters, while Lawrence sits right off Rockaway Turnpike with dedicated parking.",
+    "stores_involved": ["Freeport", "Lawrence"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-019",
+    "roleplay_type": "store-specific",
+    "customer_message": "Do any stores stay open later on Thursdays?",
+    "agent_response": "Bronx and Sunset Park extend to 7pm on Thursdays to accommodate commuters. Call ahead if you need paperwork started before you arrive.",
+    "stores_involved": ["Bronx", "Sunset Park"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-020",
+    "roleplay_type": "store-specific",
+    "customer_message": "Does Brighton Beach handle Russian-language customers?",
+    "agent_response": "Yes, multiple associates speak Russian and can explain loan terms, Article 5 rules, and redemption steps in your preferred language.",
+    "stores_involved": ["Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-021",
+    "roleplay_type": "store-specific",
+    "customer_message": "Can the Bronx store check a serial number before I visit?",
+    "agent_response": "For security we verify serials in person. Bring the watch or item to 1054 Southern Blvd and we'll authenticate while you wait, logging the serial into XPawn for future reference.",
+    "stores_involved": ["Bronx"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-022",
+    "roleplay_type": "store-specific",
+    "customer_message": "Which store is best for high-end diamonds?",
+    "agent_response": "Lawrence and Brighton Beach both have GIA-trained staff on site. Lawrence offers private appointments, while Brighton Beach has gem labs for walk-in evaluations.",
+    "stores_involved": ["Lawrence", "Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-023",
+    "roleplay_type": "store-specific",
+    "customer_message": "Is there a number for the Sunset Park store?",
+    "agent_response": "Call (929) 209-3364 for Sunset Park. They can confirm inventory, schedule layaway pickups, and answer pawn questions in English or Spanish.",
+    "stores_involved": ["Sunset Park"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-024",
+    "roleplay_type": "store-specific",
+    "customer_message": "Do any locations have layaway for retail items?",
+    "agent_response": "Bronx, Pitkin, and Brighton Beach all offer 90-day layaway on select retail jewelry and electronics. Bring ID and a small deposit to start the plan.",
+    "stores_involved": ["Bronx", "Pitkin", "Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-025",
+    "roleplay_type": "store-specific",
+    "customer_message": "Which store handles the most watch trades?",
+    "agent_response": "Lawrence is the hub for luxury watch trades thanks to its proximity to JFK and upscale clientele. Brighton Beach is a close second, especially for Rolex sports models.",
+    "stores_involved": ["Lawrence", "Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-026",
+    "roleplay_type": "store-specific",
+    "customer_message": "Does New Rochelle take same-day appointments?",
+    "agent_response": "Yes. Call (914) 809-8980 and the team will slot you in between walk-ins. They're used to accommodating commuters coming off the New Haven line.",
+    "stores_involved": ["New Rochelle"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-027",
+    "roleplay_type": "store-specific",
+    "customer_message": "Which store is closet to JFK airport?",
+    "agent_response": "Lawrence on Rockaway Turnpike is about 10 minutes from JFK, making it convenient for travelers needing quick funding before flights.",
+    "stores_involved": ["Lawrence"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-028",
+    "roleplay_type": "store-specific",
+    "customer_message": "Is there a King Gold & Pawn near Coney Island?",
+    "agent_response": "Yes, Brighton Beach is the nearest location—just a short bus ride from Coney Island. They handle gold, diamonds, watches, and electronics daily.",
+    "stores_involved": ["Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-029",
+    "roleplay_type": "store-specific",
+    "customer_message": "Do you offer curbside service for seniors in Freeport?",
+    "agent_response": "Yes. Call ahead and staff will meet you outside 24 W Merrick Rd to carry items in and complete paperwork at a comfortable pace.",
+    "stores_involved": ["Freeport"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "stores-030",
+    "roleplay_type": "store-specific",
+    "customer_message": "Which store should I visit if I'm staying in Williamsburg?",
+    "agent_response": "Pitkin Ave is closest via the A/C or L train lines, though Sunset Park is another option by bus. Both follow identical policies, so choose whichever commute is easier.",
+    "stores_involved": ["Pitkin", "Sunset Park"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  }
+]

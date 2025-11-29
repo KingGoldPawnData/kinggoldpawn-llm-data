@@ -1,0 +1,162 @@
+[
+  {
+    "id": "diamonds-001",
+    "roleplay_type": "diamonds",
+    "customer_message": "My engagement ring has a GIA certificate. Does that help the loan value?",
+    "agent_response": "Yes, certified stones appraise faster and usually qualify for higher LTV because the 4Cs are documented. Bring the GIA report so we can verify the number against the laser inscription and attach a copy to your XPawn ticket.",
+    "stores_involved": ["Lawrence", "Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "diamonds-002",
+    "roleplay_type": "diamonds",
+    "customer_message": "My stone isn't certified. Will that hurt my offer?",
+    "agent_response": "We can still evaluate it in-house using microscopes and diamond testers. The offer may be slightly lower since we need to account for grading risk, but we document our measurements and photos so you see exactly how we assessed the 4Cs.",
+    "stores_involved": ["Freeport", "New Rochelle"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "diamonds-003",
+    "roleplay_type": "diamonds",
+    "customer_message": "Can you tell if my diamond is real or moissanite?",
+    "agent_response": "Absolutely. We use diamond thermal testers plus a moissanite detector and follow up with microscopy. If needed, we check for fluorescence under UV. Results are recorded in XPawn so the authentication trail is clear.",
+    "stores_involved": ["Bronx", "Pitkin"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "diamonds-004",
+    "roleplay_type": "diamonds",
+    "customer_message": "My stone has eye-visible inclusions. Will that drop the value a lot?",
+    "agent_response": "Clarity impacts value, but we consider the whole piece—cut, color, carat, and mounting. We'll explain how inclusions affect resale demand and show you the stone under magnification so you understand any adjustments we make.",
+    "stores_involved": ["Brighton Beach", "Sunset Park"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "diamonds-005",
+    "roleplay_type": "diamonds",
+    "customer_message": "Why is my 1-carat princess cut worth less than my friend's round stone?",
+    "agent_response": "Round brilliants command higher prices because they have better light performance and demand. Princess cuts trade a bit lower even at the same carat weight. We'll show you market comparables and document the rationale on your ticket.",
+    "stores_involved": ["Lawrence", "Freeport"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "diamonds-006",
+    "roleplay_type": "diamonds",
+    "customer_message": "Is fluorescence bad for resale?",
+    "agent_response": "Not always, but strong fluorescence can lower value on high-color stones. We grade fluorescence under UV and explain how it affects the price. XPawn notes the fluorescence level so there's a record for future visits.",
+    "stores_involved": ["Brighton Beach", "Sunset Park"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "diamonds-007",
+    "roleplay_type": "diamonds",
+    "customer_message": "My fiancé passed away and this ring is sentimental. If I pawn it, can I be sure it won't be sold early?",
+    "agent_response": "I'm sorry for your loss. Your ring stays sealed in our vault for the full 120-day term plus the 10-day notice required by law. We cannot sell it before the notice expires, and we can flag your ticket for reminder calls so you never miss a deadline.",
+    "stores_involved": ["New Rochelle", "Freeport"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "diamonds-008",
+    "roleplay_type": "diamonds",
+    "customer_message": "Do you pay extra for designer settings like Tacori or Verragio?",
+    "agent_response": "Branded mounts can increase value if they're in excellent condition with hallmarks intact. We'll verify authenticity and include photos of the designer details. Offers reflect both the center stone and the premium setting.",
+    "stores_involved": ["Lawrence", "Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "diamonds-009",
+    "roleplay_type": "diamonds",
+    "customer_message": "My diamond has a chip on the girdle. Will you still take it?",
+    "agent_response": "Yes, but we'll factor the chip into the valuation because it affects durability and resale. We'll photograph the chip and include notes so you know exactly how it influenced the offer.",
+    "stores_involved": ["Bronx", "Pitkin"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "diamonds-010",
+    "roleplay_type": "diamonds",
+    "customer_message": "Do lab-grown diamonds qualify for loans?",
+    "agent_response": "They do. We identify them using testers and by checking certificates. Lab-grown stones carry different resale values, so offers are based on current lab-grown market data. We label them clearly in XPawn to avoid any mix-ups.",
+    "stores_involved": ["Freeport", "Lawrence"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "diamonds-011",
+    "roleplay_type": "diamonds",
+    "customer_message": "Can you help me understand the interest before I pawn my engagement ring?",
+    "agent_response": "Of course. We'll review the Article 5 interest schedule, show you how interest accrues monthly, and print the payoff schedule on your ticket. Transparency is key, especially with sentimental items.",
+    "stores_involved": ["New Rochelle", "Sunset Park"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "diamonds-012",
+    "roleplay_type": "diamonds",
+    "customer_message": "If I redeem early, do I still pay the full interest?",
+    "agent_response": "No. You pay interest only for the days used. If you redeem halfway through the month, we prorate per Article 5 guidelines. This applies to diamond loans just like any other collateral.",
+    "stores_involved": ["Brighton Beach", "Pitkin"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "diamonds-013",
+    "roleplay_type": "diamonds",
+    "customer_message": "Do you accept diamond tennis bracelets?",
+    "agent_response": "Yes. We'll weigh the gold, grade the stones collectively, and factor in designer marks. Because bracelets are flexible, we inspect for broken prongs and note condition on your ticket before vaulting.",
+    "stores_involved": ["Lawrence", "Freeport", "Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "diamonds-014",
+    "roleplay_type": "diamonds",
+    "customer_message": "My appraisal says $10,000 but your loan offer is $4,000. Why the difference?",
+    "agent_response": "Insurance appraisals reflect replacement cost, not liquidation value. Pawn loans are based on realistic resale prices minus risk and overhead, which is why LTV is typically 40–60%. We'll walk through the math so you see how we landed at $4,000.",
+    "stores_involved": ["Freeport", "Lawrence"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "diamonds-015",
+    "roleplay_type": "diamonds",
+    "customer_message": "Can I keep the wedding band and pawn only the engagement ring?",
+    "agent_response": "Certainly. We'll loan on whichever piece you choose. If they're soldered together, we can separate them carefully or write one ticket covering the combined set—just let us know your preference.",
+    "stores_involved": ["Bronx", "Pitkin"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "diamonds-016",
+    "roleplay_type": "diamonds",
+    "customer_message": "My diamond earrings are VS quality. Can I get more because they're matched?",
+    "agent_response": "Matched pairs do receive a premium because they're harder to replace. We'll confirm each stone's measurements and note that they're a pair in XPawn so the value reflects the matched set.",
+    "stores_involved": ["Brighton Beach", "Sunset Park"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "diamonds-017",
+    "roleplay_type": "diamonds",
+    "customer_message": "I heard baguette diamonds pay less. True?",
+    "agent_response": "Generally yes. Baguettes don't sparkle like rounds and can chip easily, so resale demand is lower. We still provide competitive offers, but we explain that their value is typically calculated closer to melee pricing.",
+    "stores_involved": ["Freeport", "Lawrence"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "diamonds-018",
+    "roleplay_type": "diamonds",
+    "customer_message": "Can I pawn loose diamonds instead of mounted ones?",
+    "agent_response": "Yes. We grade loose stones using master sets and store them in tamper-evident gem jars inside the vault. You'll receive photos of the stone before sealing and after redemption for peace of mind.",
+    "stores_involved": ["Bronx", "Lawrence"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "diamonds-019",
+    "roleplay_type": "diamonds",
+    "customer_message": "My diamond is brownish. Does that make it worth less?",
+    "agent_response": "Fancy brown stones can still be valuable depending on saturation and marketing appeal. We'll grade the color accurately and compare to current demand. If it's a lighter tint, we price it closer to lower color grades.",
+    "stores_involved": ["Sunset Park", "Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "diamonds-020",
+    "roleplay_type": "diamonds",
+    "customer_message": "Do you re-size or clean the ring while it's pawned?",
+    "agent_response": "No. We leave the piece exactly as received to preserve its condition. Cleanings are done only upon redemption if you request it. That way there's no question about alterations while it's collateral.",
+    "stores_involved": ["Freeport", "New Rochelle", "Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  }
+]

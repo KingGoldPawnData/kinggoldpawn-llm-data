@@ -1,0 +1,177 @@
+[
+  {
+    "id": "loan-001",
+    "question": "How long are pawn loans at King Gold & Pawn and can I choose a shorter term?",
+    "answer": "All pawn loans in New York follow the Article 5 standard of 120 days, so every ticket issued by King Gold & Pawn matures four months from the IssueDate. Customers can redeem sooner if they wish, but the contract cannot be shortened or lengthened beyond the statutory term; instead, renewals extend the timeline by starting a fresh 120-day cycle once interest is paid.",
+    "category": "loan",
+    "tags": ["pawn shop nyc", "king gold and pawn", "120 day loan", "article 5", "loan term"]
+  },
+  {
+    "id": "loan-002",
+    "question": "What do I need to bring to start a pawn loan?",
+    "answer": "Bring the item you want to pledge plus a valid government-issued photo ID such as a driver license, state ID, passport, or military ID. King Gold & Pawn scans the ID into XPawn, verifies contact information, and creates or updates your customer profile before any valuation or ticket can occur, which satisfies Article 5 recordkeeping rules.",
+    "category": "loan",
+    "tags": ["pawn shop nyc", "id requirement", "king gold and pawn", "loan intake", "compliance"]
+  },
+  {
+    "id": "loan-003",
+    "question": "How does King Gold & Pawn calculate my loan amount?",
+    "answer": "Loan principals are based on the item’s appraised value, applied loan-to-value ratios, and current resale demand. Appraisers test the asset, determine wholesale value or melt value, then multiply by the LTV percentage defined in the Operations Bible. XPawn shows the minimum and maximum offer window so managers can ensure consistent payouts across stores.",
+    "category": "loan",
+    "tags": ["pawn shop nyc", "loan calculation", "king gold and pawn", "ltv", "valuation"]
+  },
+  {
+    "id": "loan-004",
+    "question": "How is interest charged on a pawn loan in NYC?",
+    "answer": "Interest accrues monthly according to Article 5 limits. XPawn calculates the exact amount per ticket based on principal and days outstanding, so when you return to pay interest or redeem, staff can show a line-by-line breakdown. There are no hidden fees beyond what is disclosed on the ticket, and interest does not compound beyond the statutory cap.",
+    "category": "loan",
+    "tags": ["pawn shop nyc", "interest", "king gold and pawn", "article 5", "xpawn"]
+  },
+  {
+    "id": "loan-005",
+    "question": "Can I renew my pawn loan before or after the 120th day?",
+    "answer": "Yes. Pay the accrued interest (and any applicable storage charge shown on the ticket) before the 120th day and King Gold & Pawn will issue a renewal, which resets the maturity date for another 120-day cycle. Renewals are logged in XPawn so the system tracks each cycle and ensures notices align with the most recent IssueDate.",
+    "category": "loan",
+    "tags": ["pawn shop nyc", "renewal", "king gold and pawn", "120 day loan", "xpawn"]
+  },
+  {
+    "id": "loan-006",
+    "question": "What happens if I can’t pay off my loan by day 120?",
+    "answer": "If you neither redeem nor renew by day 120, XPawn queues a 10-day final notice. During those 10 days you can still redeem by paying principal plus interest. If the notice period expires without payment, ownership transfers to King Gold & Pawn and the item may be prepared for retail sale or wholesaled, but you will never be sent to collections for any deficit.",
+    "category": "loan",
+    "tags": ["pawn shop nyc", "120 day loan", "10 day notice", "king gold and pawn", "loan default"]
+  },
+  {
+    "id": "loan-007",
+    "question": "What is a 10-day final notice and how is it delivered?",
+    "answer": "Article 5 requires pawnbrokers to notify borrowers after maturity. King Gold & Pawn triggers the 10-day final notice on day 110 using XPawn and Twilio PawnOps, sending SMS messages, phone calls, and mailed letters that list the ticket number, payoff amount, store contact information, and final redemption deadline. No disposition occurs until that notice period passes.",
+    "category": "loan",
+    "tags": ["pawn shop nyc", "10 day notice", "king gold and pawn", "pawnops", "compliance"]
+  },
+  {
+    "id": "loan-008",
+    "question": "Can someone else pick up my pawned item for me?",
+    "answer": "Only the borrower named on the ticket—or a person listed on an authorization form signed at intake—can redeem an item. King Gold & Pawn requires the original ticket or a valid ID matching the XPawn profile, ensuring collateral is returned to the rightful owner and preventing unauthorized redemptions.",
+    "category": "loan",
+    "tags": ["pawn shop nyc", "redemption", "king gold and pawn", "id requirement", "compliance"]
+  },
+  {
+    "id": "loan-009",
+    "question": "What fees besides interest might appear on a pawn ticket?",
+    "answer": "Tickets list principal, interest, and the storage fee allowed under Article 5. Certain categories, like luxury watches or large instruments, may have insurance or handling fees disclosed upfront. King Gold & Pawn never adds undocumented charges, and customers receive a copy of the ticket so they can review costs before signing.",
+    "category": "loan",
+    "tags": ["pawn shop nyc", "fees", "king gold and pawn", "article 5", "transparency"]
+  },
+  {
+    "id": "loan-010",
+    "question": "Is there a penalty for paying my loan off early?",
+    "answer": "No. Customers can redeem at any point during the 120-day term by paying principal plus accrued interest up to that date. XPawn calculates the exact payoff when staff scans the ticket, so early payoff simply stops the interest clock and releases the collateral back to you.",
+    "category": "loan",
+    "tags": ["pawn shop nyc", "early payoff", "king gold and pawn", "120 day loan", "xpawn"]
+  },
+  {
+    "id": "loan-011",
+    "question": "Can I pawn multiple items under one loan?",
+    "answer": "Yes. Customers can group items on a single ticket or separate them into multiple tickets for easier tracking. XPawn lists each item description, valuation, and storage location, so when you redeem you can choose to pay for the entire ticket or only the items tied to a specific loan if they were separated at intake.",
+    "category": "loan",
+    "tags": ["pawn shop nyc", "multi item", "king gold and pawn", "loan structure", "xpawn"]
+  },
+  {
+    "id": "loan-012",
+    "question": "How do partial payments work on a pawn loan?",
+    "answer": "Article 5 allows partial interest or principal payments. King Gold & Pawn applies payments to interest first, then principal. XPawn updates the balance immediately, and receipts show how much remains. Partial payments can help customers reduce payoff amounts even if they’re not ready to redeem entirely.",
+    "category": "loan",
+    "tags": ["pawn shop nyc", "partial payment", "king gold and pawn", "xpawn", "120 day loan"]
+  },
+  {
+    "id": "loan-013",
+    "question": "What happens if I lose my pawn ticket?",
+    "answer": "Visit the store with your ID. Staff will verify your profile in XPawn, reprint the ticket, and have you sign a lost ticket affidavit. This process protects both sides by ensuring only the rightful borrower can redeem or renew the loan.",
+    "category": "loan",
+    "tags": ["pawn shop nyc", "lost ticket", "king gold and pawn", "compliance", "id requirement"]
+  },
+  {
+    "id": "loan-014",
+    "question": "Are pawn loans reported to credit bureaus?",
+    "answer": "No. Pawn loans are secured solely by collateral, so King Gold & Pawn does not report them to credit bureaus. If you choose not to redeem, the item is forfeited without negative marks on your credit report, making pawn loans a flexible option for customers who want liquidity without long-term debt obligations.",
+    "category": "loan",
+    "tags": ["pawn shop nyc", "credit", "king gold and pawn", "loan education", "120 day loan"]
+  },
+  {
+    "id": "loan-015",
+    "question": "Why do interest rates seem higher than bank loans?",
+    "answer": "Pawn loans are short-term, asset-backed advances with no credit underwriting. Article 5 caps the rates pawnbrokers can charge, and King Gold & Pawn strictly adheres to those limits. Because loans only last 120 days and are secured by collateral, the risk profile differs from multi-year unsecured bank loans, which is why the rates are structured differently.",
+    "category": "loan",
+    "tags": ["pawn shop nyc", "interest", "king gold and pawn", "article 5", "loan education"]
+  },
+  {
+    "id": "loan-016",
+    "question": "Can I extend my loan indefinitely?",
+    "answer": "As long as you pay the required interest before maturity, King Gold & Pawn can renew the loan for another 120 days, effectively allowing you to keep rolling the ticket forward. There is no limit on the number of renewals, provided interest is paid and the collateral remains in good condition.",
+    "category": "loan",
+    "tags": ["pawn shop nyc", "renewal", "king gold and pawn", "120 day loan", "loan policy"]
+  },
+  {
+    "id": "loan-017",
+    "question": "How do you communicate payoff amounts?",
+    "answer": "Customers can call the Twilio voice agent, text the automated line, or visit any store. XPawn provides real-time payoff figures that include principal, interest, and any storage fees. Staff can send the total by SMS or print it on a receipt so customers have written confirmation.",
+    "category": "loan",
+    "tags": ["pawn shop nyc", "pawnops", "king gold and pawn", "payoff", "xpawn"]
+  },
+  {
+    "id": "loan-018",
+    "question": "What if my item is damaged while it’s in the vault?",
+    "answer": "King Gold & Pawn photographs each item at intake and uses tamper-evident packaging. If damage occurred inside custody, management investigates, reviews CCTV, and works with insurance to resolve it. Such incidents are rare due to stringent storage protocols, but the process is documented in the Operations Bible to ensure transparency.",
+    "category": "loan",
+    "tags": ["pawn shop nyc", "vault", "king gold and pawn", "loan assurance", "operations"]
+  },
+  {
+    "id": "loan-019",
+    "question": "Can I pawn someone else’s property with their permission?",
+    "answer": "Only the legal owner can pledge property, unless they accompany you and co-sign the ticket. Article 5 requires accurate ownership information, so King Gold & Pawn will not accept items without the owner’s ID and signature to prevent disputes or fraudulent pledges.",
+    "category": "loan",
+    "tags": ["pawn shop nyc", "ownership", "king gold and pawn", "compliance", "loan policy"]
+  },
+  {
+    "id": "loan-020",
+    "question": "How fast do I get money once the loan is approved?",
+    "answer": "Funds are disbursed immediately after you sign the ticket—usually within minutes. You can receive cash, or for larger sums a business check. XPawn logs the payment method so accounting can reconcile drawers at closing.",
+    "category": "loan",
+    "tags": ["pawn shop nyc", "funding", "king gold and pawn", "loan timing", "operations"]
+  },
+  {
+    "id": "loan-021",
+    "question": "Does King Gold & Pawn accept digital signatures or do I need to sign paper tickets?",
+    "answer": "Customers sign paper tickets because Article 5 still requires a physical pawn ticket copy. The signed document is scanned into XPawn so staff can reference it digitally, but you will leave with the original hard copy, which you should keep for redemption or renewals.",
+    "category": "loan",
+    "tags": ["pawn shop nyc", "ticket", "king gold and pawn", "compliance", "operations"]
+  },
+  {
+    "id": "loan-022",
+    "question": "Can I make payments online?",
+    "answer": "At this time, King Gold & Pawn accepts payments in-store so staff can provide updated tickets and ensure identity verification. However, Twilio PawnOps can schedule callbacks and send payoff details so customers know exactly what to bring when they visit.",
+    "category": "loan",
+    "tags": ["pawn shop nyc", "payments", "king gold and pawn", "pawnops", "operations"]
+  },
+  {
+    "id": "loan-023",
+    "question": "What documentation proves I redeemed my loan?",
+    "answer": "Upon redemption, XPawn prints a paid receipt showing the ticket number, payoff amount, and date. Staff also signs the original ticket and returns it with the item, so you have multiple records demonstrating the loan is closed.",
+    "category": "loan",
+    "tags": ["pawn shop nyc", "redemption", "king gold and pawn", "xpawn", "records"]
+  },
+  {
+    "id": "loan-024",
+    "question": "Can I negotiate interest rates?",
+    "answer": "Interest rates are set by Article 5 and cannot be altered. King Gold & Pawn complies strictly with the statutory caps, so while staff can discuss principal levels within LTV guidelines, the interest structure itself is fixed by New York law.",
+    "category": "loan",
+    "tags": ["pawn shop nyc", "interest", "king gold and pawn", "article 5", "loan policy"]
+  },
+  {
+    "id": "loan-025",
+    "question": "What if I only need a loan for a week?",
+    "answer": "You can redeem whenever you’re ready; the minimum term is not enforced. Even if you need cash for just a few days, you would still receive a 120-day ticket, but you could repay within a week and only owe the prorated interest stipulated on the contract.",
+    "category": "loan",
+    "tags": ["pawn shop nyc", "short term", "king gold and pawn", "120 day loan", "customer education"]
+  }
+]

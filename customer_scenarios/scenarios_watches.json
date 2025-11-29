@@ -1,0 +1,162 @@
+[
+  {
+    "id": "watches-001",
+    "roleplay_type": "watches",
+    "customer_message": "I have a Rolex Submariner. How do you authenticate it before lending?",
+    "agent_response": "We check the serial between the lugs, match the reference, inspect the dial printing, engravings, and rehaut, and open the caseback to confirm the movement. Everything is photographed and stored in XPawn so you have a record of the inspection.",
+    "stores_involved": ["Brighton Beach", "Lawrence"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "watches-002",
+    "roleplay_type": "watches",
+    "customer_message": "Does the Bronx store take luxury watches or should I go to Lawrence?",
+    "agent_response": "Bronx handles Rolex, Omega, Cartier, and Hublot daily, so you can visit 1054 Southern Blvd with no appointment. Lawrence offers private rooms if you prefer a quieter appraisal. Both locations follow the same XPawn process and Article 5 loan terms.",
+    "stores_involved": ["Bronx", "Lawrence"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "watches-003",
+    "roleplay_type": "watches",
+    "customer_message": "I lost the box and papers for my Datejust. Does that lower the loan?",
+    "agent_response": "It can reduce resale value slightly, but the watch itself is what really matters. We'll still authenticate it fully. If you find the accessories later, bring them in and we can note them on your ticket to help future valuations.",
+    "stores_involved": ["Pitkin", "Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "watches-004",
+    "roleplay_type": "watches",
+    "customer_message": "My watch got water damaged. Will King Gold & Pawn still take it?",
+    "agent_response": "We can, but the offer will reflect the cost of servicing corrosion or replacing parts. We'll inspect the dial, movement, and gaskets to document the damage. If you proceed, we seal it in protective packaging so no further moisture enters during storage.",
+    "stores_involved": ["Sunset Park", "Freeport"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "watches-005",
+    "roleplay_type": "watches",
+    "customer_message": "Do you buy grey market watches?",
+    "agent_response": "We evaluate non-authorized dealer pieces the same way as others: checking authenticity, service history, and condition. Grey market status may lower value if warranty cards are missing, but we still make competitive offers if the watch is genuine.",
+    "stores_involved": ["Lawrence", "Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "watches-006",
+    "roleplay_type": "watches",
+    "customer_message": "How does serial number verification work?",
+    "agent_response": "We compare the engraved serial to manufacturer databases and production year charts, then log it in XPawn alongside macro photos. This protects you from swaps and proves we evaluated the genuine movement and case.",
+    "stores_involved": ["Bronx", "Pitkin"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "watches-007",
+    "roleplay_type": "watches",
+    "customer_message": "Can you explain how loan value is calculated on a Patek?",
+    "agent_response": "We reference current market comps, evaluate complications, metals, and service history, then apply a loan-to-value between 50–70% depending on liquidity. Documentation of recent service or box and papers can push the offer higher.",
+    "stores_involved": ["Lawrence", "Freeport"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "watches-008",
+    "roleplay_type": "watches",
+    "customer_message": "I have aftermarket diamonds on my bezel. Will you still lend?",
+    "agent_response": "Yes, though we note that aftermarket modifications reduce collector demand. Your ticket will state the customization, and the LTV will align with the watch's modified market value.",
+    "stores_involved": ["Brighton Beach", "Sunset Park"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "watches-009",
+    "roleplay_type": "watches",
+    "customer_message": "Can I pay interest at the Sunset Park store even though I pawned in Bronx?",
+    "agent_response": "Yes. All stores access the same XPawn system. Bring your ticket or ID to Sunset Park, and we'll apply the payment immediately while noting it for the Bronx shop.",
+    "stores_involved": ["Sunset Park", "Bronx"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "watches-010",
+    "roleplay_type": "watches",
+    "customer_message": "Do you wind automatic watches while they're stored?",
+    "agent_response": "We gently wind or set automatics periodically to keep the oils distributed, then return them to padded vault trays. Each movement check is logged with a timestamp so you know how your watch was handled.",
+    "stores_involved": ["Lawrence", "Freeport"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "watches-011",
+    "roleplay_type": "watches",
+    "customer_message": "Can you explain the difference between redemption and renewal with my watch loan?",
+    "agent_response": "Redemption means paying principal plus interest to take your watch home. Renewal is interest-only, creating a new 120-day term while the watch stays vaulted. We'll outline both options on your payoff quote each time you visit.",
+    "stores_involved": ["Bronx", "Pitkin"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "watches-012",
+    "roleplay_type": "watches",
+    "customer_message": "My AP Royal Oak has visible scratches. Does that hurt the offer?",
+    "agent_response": "Surface scratches are normal, but deep gouges or polished edges may reduce value. We'll assess case condition under bright lights, explain any deductions, and include photos so you know what we documented.",
+    "stores_involved": ["Lawrence", "Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "watches-013",
+    "roleplay_type": "watches",
+    "customer_message": "How do you handle smartwatch loans?",
+    "agent_response": "We verify activation lock is disabled, test functionality, and evaluate based on model and storage size. Offers are lower than mechanical watches because tech values drop faster. Make sure to bring cables and proof of purchase if available.",
+    "stores_involved": ["Sunset Park", "Pitkin"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "watches-014",
+    "roleplay_type": "watches",
+    "customer_message": "What happens if I can't redeem my watch after 120 days?",
+    "agent_response": "After day 120 we send a 10-day certified notice. If it's not redeemed by the notice deadline, Article 5 lets us forfeit it. We encourage you to renew or communicate early so you don't lose the watch.",
+    "stores_involved": ["Bronx", "Sunset Park"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "watches-015",
+    "roleplay_type": "watches",
+    "customer_message": "Can you appraise my watch for insurance during the pawn?",
+    "agent_response": "We provide valuation notes for the loan, but formal insurance appraisals require a separate service. We can refer you to a trusted watchmaker if you need a detailed appraisal document beyond the pawn ticket.",
+    "stores_involved": ["Freeport", "Lawrence"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "watches-016",
+    "roleplay_type": "watches",
+    "customer_message": "My bracelet is too loose. Will resizing before pawning help?",
+    "agent_response": "A snug bracelet with full links generally retains value better, so having extra links helps. We record current link count. If you have removed links, bring them so they can be included in the appraisal and returned with the watch.",
+    "stores_involved": ["Brighton Beach", "Pitkin"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "watches-017",
+    "roleplay_type": "watches",
+    "customer_message": "Do you send watches out to third parties for authentication?",
+    "agent_response": "Most checks are in-house, but rare vintage or high complications might be reviewed by our watchmaker. If so, we log the transfer, insure it, and update you before any movement off-site. You'll sign a consent form for transparency.",
+    "stores_involved": ["Lawrence", "Freeport"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "watches-018",
+    "roleplay_type": "watches",
+    "customer_message": "How do you handle watch storage tags?",
+    "agent_response": "Each watch receives a tamper-evident tag matching your XPawn ticket ID. Tags include location codes so vault staff can audit inventory quickly. Removing a tag requires manager approval and is recorded before redemption.",
+    "stores_involved": ["Bronx", "Sunset Park", "Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "watches-019",
+    "roleplay_type": "watches",
+    "customer_message": "Can I partially pay down my loan to reduce interest?",
+    "agent_response": "Sure. If you pay a portion of the principal along with current interest, we issue a new ticket for the remaining balance, which lowers future interest. This is common with higher-value watches.",
+    "stores_involved": ["Bronx", "Lawrence"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "watches-020",
+    "roleplay_type": "watches",
+    "customer_message": "Will polishing my watch before bringing it help the offer?",
+    "agent_response": "Light cleaning is fine, but avoid heavy polishing because it can soften edges and hurt value. We'll assess the finish as-is, document any prior polishing, and explain how it influences the loan or purchase amount.",
+    "stores_involved": ["Brighton Beach", "Lawrence"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  }
+]

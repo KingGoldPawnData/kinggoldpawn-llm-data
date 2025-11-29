@@ -1,0 +1,202 @@
+[
+  {
+    "id": "advanced-001",
+    "roleplay_type": "advanced",
+    "customer_message": "I'm frustrated because interest keeps adding up. Can you break down exactly what I'm being charged on my $800 loan?",
+    "agent_response": "I understand the frustration. Your $800 ticket from Bronx accrues interest monthly based on the Article 5 rate table you signed. Right now you're 60 days in, so the total due is $800 principal plus two months of interest, listed line-by-line on your ticket. If you need more time, you can pay only the interest to renew for another 120-day cycle.",
+    "stores_involved": ["Bronx"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "advanced-002",
+    "roleplay_type": "advanced",
+    "customer_message": "I missed the 120-day mark on my laptop loan by 5 days. Do I still have a chance to get it back?",
+    "agent_response": "You're still within the mandatory 10-day notice window. We mailed and texted a notice via Twilio PawnOps, so if you come in before that certified notice expires, you can redeem by paying principal plus interest. After day 130, Article 5 lets us forfeit the collateral, so please visit Pitkin Ave as soon as possible.",
+    "stores_involved": ["Pitkin"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "advanced-003",
+    "roleplay_type": "advanced",
+    "customer_message": "Can I extend my loan if I'm traveling? I'm on day 115 and won't be back for two weeks.",
+    "agent_response": "Call us before the term lapses and authorize an interest-only renewal. We can take your payment by debit over the phone where permitted or you can send a trusted person with your ticket and ID copy. That restarts the 120-day term immediately and keeps your collateral secure.",
+    "stores_involved": ["Brighton Beach", "Lawrence"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "advanced-004",
+    "roleplay_type": "advanced",
+    "customer_message": "My ticket is lost and I'm worried someone else could redeem my jewelry.",
+    "agent_response": "Your collateral is safe. XPawn requires matching ID plus the ticket. Since you lost it, we flag the account, have you sign an affidavit, and reissue new paperwork. Nobody can redeem without your identification and the updated document.",
+    "stores_involved": ["Freeport", "New Rochelle"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "advanced-005",
+    "roleplay_type": "advanced",
+    "customer_message": "I'm confused about renewal versus redemption. What's the difference?",
+    "agent_response": "Redemption means you pay the full principal plus interest and take your item home. Renewal means you only pay the interest due, and we issue a new ticket with another 120-day window. XPawn prints both options clearly so you can choose what fits your budget.",
+    "stores_involved": ["Bronx", "Sunset Park"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "advanced-006",
+    "roleplay_type": "advanced",
+    "customer_message": "Can you transfer my loaned watch from Brighton Beach to Lawrence so I can redeem closer to home?",
+    "agent_response": "Yes. Pay the outstanding interest at Brighton Beach or via phone, and we'll schedule a sealed transfer through our internal courier. Transfers take 1–2 business days. Once the watch arrives in Lawrence, we'll notify you so you can redeem there.",
+    "stores_involved": ["Brighton Beach", "Lawrence"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "advanced-007",
+    "roleplay_type": "advanced",
+    "customer_message": "My certified letter never came, but you say my 10-day notice started. How is that fair?",
+    "agent_response": "Article 5 requires us to mail the notice to the address on file once the 120 days end. The certified mail record shows it was sent last week and Twilio texts also went out. Even if the letter hasn't reached you yet, the legal timeline starts once it's mailed, so please come in before the expiration date shown in XPawn.",
+    "stores_involved": ["Pitkin"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "advanced-008",
+    "roleplay_type": "advanced",
+    "customer_message": "I want to renew a diamond ring loan but add more money using the same ring. Possible?",
+    "agent_response": "We can reappraise the ring to see if its market value supports a higher principal. If so, we close out the original ticket, disburse the difference, and create a new loan with updated terms. Otherwise, you can pawn an additional item to supplement the funds.",
+    "stores_involved": ["Freeport", "Sunset Park"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "advanced-009",
+    "roleplay_type": "advanced",
+    "customer_message": "My husband and I both pawned items. Can I pick his up with my ID?",
+    "agent_response": "For security, only the person named on the ticket can redeem, unless they provide a notarized power of attorney or they come in with you. Article 5 mandates strict ID matching, so please have him visit or arrange proper authorization.",
+    "stores_involved": ["New Rochelle", "Bronx"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "advanced-010",
+    "roleplay_type": "advanced",
+    "customer_message": "The value you offered changed when I came back the next day. Why?",
+    "agent_response": "Market prices for gold, luxury watches, and electronics shift daily, and we also recheck condition at intake. XPawn logs market adjustments, so the updated offer reflects current demand. We explain any difference before you sign so you can decide if you want to proceed.",
+    "stores_involved": ["Brighton Beach", "Pitkin"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "advanced-011",
+    "roleplay_type": "advanced",
+    "customer_message": "I redeemed my gold ring but it looks dull. Did you damage it?",
+    "agent_response": "Your ring stayed sealed the whole time. Any tarnish is normal if it wasn't polished before storage. We can clean it on the spot so you leave satisfied, and we can review vault footage if you have concerns. Article 5 requires us to return items in the same condition as intake.",
+    "stores_involved": ["Freeport"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "advanced-012",
+    "roleplay_type": "advanced",
+    "customer_message": "I'm disputing a late fee, but you say there aren't any. Why is the amount more than I expected?",
+    "agent_response": "Pawn tickets in NYC only include principal and regulated interest—no late fees. The higher amount likely comes from additional months of interest since your last payment. Let's review your ticket together line by line so it's crystal clear before you pay.",
+    "stores_involved": ["Bronx", "Sunset Park"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "advanced-013",
+    "roleplay_type": "advanced",
+    "customer_message": "Can I switch my pawn to an outright sale even though I'm halfway through the term?",
+    "agent_response": "Yes, we can convert it. You'll sign a sale agreement so the collateral transfers to us immediately. Depending on market price, we may adjust the offer, and any outstanding interest is settled in the process. XPawn keeps a clear audit trail for compliance.",
+    "stores_involved": ["Lawrence", "Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "advanced-014",
+    "roleplay_type": "advanced",
+    "customer_message": "I pawned multiple items and only want to pick up one. Is that allowed?",
+    "agent_response": "If they're on separate tickets, you can redeem individually. If they share a ticket, you'll need to pay the full balance to close it. Some customers choose to split items into separate tickets for this reason—just let us know next time.",
+    "stores_involved": ["Pitkin", "Bronx"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "advanced-015",
+    "roleplay_type": "advanced",
+    "customer_message": "Do you report my loan to LeadsOnline?",
+    "agent_response": "Yes. Article 5 and local regulations require us to report transactions daily. LeadsOnline entries include descriptions, serials, and your ID. It's part of compliance to deter theft while keeping legitimate customers protected.",
+    "stores_involved": ["Bronx", "Sunset Park", "Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "advanced-016",
+    "roleplay_type": "advanced",
+    "customer_message": "I've already renewed twice. Is there a limit on renewals?",
+    "agent_response": "There's no set limit as long as you pay the interest due each cycle and the item remains in good condition. Each renewal generates a new 120-day ticket per Article 5. Many customers keep rolling loans through XPawn for seasonal cash flow.",
+    "stores_involved": ["Freeport", "Lawrence"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "advanced-017",
+    "roleplay_type": "advanced",
+    "customer_message": "I'm upset because I paid interest yesterday but still got a reminder text today.",
+    "agent_response": "Sorry for the confusion. Twilio PawnOps sometimes sends automated reminders before the system updates. I can confirm your payment posted and the next reminder won't trigger until 30 days before the new maturity date. Thanks for letting us know.",
+    "stores_involved": ["Bronx", "Pitkin"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "advanced-018",
+    "roleplay_type": "advanced",
+    "customer_message": "I received a 10-day notice but I'm in the hospital. Can my sister handle it?",
+    "agent_response": "If you can't visit, provide her with the ticket and a signed authorization plus a copy of your ID. We'll verify everything matches your XPawn profile. As long as she redeems or pays the interest before the notice expires, your collateral stays safe.",
+    "stores_involved": ["New Rochelle", "Freeport"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "advanced-019",
+    "roleplay_type": "advanced",
+    "customer_message": "The interest rate seems higher than what my friend pays elsewhere.",
+    "agent_response": "We follow the NYC Article 5 schedule, which is consistent across licensed pawnbrokers. Differences often come from the loan amount or fees for storage or testing. Let's review your ticket so you can see each component and compare apples to apples.",
+    "stores_involved": ["Brighton Beach", "Sunset Park"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "advanced-020",
+    "roleplay_type": "advanced",
+    "customer_message": "I redeemed but want to pawn the same item again—can we reuse the old ticket?",
+    "agent_response": "We need to write a new ticket each time to reflect the current appraised value and legal disclosures. The process is quick since we already have your ID in XPawn. You'll sign a fresh contract and receive new paperwork for the next 120-day term.",
+    "stores_involved": ["Bronx", "Pitkin"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "advanced-021",
+    "roleplay_type": "advanced",
+    "customer_message": "Can you photograph my items when I drop them off? I'm worried about swaps.",
+    "agent_response": "We already do. Each intake is photographed and stored in XPawn with identifying notes. Vault staff uses those photos to verify items during audits, ensuring you get the exact piece back when you redeem.",
+    "stores_involved": ["Lawrence", "Freeport", "Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "advanced-022",
+    "roleplay_type": "advanced",
+    "customer_message": "My notice says forfeiture date tomorrow but I can't get there until the day after. Any leeway?",
+    "agent_response": "Once the 10-day notice expires, Article 5 allows us to take ownership, so we can't guarantee a hold. Call the store immediately; if the item isn't processed yet, management may grant a one-day courtesy, but it's not guaranteed. Best option is to send someone today with your ticket and ID copy.",
+    "stores_involved": ["Pitkin", "Bronx"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "advanced-023",
+    "roleplay_type": "advanced",
+    "customer_message": "I was told different amounts over the phone versus in-store.",
+    "agent_response": "Phone quotes are estimates because we can't inspect condition remotely. Once you arrive, we confirm specs, test authenticity, and log it in XPawn, which may adjust the offer. We'll explain exactly why any change occurred so you can make an informed decision.",
+    "stores_involved": ["Sunset Park", "Freeport"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "advanced-024",
+    "roleplay_type": "advanced",
+    "customer_message": "I already maxed out my cash advances elsewhere. Will you still lend?",
+    "agent_response": "Pawn loans are collateral-based, so credit lines or bank advances don't affect approval. As long as your item is acceptable and you have ID, we can lend regardless of other debt. We'll assess the collateral and follow standard Article 5 procedures.",
+    "stores_involved": ["Bronx", "Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "advanced-025",
+    "roleplay_type": "advanced",
+    "customer_message": "Do I need to pay sales tax when I redeem my pawn?",
+    "agent_response": "No. Pawn redemptions aren't taxable because you're retrieving your own property after repaying the loan. If you buy merchandise from our retail cases, applicable sales tax would apply, but not on loan interest or redemption.",
+    "stores_involved": ["Freeport", "Lawrence"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  }
+]

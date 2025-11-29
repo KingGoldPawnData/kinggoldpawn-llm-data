@@ -1,0 +1,202 @@
+[
+  {
+    "id": "basic-001",
+    "roleplay_type": "basic",
+    "customer_message": "Hi, I'm new to pawn loans. How exactly does it work at King Gold & Pawn?",
+    "agent_response": "Welcome in! Bring your item and a valid government-issued photo ID. We evaluate it on the spot, explain the offer, and if you agree we enter the ticket into XPawn. New York Article 5 sets a 120-day term plus a mandatory 10-day notice before anything is forfeited. You can repay early anytime at any of our stores and only owe principal plus accrued interest.",
+    "stores_involved": ["Bronx", "Pitkin", "Freeport", "Brighton Beach", "New Rochelle", "Lawrence", "Sunset Park"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "basic-002",
+    "roleplay_type": "basic",
+    "customer_message": "Can I just sell my gold chain instead of pawning it?",
+    "agent_response": "Absolutely. After testing your chain we can quote both a loan value and an outright purchase price so you can decide. Selling is a one-time transaction, while pawning keeps ownership with you for the 120-day loan term. Let us know which option you prefer and we'll document it in XPawn.",
+    "stores_involved": ["Pitkin", "Bronx", "Freeport"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "basic-003",
+    "roleplay_type": "basic",
+    "customer_message": "My bracelet clasp is broken. Do you still take broken jewelry?",
+    "agent_response": "Yes, we make offers on broken gold because we value the actual metal weight after verifying karat. We'll weigh it on a calibrated scale, test it with acid and XRF if needed, and base the loan or purchase on melt value minus fees. Documenting condition protects you and us during storage.",
+    "stores_involved": ["Brighton Beach", "Sunset Park", "Pitkin"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "basic-004",
+    "roleplay_type": "basic",
+    "customer_message": "Where exactly is your Bronx shop and what number do I call?",
+    "agent_response": "Our Bronx store is at 1054 Southern Blvd, Bronx NY 10459 and the direct line is (929) 205-4383. We're a short walk from the Whitlock Ave 6 train stop. Walk-ins are always welcome for loans, sales, and layaways.",
+    "stores_involved": ["Bronx"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "basic-005",
+    "roleplay_type": "basic",
+    "customer_message": "What ID do I need to pawn something?",
+    "agent_response": "New York Article 5 requires a current government-issued photo ID such as a driver license, state ID, passport, or NYC ID. Bring the original card; we scan it into XPawn, verify signatures, and hand you a printed ticket before you leave.",
+    "stores_involved": ["Freeport", "New Rochelle", "Lawrence"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "basic-006",
+    "roleplay_type": "basic",
+    "customer_message": "Do I need an appointment to bring in a laptop, or can I just walk into Pitkin Ave?",
+    "agent_response": "No appointment needed. Bring the laptop, charger, and any passwords cleared for testing. Pitkin Ave (1683 Pitkin Ave, Brooklyn, (929) 203-4646) can plug it in, verify specs, and create a ticket within minutes. Appointments are optional if you prefer a set time.",
+    "stores_involved": ["Pitkin"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "basic-007",
+    "roleplay_type": "basic",
+    "customer_message": "Can I put two different items on the same pawn ticket?",
+    "agent_response": "Yes. XPawn lets us list multiple collateral descriptions on one ticket, each with its own valuation. Many customers bundle jewelry and electronics to keep one payment schedule. We'll review how total principal and interest are calculated before you sign.",
+    "stores_involved": ["Sunset Park", "Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "basic-008",
+    "roleplay_type": "basic",
+    "customer_message": "Do you buy or pawn gaming consoles like a PS5?",
+    "agent_response": "We do. Please bring the console, at least one controller, and the power cables so we can test. Value depends on condition, storage size, and current demand. All seven locations can handle consoles, though Sunset Park processes the highest volume if you'd like the fastest turnaround.",
+    "stores_involved": ["Sunset Park", "Bronx", "Pitkin"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "basic-009",
+    "roleplay_type": "basic",
+    "customer_message": "I have an old Fender guitar. Will New Rochelle take it?",
+    "agent_response": "Yes. New Rochelle (217 North Ave, (914) 809-8980) frequently loans on instruments. We'll check serial numbers, condition, and verify it plays cleanly before quoting you. The same 120-day term applies, and we store instruments in climate-controlled racks.",
+    "stores_involved": ["New Rochelle"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "basic-010",
+    "roleplay_type": "basic",
+    "customer_message": "What interest or fees should I expect on a small loan?",
+    "agent_response": "New York caps pawn interest and fees. We review the exact rate table with you before you sign. Interest accrues monthly on principal; there are no hidden late fees. Everything is printed on your ticket so you know the total cost if you keep the loan for the full 120 days.",
+    "stores_involved": ["Freeport", "Lawrence"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "basic-011",
+    "roleplay_type": "basic",
+    "customer_message": "Is my jewelry safe while it's with you?",
+    "agent_response": "Absolutely. After intake we photograph your items, seal them, and store them in our dual-control vaults. Each location logs vault positions in XPawn. Only managers with paired keys can access sealed bins, and we review footage regularly as part of our compliance program.",
+    "stores_involved": ["Brighton Beach", "Lawrence", "Freeport"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "basic-012",
+    "roleplay_type": "basic",
+    "customer_message": "Do you send reminders when my loan is coming due?",
+    "agent_response": "Yes. XPawn triggers text reminders through Twilio PawnOps as you approach day 90 and again before the 10-day notice period. Make sure your mobile number is correct on your ticket. Notices are also mailed to comply with Article 5.",
+    "stores_involved": ["Bronx", "New Rochelle", "Sunset Park"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "basic-013",
+    "roleplay_type": "basic",
+    "customer_message": "How fast do I get my money once we agree?",
+    "agent_response": "Funding is immediate. Once the ticket prints and you sign, we count out cash twice at the counter and have you acknowledge the amount. Most transactions wrap in under 15 minutes when you bring all accessories and ID.",
+    "stores_involved": ["Pitkin", "Bronx"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "basic-014",
+    "roleplay_type": "basic",
+    "customer_message": "Is there someone who speaks Spanish at the Southern Blvd store?",
+    "agent_response": "Yes, the Bronx team is bilingual. Ask for a Spanish-speaking associate and we can walk you through every step, including the loan contract, so you're fully comfortable before signing.",
+    "stores_involved": ["Bronx"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "basic-015",
+    "roleplay_type": "basic",
+    "customer_message": "Do pawn loans affect my credit report?",
+    "agent_response": "No, pawn loans are strictly collateral-based and never reported to credit bureaus. If you choose not to redeem, we simply keep the collateral after the legal notice period—there's no collection activity or credit hit.",
+    "stores_involved": ["Sunset Park", "Freeport", "Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "basic-016",
+    "roleplay_type": "basic",
+    "customer_message": "What if I can't make it back within 120 days?",
+    "agent_response": "Call us before the term ends. If you can't redeem, you can pay the interest due to renew for another 120-day cycle where permitted. Otherwise, once the 120 days plus the 10-day certified notice pass, the item is legally forfeited under Article 5.",
+    "stores_involved": ["Lawrence", "New Rochelle"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "basic-017",
+    "roleplay_type": "basic",
+    "customer_message": "Do you take gold coins or bullion bars?",
+    "agent_response": "Yes. We authenticate coins and bullion with XRF, weight checks, and magnet tests. Bring any certificates or original packaging. Offers are tied to live market pricing minus our margin, and loans still follow the 120-day schedule.",
+    "stores_involved": ["Freeport", "Lawrence"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "basic-018",
+    "roleplay_type": "basic",
+    "customer_message": "What are your regular hours?",
+    "agent_response": "Hours vary slightly by store, but most Brooklyn and Bronx shops run Monday–Saturday, 10am–6pm, with shortened Sunday hours. Freeport and Lawrence open earlier for commuters. Call ahead if you're coming late so we can prepare paperwork.",
+    "stores_involved": ["Bronx", "Pitkin", "Sunset Park", "Brighton Beach", "Freeport", "Lawrence", "New Rochelle"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "basic-019",
+    "roleplay_type": "basic",
+    "customer_message": "Do you take debit or credit cards for interest payments?",
+    "agent_response": "We primarily accept cash, but most stores can process debit cards for interest payments with ID verification. Cash is still needed for new loans because Article 5 requires funds to be disbursed the same day in cash.",
+    "stores_involved": ["Bronx", "Pitkin", "Sunset Park"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "basic-020",
+    "roleplay_type": "basic",
+    "customer_message": "Will you replace a watch battery before lending on it?",
+    "agent_response": "If a battery swap is needed to verify the watch functions, we can install a fresh one while you wait. The cost is noted on your ticket and may slightly adjust the offer. We never alter the watch beyond what's required for testing.",
+    "stores_involved": ["Brighton Beach", "Lawrence"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "basic-021",
+    "roleplay_type": "basic",
+    "customer_message": "I lost my pawn ticket right after I left. What do I do?",
+    "agent_response": "Come back with your ID. We'll search your XPawn profile, have you sign a lost-ticket affidavit, and reprint the documents. Your collateral remains sealed, and we won't release it without matching ID and the signed paperwork.",
+    "stores_involved": ["Pitkin", "Bronx"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "basic-022",
+    "roleplay_type": "basic",
+    "customer_message": "Can I pawn one item and sell another during the same visit?",
+    "agent_response": "Definitely. We simply create two separate transaction records so the loan item follows the 120-day rules and the sale item is finalized on the spot. Doing both at once can save you time at the counter.",
+    "stores_involved": ["Sunset Park", "Freeport"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "basic-023",
+    "roleplay_type": "basic",
+    "customer_message": "If I pawn at Pitkin Ave, can I make a payment at the Bronx store?",
+    "agent_response": "Yes. XPawn is networked across all locations. Bring your ticket or ID to the Bronx, and we can accept payments or help you redeem, then notify Pitkin to pull the collateral for transport if needed.",
+    "stores_involved": ["Pitkin", "Bronx"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "basic-024",
+    "roleplay_type": "basic",
+    "customer_message": "Do you take small electronics if I'm missing the charger?",
+    "agent_response": "We prefer complete sets so we can fully test. If it's a common charger, we might still evaluate it, but the offer could be lower to cover replacing accessories. Bring everything you have to maximize value.",
+    "stores_involved": ["Sunset Park", "Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "basic-025",
+    "roleplay_type": "basic",
+    "customer_message": "I'm a senior and need help carrying items in. Can someone assist?",
+    "agent_response": "Of course. Let us know when you arrive or call ahead, and a team member can meet you curbside to bring items inside. Customer safety and comfort are part of our service at every King Gold & Pawn location.",
+    "stores_involved": ["Freeport", "New Rochelle", "Lawrence"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  }
+]

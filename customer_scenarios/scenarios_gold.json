@@ -1,0 +1,162 @@
+[
+  {
+    "id": "gold-001",
+    "roleplay_type": "gold",
+    "customer_message": "I have a 14K chain but I'm not sure it's real. How do you test it?",
+    "agent_response": "We start with a magnet check, then use acid testing and XRF to confirm karat purity. We'll also inspect solder joints for base metals. Testing happens while you watch so you understand how we determine value before quoting a loan or purchase.",
+    "stores_involved": ["Pitkin", "Bronx"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "gold-002",
+    "roleplay_type": "gold",
+    "customer_message": "What's the difference between 14K and 18K when pawning?",
+    "agent_response": "18K contains 75% pure gold while 14K contains 58.5%, so higher karat usually brings a higher payout per gram. We weigh each piece on a calibrated scale, apply the day's market rate, and explain the calculations so you know how we arrived at the number.",
+    "stores_involved": ["Freeport", "Lawrence"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "gold-003",
+    "roleplay_type": "gold",
+    "customer_message": "My hollow chain always gets lower offers. Why?",
+    "agent_response": "Hollow chains contain less gold by weight and can dent easily, so they're valued closer to melt weight. We document the style and explain that resale demand is lower, which leads to a smaller loan or purchase price compared to a solid piece of the same length.",
+    "stores_involved": ["Bronx", "Sunset Park"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "gold-004",
+    "roleplay_type": "gold",
+    "customer_message": "Do you buy scrap gold like broken earrings or single studs?",
+    "agent_response": "Yes. After confirming karat, we weigh the broken pieces together and price them at melt value. Even single studs or bent pieces have value. We'll separate stones so you can keep them if you prefer.",
+    "stores_involved": ["Brighton Beach", "Sunset Park"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "gold-005",
+    "roleplay_type": "gold",
+    "customer_message": "Why is the melt price different from resale price in your showcases?",
+    "agent_response": "Melt price reflects raw gold value minus refining costs. Retail jewelry includes craftsmanship, branding, and resale warranties, so pricing is higher. When we loan or buy from you, we base it on melt value plus any premium for designer or gemstone components.",
+    "stores_involved": ["Freeport", "Lawrence"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "gold-006",
+    "roleplay_type": "gold",
+    "customer_message": "Can I pawn gold coins like American Eagles?",
+    "agent_response": "Definitely. We authenticate them with XRF, check weight accuracy, and quote loans based on live gold spot pricing. Coins often qualify for higher LTV because they're easy to resell, and they're stored in sealed capsules inside our vault.",
+    "stores_involved": ["Freeport", "Lawrence", "New Rochelle"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "gold-007",
+    "roleplay_type": "gold",
+    "customer_message": "Do you take gold-filled or plated jewelry?",
+    "agent_response": "We typically decline gold-plated items because the gold content is minimal. Gold-filled may be accepted if the base metal weight justifies it, but offers are much lower than solid gold. We'll test and let you know before proceeding.",
+    "stores_involved": ["Bronx", "Pitkin"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "gold-008",
+    "roleplay_type": "gold",
+    "customer_message": "My bracelet has diamonds. Do you pay extra for the stones?",
+    "agent_response": "Yes. After we weigh the gold, we grade the diamonds and add value for size, color, and clarity. If stones are small or heavily included, we credit them at melee rates. The ticket lists both the gold weight and the stone premium for transparency.",
+    "stores_involved": ["Sunset Park", "Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "gold-009",
+    "roleplay_type": "gold",
+    "customer_message": "How do you handle gold dental grills?",
+    "agent_response": "We accept them if they're clean and not biohazardous. We sanitize, weigh, and test the gold content. Because grills are often 10K or 14K and hollow, values align with raw gold pricing. We'll document the unique design so it's returned exactly as received if you pawn.",
+    "stores_involved": ["Pitkin", "Bronx"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "gold-010",
+    "roleplay_type": "gold",
+    "customer_message": "Can I leave stones in if I just want to melt the gold?",
+    "agent_response": "Yes. We'll remove stones and return them to you so the gold can be refined properly. If you prefer we handle removal after purchase, we can do that too, but we recommend you keep gemstones with sentimental value.",
+    "stores_involved": ["Brighton Beach", "Lawrence"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "gold-011",
+    "roleplay_type": "gold",
+    "customer_message": "Do you buy gold watches for scrap, even if the movement is broken?",
+    "agent_response": "Yes. We'll test the case, bezel, and bracelet purity, subtract the movement weight, and price based on gold content. If it's a brand with collector value, we may pay above melt. Broken movements don't prevent us from making an offer.",
+    "stores_involved": ["Freeport", "Lawrence", "Brighton Beach"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "gold-012",
+    "roleplay_type": "gold",
+    "customer_message": "My chain is stamped 750 but you're calling it 14K. Why?",
+    "agent_response": "Stamps can be inaccurate or faked. Our XRF showed 58.5% purity, which is 14K. We always rely on testing rather than stamps, and we document the readings in XPawn so you can see the results.",
+    "stores_involved": ["Pitkin", "Bronx"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "gold-013",
+    "roleplay_type": "gold",
+    "customer_message": "Why do you need my signature when I sell gold outright?",
+    "agent_response": "State law requires a signed bill of sale along with your ID so we can report the transaction to law enforcement databases. Your signature confirms you're the rightful owner and understand the sale is final.",
+    "stores_involved": ["Bronx", "Sunset Park", "Freeport"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "gold-014",
+    "roleplay_type": "gold",
+    "customer_message": "Can I get a better rate if I bring multiple pieces?",
+    "agent_response": "Bundling gold can help. Larger lots reduce handling and testing time, so we sometimes offer a slightly higher LTV or purchase price. We'll still list each piece in XPawn for accurate descriptions and return.",
+    "stores_involved": ["Lawrence", "Freeport"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "gold-015",
+    "roleplay_type": "gold",
+    "customer_message": "Is rose gold worth the same as yellow gold?",
+    "agent_response": "Yes, as long as the karat purity matches. The copper alloy changes color but not gold content, so a 14K rose piece equals a 14K yellow piece in melt value. Designer branding may add a premium.",
+    "stores_involved": ["Brighton Beach", "Sunset Park"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "gold-016",
+    "roleplay_type": "gold",
+    "customer_message": "Will polishing my gold before bringing it in help the value?",
+    "agent_response": "A light cleaning can improve presentation, but value mostly comes from weight and purity. We'll note any deep scratches or dents since they can impact resale, but polishing isn't required for us to make a strong offer.",
+    "stores_involved": ["Freeport", "New Rochelle"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "gold-017",
+    "roleplay_type": "gold",
+    "customer_message": "Do you accept gold nuggets or raw placer gold?",
+    "agent_response": "We do with supporting documentation. We'll assay the content with XRF, verify there are no prohibited materials, and pay based on purity and weight. Please bring any certificates or origin paperwork to expedite compliance checks.",
+    "stores_involved": ["Lawrence", "Freeport"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "gold-018",
+    "roleplay_type": "gold",
+    "customer_message": "Why did my 10K class ring get a smaller loan than I expected?",
+    "agent_response": "10K contains only 41.7% gold, so its melt value is lower than 14K or 18K pieces. Class rings can still carry sentimental premiums, but from a lending perspective we have to base it on actual metal content. We can show you the weight and calculations so it's transparent.",
+    "stores_involved": ["Pitkin", "Bronx"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "gold-019",
+    "roleplay_type": "gold",
+    "customer_message": "Do you keep my gold insured while it's in the vault?",
+    "agent_response": "Yes. Our vault insurance covers pledged collateral while it's stored. Items remain sealed with your ticket number, and only dual-authorized managers can access them. Insurance certificates are on file if you'd like to review them.",
+    "stores_involved": ["Brighton Beach", "Sunset Park", "Freeport"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "gold-020",
+    "roleplay_type": "gold",
+    "customer_message": "Can I get paid by check instead of cash for a large gold sale?",
+    "agent_response": "Loans must be disbursed in cash per Article 5, but for outright sales above certain amounts we can issue a business check with ID verification. We'll confirm the amount and payment preference before completing the bill of sale.",
+    "stores_involved": ["Freeport", "Lawrence"],
+    "tags": ["pawn shop nyc", "king gold and pawn", "sell gold nyc", "120 day loan", "10 day notice"]
+  }
+]
