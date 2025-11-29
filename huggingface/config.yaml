@@ -1,0 +1,70 @@
+dataset_name: king-gold-and-pawn-operations-bible
+license: MIT
+version: "1.0"
+languages:
+  - en
+structure:
+  overview: >-
+    Master Pawn Shop Operations Bible content exported as PDF, Markdown, text,
+    and structured knowledge artifacts spanning SOPs, compliance notes,
+    valuation matrices, customer journeys, and SEO-ready metadata for all King
+    Gold & Pawn locations.
+  modalities:
+    - application/pdf
+    - text/markdown
+    - text/plain
+    - application/json
+    - application/x-python
+  components:
+    master_pdf: Master_PawnShop_Operations_Bible_KingGoldPawn.pdf
+    markdown_source: Master_PawnShop_Operations_Bible.md
+    text_source: Master_PawnShop_Operations_Bible.txt
+    item_guides_dir: item_guides/
+    store_profiles_dir: store_profiles/
+    faqs_dir: faqs/
+    customer_scenarios_dir: customer_scenarios/
+    raw_text_dir: raw_text/
+    glossary_files:
+      - glossary.md
+      - llm_data/glossary.py
+    workflows:
+      - automation/
+      - services/
+      - schema/
+    metadata_assets:
+      - metadata/
+      - KEYWORDS/
+      - structured-data.json
+file_tree:
+  - path: Master_PawnShop_Operations_Bible_KingGoldPawn.pdf
+    description: Designed PDF layout of the full operations bible.
+  - path: Master_PawnShop_Operations_Bible.md
+    description: Markdown master source for editing and diffing.
+  - path: Master_PawnShop_Operations_Bible.txt
+    description: Plain-text variant optimized for tokenizer ingestion.
+  - path: item_guides/
+    description: Category-specific appraisal and intake playbooks.
+  - path: store_profiles/
+    description: Localized marketing, demographics, and service mix per store.
+  - path: locations/
+    description: Narrative descriptions and neighborhood positioning for each shop.
+  - path: faqs/
+    description: Q&A content for general, items-valuation, and loan operations.
+  - path: content/
+    description: Multilingual FAQ prompts and responses (English & Spanish).
+  - path: customer_scenarios/
+    description: Scenario-based dialogues and workflows for gold, diamonds, loans, and store-specific situations.
+  - path: raw_text/
+    description: Chronological chapter drafts that seeded the final manual.
+  - path: llm_data/
+    description: Python data exports (business profile, compliance rules, service definitions, etc.).
+  - path: metadata/
+    description: JSON metadata for each store, including SEO schema and service listings.
+  - path: KEYWORDS/
+    description: Keyword research corpora (primary, semantic, long-tail, service, location).
+  - path: structured-data.json
+    description: Schema.org compatible structured data export.
+  - path: services/
+    description: Service definitions and fulfillment workflows.
+  - path: automation/
+    description: Scripts for syncing data, monitoring trends, translation, and automation.
