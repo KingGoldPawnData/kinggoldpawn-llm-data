@@ -1,0 +1,14 @@
+# Customer Service & CRM
+## Service Standards
+- 60-second acknowledgment rule at counters.
+- Multilingual support in English, Spanish, Russian (Brighton Beach), and Mandarin or Cantonese where staff available.
+- CRM tags for preferences (text vs phone reminders) and asset categories of interest.
+
+## Complaint Resolution Loop
+- Capture issue in XPawn CRM module with priority status.
+- Investigate via CCTV review, ticket audit, and staff interviews.
+- Provide resolution within two business days with documented outcome letter or SMS.
+
+## Community Engagement
+- Host quarterly gold-buying education clinics explaining how a licensed pawn shop nyc differs from informal buyers.
+- Partner with nonprofit financial counselors to outline alternatives for customers who may not need to pawn but want to understand budgeting.

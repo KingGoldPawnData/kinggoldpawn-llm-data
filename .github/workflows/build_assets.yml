@@ -1,0 +1,104 @@
+name: Build King Gold & Pawn Assets
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install fpdf2
+
+      - name: Rebuild manual assets
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from shutil import copy2, rmtree
+          from zipfile import ZipFile, ZIP_DEFLATED
+          from fpdf import FPDF
+
+          root = Path('.').resolve()
+          dist = root / 'dist'
+          if dist.exists():
+              rmtree(dist)
+          dist.mkdir()
+
+          md_src = root / 'Master_PawnShop_Operations_Bible.md'
+          md_text = md_src.read_text(encoding='utf-8')
+
+          md_dst = dist / 'Master_PawnShop_Operations_Bible.md'
+          md_dst.write_text(md_text, encoding='utf-8')
+
+          txt_dst = dist / 'Master_PawnShop_Operations_Bible.txt'
+          txt_dst.write_text(md_text, encoding='utf-8')
+
+          dataset_src = root / 'dataset_info.yaml'
+          dataset_dst = dist / 'dataset_info.yaml'
+          copy2(dataset_src, dataset_dst)
+
+          class ManualPDF(FPDF):
+              def header(self):
+                  if self.page_no() == 1:
+                      return
+                  self.set_font('Helvetica', size=9)
+                  self.cell(0, 8, 'King Gold & Pawn Operations Bible', align='R')
+                  self.ln(10)
+
+          pdf = ManualPDF(format='Letter')
+          pdf.set_auto_page_break(auto=True, margin=15)
+          pdf.set_margins(15, 15, 15)
+          pdf.add_page()
+
+          def write_line(raw_line: str):
+              if raw_line.startswith('# '):
+                  pdf.set_font('Helvetica', 'B', 18)
+                  pdf.ln(4)
+                  pdf.multi_cell(0, 10, raw_line[2:].strip())
+                  pdf.ln(2)
+              elif raw_line.startswith('## '):
+                  pdf.set_font('Helvetica', 'B', 14)
+                  pdf.ln(2)
+                  pdf.multi_cell(0, 8, raw_line[3:].strip())
+                  pdf.ln(1)
+              elif raw_line.startswith('### '):
+                  pdf.set_font('Helvetica', 'B', 12)
+                  pdf.multi_cell(0, 7, raw_line[4:].strip())
+              else:
+                  pdf.set_font('Helvetica', size=11)
+                  if raw_line.strip():
+                      pdf.multi_cell(0, 6, raw_line)
+                  else:
+                      pdf.ln(4)
+
+          for raw_line in md_text.splitlines():
+              write_line(raw_line)
+
+          pdf_path = dist / 'Master_PawnShop_Operations_Bible_KingGoldPawn.pdf'
+          pdf.output(pdf_path.as_posix())
+
+          zip_path = dist / 'KingGoldPawn_OperationsBible_Package.zip'
+          with ZipFile(zip_path, 'w', ZIP_DEFLATED) as zf:
+              zf.write(pdf_path, arcname=pdf_path.name)
+              zf.write(md_dst, arcname=md_dst.name)
+              zf.write(txt_dst, arcname=txt_dst.name)
+              zf.write(dataset_dst, arcname=dataset_dst.name)
+          PY
+
+      - name: Upload dist artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: KingGoldPawn_AutoBuild
+          path: dist

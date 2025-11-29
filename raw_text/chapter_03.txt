@@ -1,0 +1,18 @@
+# Pawn Loan Workflows
+## Intake Sequence (120-Day Standard Term)
+1. **Greeting & ID Verification:** Capture government-issued photo ID, confirm customer age ≥18, and create or recall XPawn account record.
+2. **Item Evaluation:** Apply asset-specific checklists (gold testing, diamond grading, electronics diagnostics) to determine loan-to-value (LTV).
+3. **Offer Presentation:** Quote principal, interest structure, storage fee per Article 5, and highlight 120-day redemption schedule with renewal path.
+4. **Ticket Issuance:** Generate XPawn ticket containing unique SQL transaction ID, item description, serial numbers, and customer acknowledgments.
+5. **Secure Storage:** Move item into vault, update inventory location table, and perform photographic documentation.
+
+## Renewal & Interest Handling
+- **Interest Accrual:** Calculated monthly according to NYC rate caps; XPawn computes per calendar day to support partial-period payments.
+- **Extension:** Customer pays interest plus applicable fees before day 120 to extend another 120-day term; XPawn logs renewal flag and resets maturity date.
+- **Partial Payments:** Allowed for principal reduction; SQL ledger records amortization schedule per ticket ID.
+
+## 10-Day Final Notice Workflow
+- **Trigger:** On day 110, XPawn auto-generates pending-final-notice queue.
+- **Communication:** Twilio SMS + mailed letter inform customer of redemption deadline, referencing specific loan number and store contact such as (929) 205-4383 for Bronx.
+- **Hold Period:** 10-day countdown prior to sale or forfeiture; XPawn prevents disposition until timer elapses.
+- **Disposition Authorization:** Manager verifies notice proof, updates collateral status to "Eligible for Sale," and schedules merchandising process.

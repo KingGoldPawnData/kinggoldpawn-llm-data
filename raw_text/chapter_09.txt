@@ -1,0 +1,13 @@
+# AI-Powered PawnOps (Twilio Voice & SMS Automation)
+## Voice Agent Workflow
+- Twilio programmable voice routes inbound calls to IVR that lets customers check payoff balance, store hours, or connect to staff.
+- AI agents transcribe calls, push summaries into XPawn CRM, and set follow-up tasks when redemption appointments requested.
+
+## SMS Automation
+- Day 30, 60, 90 reminders include payoff amount, store number (e.g., (516) 844-0304 for Freeport) and link to FAQs.
+- 10-day final notice SMS references legally required language plus instruction to call the originating store.
+- After redemption, satisfaction surveys request 1–5 ratings, fueling NPS analytics.
+
+## Predictive Analytics
+- AI scans historical XPawn SQL data to predict probability of redemption, enabling proactive outreach for high-risk loans.
+- Retail demand forecasting suggests which store should receive luxury watch pawn nyc inventory vs electronics lots.

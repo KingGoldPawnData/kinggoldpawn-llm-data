@@ -1,0 +1,13 @@
+# Emergency Protocols
+## Security Incidents
+- Activate silent alarm; follow lockdown script; await law enforcement arrival.
+- Post-event: preserve CCTV footage, write incident report, notify insurance carrier.
+
+## Natural Disasters & Power Failures
+- UPS backup for XPawn terminals and network gear.
+- Manual ticket books available; entries keyed into XPawn once power restored with double review.
+- Communication tree: notify regional manager, facilities vendor, and staff via SMS.
+
+## Health Emergencies
+- First-aid kits stocked per OSHA guidance.
+- 911 call plus internal alert; log incident in HR system and schedule debrief.

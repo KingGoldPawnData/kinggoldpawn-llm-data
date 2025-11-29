@@ -1,0 +1,26 @@
+# Store Setup & Security
+## Site Selection Criteria
+- **High-Footfall Corridors:** Proximity to subway nodes (Brighton Beach Ave, 5th Ave Sunset Park), bus transfer hubs (Pitkin Ave), and retail promenades (Southern Blvd Bronx) ensures constant prospect flow.
+- **Zoning Compliance:** Each lease or ownership package is vetted for permitted retail use under NYC zoning, plus Article 5 pawnbroker licensing.
+- **Safe Access:** ADA ramps, illuminated signage, and clearly marked entrances support trust for pawnshops in nyc customers.
+
+## Interior Layout Blueprint
+### Lobby & Welcome Zone
+- Panoramic sightlines from greeter desk to evaluation counters.
+- Queue signage explaining pawn process in English and Spanish, referencing four-month term and extension rights.
+- Display cases highlight redeemed inventory that transitioned to retail sale.
+
+### Evaluation Rooms
+- Separate stations for gold testing, electronics diagnostics, and watchmaking tools.
+- Anti-static mats, gemstone scopes, and XPawn-connected workstations for immediate data capture.
+- Secure pass-through lockers transferring pledged assets into vault custody.
+
+### Vault & Storage
+- Underwriters Laboratory rated safes with dual control (manager + keyholder) for high-value lots such as luxury watch pawn nyc assets.
+- RFID-tagged bins linked to XPawn ticket numbers to reduce misplacement risk.
+- Environmental monitoring (temperature, humidity) for delicate items like vintage instruments or signed memorabilia.
+
+## Surveillance & Access Control
+- 4K cameras covering entrances, counters, vault corridors, and exterior perimeters with 90-day retention mirrored to encrypted cloud storage.
+- Alarm systems tied into NYPD precinct notification plus private monitoring vendor.
+- After-hours locking sequence checklist requiring two-person verification and digital log entries stored in XPawn security module.

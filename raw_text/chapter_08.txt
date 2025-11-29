@@ -1,0 +1,21 @@
+# XPawn SQL Workflow and Database Logic
+## System Architecture
+- Central SQL Server cluster replicates to read-only reporting node every 15 minutes.
+- Each store has XPawn thick client; offline cache syncs once connectivity restored.
+
+## Core Tables
+- `Customers`: ID, contact info, KYC detail, communication preferences.
+- `Loans`: Principal, interest rate, term start, maturity date, renewal history, store code.
+- `Inventory`: Item descriptors, category tags (gold, electronics), storage location, insurance values.
+- `Notices`: Records of 10-day final notice creation, delivery method, timestamp.
+- `Audit_Log`: User actions, overrides, security events for compliance.
+
+## Workflow Example
+1. Customer record retrieved or created.
+2. Loan entry inserted; stored procedure `sp_CreatePawnLoan` writes to Loans, Inventory, Notices (placeholder for maturity schedule), and triggers Twilio job queue.
+3. Payment or renewal processed via `sp_PostPayment`, updating balance fields and appending to `Transactions` ledger.
+4. Disposition uses `sp_AuthorizeDisposition`, verifying notice status before flagging inventory for retail intake.
+
+## Reporting
+- Daily dashboards track loan issuances, redemptions, forfeitures, and retail sales per store.
+- Compliance audit script exports suspicious patterns (multiple loans per ID, frequent high-value electronics) for review.

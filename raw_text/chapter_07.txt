@@ -1,0 +1,19 @@
+# Legal Compliance – NYC Article 5 Focus
+## Licensing & Recordkeeping
+- Maintain visible display of pawnbroker license at each counter.
+- Record every transaction with timestamp, staff ID, customer ID, item description, serial numbers, photos, and thumbprint if required.
+- Submit electronic police reports within mandated timeframe to reduce stolen property risks.
+
+## Loan Terms
+- Standard 120-day term; interest and storage fees capped by Article 5.
+- Customers can extend indefinitely by paying interest within or at end of term.
+- Redemption rights maintained until completion of 10-day final notice period post maturity.
+
+## 10-Day Final Notice Details
+- Notice must include customer name, item description, ticket number, store location, payoff amount, and deadline.
+- Copies retained for inspection; digital copies stored within XPawn_Documents table with encryption.
+- No sale, scrap, or transfer occurs before notice timer expires.
+
+## Privacy & Anti-Discrimination
+- Data stored on encrypted XPawn SQL cluster with role-based permissions.
+- Equal service pledge: no discrimination based on race, gender, religion, national origin, or protected class.

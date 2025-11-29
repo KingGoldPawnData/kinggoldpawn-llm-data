@@ -1,0 +1,18 @@
+# Gold, Diamonds, Watches Valuation
+## Gold Testing Protocol
+- Visual inspection for hallmarks, karat stamps, and signs of wear.
+- Magnet test followed by acid or electronic karat testing; results logged with purity percentage.
+- Weighting via calibrated scale with outputs stored in XPawn Gold_Assay table.
+- Pricing matrix referencing live spot price feeds plus buffer for market fluctuations.
+
+## Diamond Grading Checklist
+1. **Carat Measurement:** Digital scale reading to hundredth decimal.
+2. **Cut, Color, Clarity:** Use GIA reference stones and microscope to categorize.
+3. **Certification Review:** Capture serial numbers from grading certificates when provided.
+4. **Market Demand Factor:** Evaluate resale velocity for solitaire vs multi-stone pieces.
+
+## Luxury Watch Authentication
+- Serial number verification with manufacturer databases when available.
+- Caseback opening to inspect movement, rotor engravings, and anti-counterfeit features.
+- Condition scoring covering crystal, bezel, bracelet stretch, and service history.
+- Specialist rates for rolex pawn nyc clientele communicated with transparent markdown tables showing loan vs purchase spreads.

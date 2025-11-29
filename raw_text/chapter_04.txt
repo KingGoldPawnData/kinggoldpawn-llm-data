@@ -1,0 +1,13 @@
+# Buying & Selling Procedures
+## Outright Purchase Process
+- Verify identification identical to pawn loan requirements.
+- Evaluate item using same appraisal standards; document ownership attestation form.
+- Provide itemized purchase receipt with cash, ACH, or business check disbursement.
+
+## Retail Sales Operations
+- Display redeemed inventory after mandatory hold and police file clearance.
+- Provide warranties where applicable (e.g., 7-day functionality guarantee for electronics) and offer layaway tracked within XPawn POS mode.
+- Record sales tax according to jurisdiction (NYC vs Nassau vs Westchester) with daily batch exports into accounting system.
+
+## Cross-Store Transfers
+- Inventory analysts may relocate high-demand categories (e.g., gaming consoles to Pitkin Ave during holiday season). Transfers documented via XPawn transfer tickets, scanning item barcodes at origin and destination with chain-of-custody signatures.

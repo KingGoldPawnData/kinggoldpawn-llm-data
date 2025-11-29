@@ -1,0 +1,15 @@
+# Accounting, HR, and Daily Operations
+## Accounting Cycle
+- Daily closeout: reconcile cash drawers, POS receipts, electronic payments; export to accounting suite via secure API.
+- Weekly review: compare outstanding loan principal vs vault contents, ensuring coverage plus insurance sufficiency.
+- Monthly statements: compile interest income, storage revenue, retail gross margin, and charge-offs for executive review.
+
+## Human Resources
+- Pre-hire background checks focusing on integrity and financial responsibility.
+- Training modules: compliance fundamentals, XPawn navigation, conflict de-escalation, and SEO keyword awareness for digital communication.
+- Performance metrics: loan accuracy rate, customer satisfaction, adherence to 60-second greeting promise.
+
+## Daily Operations Checklist
+- Morning: dual unlock, alarm disarm, vault inspection, XPawn sync verification.
+- Midday: CCTV spot check, queue time monitoring, Twilio system health review.
+- Evening: vault balancing, XPawn ticket reconciliation, alarm arming, and incident log submission.
