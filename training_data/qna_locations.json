@@ -1,0 +1,177 @@
+[
+  {
+    "id": "locations-001",
+    "question": "Where is the Freeport store and what’s the phone number?",
+    "answer": "Freeport sits at 24 W Merrick Rd, Freeport, NY 11520. Call (516) 844-0304 for marine gear appointments, gold loans, or to ask about parking behind the shop.",
+    "category": "locations",
+    "tags": ["freeport pawn shop", "king gold and pawn", "pawn shop long island", "store address", "contact"]
+  },
+  {
+    "id": "locations-002",
+    "question": "Which subway goes to Brighton Beach?",
+    "answer": "Take the B or Q train to Brighton Beach station, walk two blocks along Brighton Beach Ave to number 510, and call (718) 676-6762 if you need directions.",
+    "category": "locations",
+    "tags": ["brighton beach", "brooklyn pawn shop", "subway", "store directions", "king gold and pawn"]
+  },
+  {
+    "id": "locations-003",
+    "question": "Where is the Pitkin Ave store located?",
+    "answer": "Pitkin Ave is at 1683 Pitkin Ave, Brooklyn, NY 11212. Phone (929) 203-4646. It’s near the Sutter Ave–Rutland Rd subway stop and several bus lines.",
+    "category": "locations",
+    "tags": ["pitkin ave", "brooklyn pawn shop", "store address", "pawn shop nyc", "contact"]
+  },
+  {
+    "id": "locations-004",
+    "question": "What’s the address for the Bronx shop?",
+    "answer": "The Bronx (Longwood) location is at 1054 Southern Blvd, Bronx, NY 10459. Call (929) 205-4383. It’s a short walk from the Whitlock Ave 6 train.",
+    "category": "locations",
+    "tags": ["bronx pawn shop", "southern blvd", "store address", "king gold and pawn", "contact"]
+  },
+  {
+    "id": "locations-005",
+    "question": "Where do I find the Lawrence location?",
+    "answer": "Lawrence operates on the 2nd floor at 636 Rockaway Turnpike, Lawrence, NY 11559. The direct line is (516) 344-8433. There’s secured parking behind the building.",
+    "category": "locations",
+    "tags": ["lawrence pawn shop", "nassau county", "store address", "king gold and pawn", "contact"]
+  },
+  {
+    "id": "locations-006",
+    "question": "Is there a store in Westchester?",
+    "answer": "Yes. New Rochelle is at 217 North Ave, New Rochelle, NY 10801. Call (914) 809-8980. It’s steps from the Metro-North station for commuters.",
+    "category": "locations",
+    "tags": ["new rochelle pawn shop", "westchester", "store address", "king gold and pawn", "commuter"]
+  },
+  {
+    "id": "locations-007",
+    "question": "How do I contact the Sunset Park store?",
+    "answer": "Sunset Park is at 4507 5th Ave, Brooklyn, NY 11220. Dial (929) 209-3364. It’s close to the 45th Street R train station.",
+    "category": "locations",
+    "tags": ["sunset park", "brooklyn pawn shop", "store phone", "king gold and pawn", "directions"]
+  },
+  {
+    "id": "locations-008",
+    "question": "Do any stores stay open later on weekdays?",
+    "answer": "The Bronx and Sunset Park shops routinely extend to 7pm on Thursdays. Call ahead to confirm if you need paperwork started before you arrive.",
+    "category": "locations",
+    "tags": ["store hours", "late night", "bronx", "sunset park", "king gold and pawn"]
+  },
+  {
+    "id": "locations-009",
+    "question": "Which store is closest to JFK Airport?",
+    "answer": "Lawrence at 636 Rockaway Turnpike is about 10 minutes from JFK, making it convenient for travelers needing a private appointment before a flight.",
+    "category": "locations",
+    "tags": ["jfk", "lawrence", "pawn shop", "travel", "king gold and pawn"]
+  },
+  {
+    "id": "locations-010",
+    "question": "Where should I go if I’m on Long Island’s South Shore?",
+    "answer": "Freeport is the go-to for South Shore customers, with easy access from Sunrise Highway. Call (516) 844-0304 to check wait times or book an appointment.",
+    "category": "locations",
+    "tags": ["south shore", "freeport", "pawn shop long island", "king gold and pawn", "contact"]
+  },
+  {
+    "id": "locations-011",
+    "question": "Is the Brighton Beach store bilingual?",
+    "answer": "Yes. Staff speaks Russian, Ukrainian, and English. Call (718) 676-6762 if you’d like to schedule a Russian-language appointment.",
+    "category": "locations",
+    "tags": ["brighton beach", "bilingual", "pawn shop brooklyn", "king gold and pawn", "languages"]
+  },
+  {
+    "id": "locations-012",
+    "question": "Which store should I contact for estate jewelry?",
+    "answer": "Lawrence specializes in private estate consultations, while Brighton Beach and Freeport also handle high-end jewelry. Call Lawrence at (516) 344-8433 for discreet appointments.",
+    "category": "locations",
+    "tags": ["estate jewelry", "lawrence", "brighton beach", "freeport", "king gold and pawn"]
+  },
+  {
+    "id": "locations-013",
+    "question": "Does Pitkin Ave accept walk-ins on Sundays?",
+    "answer": "Yes. The Brownsville location opens Sundays from 11am to 4pm for quick gold or electronics loans. Dial (929) 203-4646 with questions.",
+    "category": "locations",
+    "tags": ["pitkin ave", "sunday hours", "pawn shop brooklyn", "king gold and pawn", "walk in"]
+  },
+  {
+    "id": "locations-014",
+    "question": "Is the Bronx store Spanish-speaking?",
+    "answer": "Absolutely. Most associates are bilingual. Call (929) 205-4383 and ask for a Spanish speaker if you’d like to review Article 5 disclosures in Spanish.",
+    "category": "locations",
+    "tags": ["bronx", "spanish", "pawn shop nyc", "king gold and pawn", "bilingual"]
+  },
+  {
+    "id": "locations-015",
+    "question": "Which store handles luxury watch appointments?",
+    "answer": "Lawrence and Brighton Beach both have private watch benches. Lawrence offers appointment-only suites; Brighton Beach accepts same-day walk-ins.",
+    "category": "locations",
+    "tags": ["luxury watch", "lawrence", "brighton beach", "pawn shop", "king gold and pawn"]
+  },
+  {
+    "id": "locations-016",
+    "question": "Can I call one store to ask about another location’s hours?",
+    "answer": "Yes. XPawn displays real-time hours and queue status. Any store can confirm another location’s schedule or start a transfer request for you.",
+    "category": "locations",
+    "tags": ["cross store", "xpawn", "store hours", "pawn shop nyc", "king gold and pawn"]
+  },
+  {
+    "id": "locations-017",
+    "question": "Which store has curbside assistance?",
+    "answer": "Freeport and New Rochelle both offer curbside carry-in help for seniors or large items. Call ahead so staff can meet you at your car.",
+    "category": "locations",
+    "tags": ["curbside", "freeport", "new rochelle", "pawn shop", "king gold and pawn"]
+  },
+  {
+    "id": "locations-018",
+    "question": "Where should I bring industrial tools?",
+    "answer": "Sunset Park (4507 5th Ave) and Bronx specialize in contractor and industrial tools. Call (929) 209-3364 or (929) 205-4383 to confirm bench availability.",
+    "category": "locations",
+    "tags": ["industrial tools", "sunset park", "bronx", "pawn shop nyc", "king gold and pawn"]
+  },
+  {
+    "id": "locations-019",
+    "question": "Is there parking near the Lawrence office?",
+    "answer": "Lawrence has dedicated parking behind the building plus elevator access to the second floor. Call (516) 344-8433 if you need curbside assistance.",
+    "category": "locations",
+    "tags": ["parking", "lawrence", "pawn shop", "accessibility", "king gold and pawn"]
+  },
+  {
+    "id": "locations-020",
+    "question": "Where can I sell gold in Brooklyn near the beach?",
+    "answer": "Visit Brighton Beach at 510 Brighton Beach Ave. The team specializes in gold, diamonds, and multilingual consultations. Phone (718) 676-6762.",
+    "category": "locations",
+    "tags": ["sell gold", "brighton beach", "pawn shop brooklyn", "king gold and pawn", "store address"]
+  },
+  {
+    "id": "locations-021",
+    "question": "Which store is best for commuters from Queens?",
+    "answer": "New Rochelle is popular for Westchester/Queens commuters, while Bronx and Pitkin Ave serve riders off the 2/5 and 3 lines. Choose whichever stop is easiest for your commute.",
+    "category": "locations",
+    "tags": ["commuter", "queens", "pawn shop nyc", "king gold and pawn", "locations"]
+  },
+  {
+    "id": "locations-022",
+    "question": "Can I schedule appointments online?",
+    "answer": "Call your preferred store to request an appointment or text back the Twilio reminder. Lawrence, Freeport, and Brighton Beach frequently book time slots for high-value items.",
+    "category": "locations",
+    "tags": ["appointments", "twilio", "pawn shop nyc", "king gold and pawn", "locations"]
+  },
+  {
+    "id": "locations-023",
+    "question": "Which store hosts bilingual Spanish-English staff besides Bronx?",
+    "answer": "Sunset Park, Pitkin Ave, and Freeport all maintain Spanish-speaking teams. Mention your preferred language when checking in so we pair you with the right advisor.",
+    "category": "locations",
+    "tags": ["bilingual", "spanish", "sunset park", "pitkin", "king gold and pawn"]
+  },
+  {
+    "id": "locations-024",
+    "question": "Where can I buy retail items once they clear hold?",
+    "answer": "Brighton Beach, Sunset Park, and Lawrence showcase jewelry and watches after hold periods expire. Ask any store for the current retail inventory list exported from XPawn.",
+    "category": "locations",
+    "tags": ["retail", "inventory", "pawn shop nyc", "king gold and pawn", "xpawn"]
+  },
+  {
+    "id": "locations-025",
+    "question": "Which store should I visit if I live near Bay Ridge?",
+    "answer": "Sunset Park at 4507 5th Ave is the closest. It’s a quick bus or subway ride and handles gold, electronics, and multilingual service every day.",
+    "category": "locations",
+    "tags": ["bay ridge", "sunset park", "pawn shop brooklyn", "king gold and pawn", "directions"]
+  }
+]

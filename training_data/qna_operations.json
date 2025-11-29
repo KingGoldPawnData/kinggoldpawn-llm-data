@@ -1,0 +1,177 @@
+[
+  {
+    "id": "operations-001",
+    "question": "What system does King Gold & Pawn use for tickets?",
+    "answer": "We use XPawn across all stores. It captures ID scans, photos, serial numbers, interest schedules, and renewal history so every location follows the same workflow.",
+    "category": "operations",
+    "tags": ["xpawn", "pawn shop nyc", "operations", "king gold and pawn", "ticketing"]
+  },
+  {
+    "id": "operations-002",
+    "question": "How quickly are items vaulted after intake?",
+    "answer": "Within minutes. After you sign the ticket, vault staff places the item in tamper-sealed packaging, tags it with RFID linked to your ticket, and logs the bin location in XPawn.",
+    "category": "operations",
+    "tags": ["vault", "operations", "pawn shop nyc", "security", "xpawn"]
+  },
+  {
+    "id": "operations-003",
+    "question": "What happens during the intake process?",
+    "answer": "We verify ID, inspect and test the item, document notes in XPawn, present the offer, and print the ticket. You sign the receipt, we pay cash, then seal the item for storage.",
+    "category": "operations",
+    "tags": ["intake", "workflow", "pawn shop nyc", "king gold and pawn", "process"]
+  },
+  {
+    "id": "operations-004",
+    "question": "Do all stores follow the same operating hours?",
+    "answer": "Core hours are similar, but local demand impacts open/close times. For example, Bronx and Sunset Park stay open later Thursdays. XPawn displays each store’s schedule so staff can coordinate transfers.",
+    "category": "operations",
+    "tags": ["store hours", "xpawn", "operations", "pawn shop nyc", "scheduling"]
+  },
+  {
+    "id": "operations-005",
+    "question": "How are high-value items handled?",
+    "answer": "Pieces above internal thresholds require manager sign-off, dual authentication, tamper-evident bags, insurance logs, and storage in high-security safes with humidity control.",
+    "category": "operations",
+    "tags": ["high value", "security", "pawn shop nyc", "operations", "compliance"]
+  },
+  {
+    "id": "operations-006",
+    "question": "What is the daily closeout routine?",
+    "answer": "Each night we reconcile cash drawers, verify vault contents, run XPawn end-of-day reports, export LeadsOnline data, and confirm all Twilio reminders queued properly for the next day.",
+    "category": "operations",
+    "tags": ["closeout", "xpawn", "operations", "pawn shop nyc", "reporting"]
+  },
+  {
+    "id": "operations-007",
+    "question": "How do Twilio reminders work?",
+    "answer": "XPawn triggers Twilio SMS and voice reminders at day 60, 90, and 110. Customers can reply to confirm plans, and notes feed back into XPawn CRM for follow-up.",
+    "category": "operations",
+    "tags": ["twilio", "reminders", "operations", "pawn shop nyc", "xpawn"]
+  },
+  {
+    "id": "operations-008",
+    "question": "Can I make a payment over the phone?",
+    "answer": "Most stores can accept debit payments by phone after verifying your identity and ticket details. XPawn posts the payment instantly and emails or texts a receipt.",
+    "category": "operations",
+    "tags": ["phone payment", "xpawn", "pawn shop nyc", "operations", "twilio"]
+  },
+  {
+    "id": "operations-009",
+    "question": "How are items transferred between stores?",
+    "answer": "We create a transfer ticket in XPawn, place the item in tamper bags, and send it through insured couriers with GPS tracking. Transfers typically take one business day.",
+    "category": "operations",
+    "tags": ["transfer", "xpawn", "operations", "pawn shop nyc", "security"]
+  },
+  {
+    "id": "operations-010",
+    "question": "What’s the process for renewing a loan?",
+    "answer": "Pay the interest due, sign the renewal slip, and XPawn issues a new ticket with another 120-day term. The item stays sealed in the vault throughout.",
+    "category": "operations",
+    "tags": ["renewal", "xpawn", "operations", "pawn shop nyc", "120 day loan"]
+  },
+  {
+    "id": "operations-011",
+    "question": "How do you handle lost-and-found items left in the lobby?",
+    "answer": "Items are logged in the incident report, stored in a secure drawer, and reviewed during daily closeout. If unclaimed, we follow local regulations for disposal.",
+    "category": "operations",
+    "tags": ["incident", "operations", "pawn shop nyc", "security", "policy"]
+  },
+  {
+    "id": "operations-012",
+    "question": "Who monitors compliance across stores?",
+    "answer": "A regional compliance officer reviews XPawn audit logs, LeadsOnline uploads, and vault inspections weekly to ensure every store meets Article 5 standards.",
+    "category": "operations",
+    "tags": ["compliance", "audit", "operations", "pawn shop nyc", "xpawn"]
+  },
+  {
+    "id": "operations-013",
+    "question": "What is the complaint resolution loop?",
+    "answer": "Complaints enter XPawn CRM, management reviews CCTV or ticket notes, and we respond within two business days. Outcomes are documented for training and compliance.",
+    "category": "operations",
+    "tags": ["complaint", "customer service", "operations", "xpawn", "policy"]
+  },
+  {
+    "id": "operations-014",
+    "question": "How do you manage bilingual service?",
+    "answer": "We tag language preferences in XPawn and assign bilingual staff. Stores like Bronx, Sunset Park, Pitkin, and Brighton Beach maintain Spanish- and Russian-speaking associates on each shift.",
+    "category": "operations",
+    "tags": ["bilingual", "operations", "xpawn", "pawn shop nyc", "customer service"]
+  },
+  {
+    "id": "operations-015",
+    "question": "What role does CCTV play in operations?",
+    "answer": "All intake desks, vault corridors, and entrances are covered by 4K CCTV with cloud backups. Footage supports investigations, training, and insurance compliance.",
+    "category": "operations",
+    "tags": ["cctv", "security", "operations", "pawn shop nyc", "compliance"]
+  },
+  {
+    "id": "operations-016",
+    "question": "How do you track employee permissions?",
+    "answer": "XPawn uses role-based access, and we update permissions through HR when roles change. Vault access requires being listed on the keyholder log.",
+    "category": "operations",
+    "tags": ["permissions", "hr", "xpawn", "operations", "security"]
+  },
+  {
+    "id": "operations-017",
+    "question": "How are retail items priced after forfeiture?",
+    "answer": "Merchandising managers review spot pricing, comps, and condition. XPawn tracks markdown schedules to keep inventory moving while meeting margin targets.",
+    "category": "operations",
+    "tags": ["retail", "inventory", "operations", "xpawn", "pricing"]
+  },
+  {
+    "id": "operations-018",
+    "question": "What happens if inventory counts don’t match XPawn?",
+    "answer": "We trigger an incident report, review CCTV, re-count bins, and escalate to compliance. Discrepancies are resolved before the next business day.",
+    "category": "operations",
+    "tags": ["inventory", "xpawn", "operations", "audit", "policy"]
+  },
+  {
+    "id": "operations-019",
+    "question": "How do you manage seasonal traffic spikes?",
+    "answer": "We adjust staffing, extend hours, and pre-stage Twilio reminders for busy periods like holidays or tax season. Transfers balance inventory between boroughs when needed.",
+    "category": "operations",
+    "tags": ["seasonal", "operations", "staffing", "pawn shop nyc", "twilio"]
+  },
+  {
+    "id": "operations-020",
+    "question": "Are appointments required for high-value loans?",
+    "answer": "Walk-ins are welcome, but Lawrence, Freeport, and Brighton Beach offer appointment slots for estate jewelry or luxury watches to ensure privacy and quicker authentication.",
+    "category": "operations",
+    "tags": ["appointments", "operations", "pawn shop nyc", "luxury", "king gold and pawn"]
+  },
+  {
+    "id": "operations-021",
+    "question": "How do you handle emergencies like power outages?",
+    "answer": "Stores switch to UPS-backed equipment, pause new intake, and secure existing property. Once power returns, XPawn syncs queued entries and managers file an incident report.",
+    "category": "operations",
+    "tags": ["emergency", "power outage", "operations", "pawn shop nyc", "policy"]
+  },
+  {
+    "id": "operations-022",
+    "question": "What training do new employees receive?",
+    "answer": "New hires study the Master Operations Bible, shadow experienced staff, complete XPawn certification modules, and review Article 5 compliance steps before handling solo intake.",
+    "category": "operations",
+    "tags": ["training", "operations", "xpawn", "article 5", "onboarding"]
+  },
+  {
+    "id": "operations-023",
+    "question": "How is customer data protected?",
+    "answer": "XPawn encrypts ID scans, tickets, and contact info. Access is limited by role, and we comply with state privacy rules. Printed tickets are stored securely when not in the customer’s possession.",
+    "category": "operations",
+    "tags": ["privacy", "xpawn", "operations", "security", "pawn shop nyc"]
+  },
+  {
+    "id": "operations-024",
+    "question": "Who approves markdowns on retail items?",
+    "answer": "Store managers propose markdowns, and the merchandising director approves them in XPawn’s inventory module to maintain margin targets and audit trails.",
+    "category": "operations",
+    "tags": ["markdown", "retail", "xpawn", "operations", "policy"]
+  },
+  {
+    "id": "operations-025",
+    "question": "How do you ensure consistent customer service?",
+    "answer": "We use standardized scripts, bilingual signage, and a service checklist that covers greetings, ID explanation, valuation transparency, and exit confirmations. Secret shopper audits reinforce consistency.",
+    "category": "operations",
+    "tags": ["customer service", "operations", "pawn shop nyc", "policy", "training"]
+  }
+]

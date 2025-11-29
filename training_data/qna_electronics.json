@@ -1,0 +1,177 @@
+[
+  {
+    "id": "electronics-001",
+    "question": "What electronics do you accept for pawn loans?",
+    "answer": "All seven stores accept current laptops, tablets, flagship smartphones, gaming consoles, cameras, drones, and pro audio gear. Devices must power on, be free of activation locks, and include chargers when possible so we can test them before entering the loan into XPawn.",
+    "category": "electronics",
+    "tags": ["pawn shop nyc", "electronics loan", "sell electronics nyc", "king gold and pawn", "120 day loan"]
+  },
+  {
+    "id": "electronics-002",
+    "question": "Do you take PlayStation 5 or Xbox Series X systems?",
+    "answer": "Yes. Pitkin Ave, Bronx, and Sunset Park process large volumes of PS5 and Xbox Series X consoles. Bring controllers, power cables, and any digital access codes. We test the system on-site, log the serial in XPawn, and apply the 120-day loan term with the same 10-day notice rules as jewelry.",
+    "category": "electronics",
+    "tags": ["gaming console pawn", "sell ps5 nyc", "pawn shop nyc", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "electronics-003",
+    "question": "Can I pawn a MacBook without the charger?",
+    "answer": "We prefer complete sets, but we keep spare chargers for testing. If you’re missing accessories, the loan amount might be reduced because we’ll need to replace them before resale. Bring everything you have to maximize value.",
+    "category": "electronics",
+    "tags": ["macbook pawn", "electronics loan", "sell laptop nyc", "king gold and pawn", "loan to value"]
+  },
+  {
+    "id": "electronics-004",
+    "question": "What happens to my data while the laptop is in storage?",
+    "answer": "We perform a check to confirm the device is signed out of personal accounts, but we do not browse private files. Laptops are stored powered down in padded vault bins with tamper seals. If the loan defaults, we wipe the device before resale to protect your privacy.",
+    "category": "electronics",
+    "tags": ["data security", "pawn shop nyc", "electronics loan", "privacy", "xpawn"]
+  },
+  {
+    "id": "electronics-005",
+    "question": "How do you determine the value of a smartphone?",
+    "answer": "We verify the IMEI is clear, check storage capacity, battery health, and cosmetic condition, then compare recent resale prices. LTV usually runs 40–60% of current street value. Everything is documented in XPawn so you can review the calculation.",
+    "category": "electronics",
+    "tags": ["smartphone pawn", "sell iphone nyc", "imei check", "king gold and pawn", "ltv"]
+  },
+  {
+    "id": "electronics-006",
+    "question": "Can I pawn a device that still has carrier financing on it?",
+    "answer": "We strongly prefer paid-off devices. If the carrier lock isn’t cleared or the account is delinquent, we may decline the item. Bring proof the balance is settled so we can process the loan without risking a blocked IMEI later.",
+    "category": "electronics",
+    "tags": ["carrier lock", "pawn shop nyc", "sell phone", "compliance", "electronics"]
+  },
+  {
+    "id": "electronics-007",
+    "question": "Do you accept drones or camera gear?",
+    "answer": "Yes. Freeport and Lawrence see a lot of DSLR kits, mirrorless cameras, and DJI drones. Bring batteries, chargers, and proof of purchase if available. We power everything up, record serials, and store gear in padded cases for the 120-day term.",
+    "category": "electronics",
+    "tags": ["camera pawn", "sell drone", "pawn shop long island", "king gold and pawn", "120 day loan"]
+  },
+  {
+    "id": "electronics-008",
+    "question": "How do you store electronics during the loan?",
+    "answer": "Electronics are sealed in anti-static bags, placed in padded bins with desiccant packs, and labeled with RFID tags tied to your ticket. Vault humidity and temperature are monitored across all stores, and only dual keyholders can access the bins.",
+    "category": "electronics",
+    "tags": ["vault storage", "electronics loan", "xpawn", "security", "pawn shop nyc"]
+  },
+  {
+    "id": "electronics-009",
+    "question": "Can I redeem my item at a different store than where I pawned it?",
+    "answer": "Yes. XPawn is networked across King Gold & Pawn locations. Pay the balance at any store, and we’ll transfer the device by insured courier if it’s housed elsewhere. Transfers typically take one business day.",
+    "category": "electronics",
+    "tags": ["cross store", "xpawn", "pawn shop nyc", "electronics", "redeem"]
+  },
+  {
+    "id": "electronics-010",
+    "question": "Do you accept smartwatches?",
+    "answer": "Apple Watch, Samsung Galaxy Watch, and Garmin units are welcome. We check activation lock status, condition, and band completeness. Offers are based on current resale value, and the same 120-day/10-day notice rules apply.",
+    "category": "electronics",
+    "tags": ["smartwatch", "pawn shop nyc", "electronics", "king gold and pawn", "sell smartwatch"]
+  },
+  {
+    "id": "electronics-011",
+    "question": "What if my laptop has a cracked screen?",
+    "answer": "We can still evaluate it, but the payout will drop to reflect repair costs. Severe damage may shift the item into parts-value pricing. We document the condition in XPawn so there’s no confusion at redemption.",
+    "category": "electronics",
+    "tags": ["cracked screen", "electronics loan", "sell laptop", "pawn shop nyc", "valuation"]
+  },
+  {
+    "id": "electronics-012",
+    "question": "Can I pawn studio speakers or DJ equipment?",
+    "answer": "Yes. Brighton Beach, Sunset Park, and New Rochelle handle pro audio gear daily. Bring all cables and controllers so we can test sound output. Items are stored upright with padding to preserve performance.",
+    "category": "electronics",
+    "tags": ["dj gear", "pro audio", "pawn shop nyc", "sell electronics", "king gold and pawn"]
+  },
+  {
+    "id": "electronics-013",
+    "question": "Do electronics loans also have the 120-day term?",
+    "answer": "Absolutely. Article 5 requires every pawn loan—whether jewelry or electronics—to run 120 days with the option to renew. After maturity, we issue the 10-day final notice before any device can be forfeited.",
+    "category": "electronics",
+    "tags": ["120 day loan", "electronics", "article 5", "pawn shop nyc", "10 day notice"]
+  },
+  {
+    "id": "electronics-014",
+    "question": "Are there late fees if I miss a payment?",
+    "answer": "No separate late fees. Interest accrues monthly until you pay or the loan reaches day 120. If you can’t make it in time, pay the interest to renew for another 120-day cycle. Otherwise, the 10-day notice process begins.",
+    "category": "electronics",
+    "tags": ["late fee", "interest", "pawn shop nyc", "electronics", "renewal"]
+  },
+  {
+    "id": "electronics-015",
+    "question": "Do you provide receipts showing serial numbers?",
+    "answer": "Yes. Every electronics ticket lists model, specs, and serial/IMEI numbers. You’ll receive a printed copy plus optional SMS/Email. This protects your ownership and ensures we return the exact device you pawned.",
+    "category": "electronics",
+    "tags": ["serial number", "receipt", "pawn shop nyc", "electronics", "xpawn"]
+  },
+  {
+    "id": "electronics-016",
+    "question": "Can I pawn multiple electronics on one ticket?",
+    "answer": "We can list multiple devices on a single ticket, each with its own description. Many customers bundle a laptop and console together so they have one due date. Remember, to redeem one item you’ll need to close the whole ticket.",
+    "category": "electronics",
+    "tags": ["multi item", "electronics loan", "xpawn", "pawn shop nyc", "ticket"]
+  },
+  {
+    "id": "electronics-017",
+    "question": "How do you handle Apple Activation Lock?",
+    "answer": "We verify Find My iPhone is turned off before funding the loan. If it’s still active, we’ll show you how to remove the device from your iCloud account on-site. Locked devices can’t be accepted because they can’t be resold if forfeited.",
+    "category": "electronics",
+    "tags": ["activation lock", "sell iphone", "pawn shop nyc", "electronics", "compliance"]
+  },
+  {
+    "id": "electronics-018",
+    "question": "Do you accept desktop gaming PCs?",
+    "answer": "Yes. Bring the tower, power cable, and any documentation about GPU/CPU upgrades. Because towers are bulky, call ahead so we can prepare space on the diagnostics bench. LTV is based on current component pricing.",
+    "category": "electronics",
+    "tags": ["gaming pc", "electronics loan", "pawn shop nyc", "king gold and pawn", "valuation"]
+  },
+  {
+    "id": "electronics-019",
+    "question": "What if my console stops working while in your possession?",
+    "answer": "Items are stored securely and not used. If something fails during storage, it’s usually due to pre-existing issues. We photograph and document condition at intake so we know exactly how it looked when you pawned it.",
+    "category": "electronics",
+    "tags": ["storage", "electronics", "pawn shop nyc", "documentation", "xpawn"]
+  },
+  {
+    "id": "electronics-020",
+    "question": "Do you accept e-bikes or scooters with electronics systems?",
+    "answer": "Select stores handle e-bikes and scooters if they can be tested safely. Call ahead to Freeport or Bronx for guidance. We check battery health, controller panels, and document VIN or serial numbers.",
+    "category": "electronics",
+    "tags": ["e-bike", "scooter", "pawn shop nyc", "sell electronics", "king gold and pawn"]
+  },
+  {
+    "id": "electronics-021",
+    "question": "Will you reset my device before I pick it up?",
+    "answer": "We don’t perform factory resets unless the item is forfeited. When you redeem, we open the sealed package with you so you can confirm everything matches the intake photos.",
+    "category": "electronics",
+    "tags": ["factory reset", "pawn shop nyc", "electronics", "vault", "security"]
+  },
+  {
+    "id": "electronics-022",
+    "question": "Can I sell my electronics outright instead of pawning?",
+    "answer": "Yes. After testing, we’ll quote both a loan and a purchase price. Selling is final and doesn’t involve the 120-day term. Pawning keeps ownership with you, so choose whichever option fits your needs.",
+    "category": "electronics",
+    "tags": ["sell electronics", "pawn shop nyc", "cash offer", "king gold and pawn", "loan vs sale"]
+  },
+  {
+    "id": "electronics-023",
+    "question": "What documents do I need for an electronics loan?",
+    "answer": "Bring a valid government-issued photo ID. New York Article 5 requires us to scan it into XPawn before funding any loan, including electronics. No credit check is needed because the device secures the loan.",
+    "category": "electronics",
+    "tags": ["id requirement", "pawn shop nyc", "electronics loan", "article 5", "xpawn"]
+  },
+  {
+    "id": "electronics-024",
+    "question": "How fast can I get paid once you approve the device?",
+    "answer": "Most electronics loans close within 15 minutes. After testing, we finalize the offer, print the ticket, and count the cash out twice while you sign the receipt. You leave with funds immediately.",
+    "category": "electronics",
+    "tags": ["quick cash", "electronics loan", "pawn shop nyc", "king gold and pawn", "xpawn"]
+  },
+  {
+    "id": "electronics-025",
+    "question": "Do you report electronics loans to LeadsOnline?",
+    "answer": "Yes. Every transaction, including electronics, is reported daily with serial numbers and customer ID per NYC Article 5. This protects legitimate customers and helps law enforcement trace stolen property.",
+    "category": "electronics",
+    "tags": ["leadsonline", "compliance", "pawn shop nyc", "electronics", "article 5"]
+  }
+]

@@ -1,0 +1,177 @@
+[
+  {
+    "id": "scenarios-001",
+    "question": "A customer from Bronx Central lost their ticket number. How do we look it up?",
+    "answer": "Verify ID, search XPawn by name or phone, confirm their item description, and reprint the ticket. Note the reprint in the account audit trail.",
+    "category": "customer_scenarios",
+    "tags": ["bronx", "xpawn", "customer scenario", "ticket lookup", "king gold and pawn"]
+  },
+  {
+    "id": "scenarios-002",
+    "question": "A Brighton Beach customer speaks only Russian. What steps ensure smooth service?",
+    "answer": "Page a Russian-speaking associate, provide the bilingual pawn-rights handout, and note the preferred language in XPawn for future visits.",
+    "category": "customer_scenarios",
+    "tags": ["brighton beach", "bilingual", "customer scenario", "russian", "xpawn"]
+  },
+  {
+    "id": "scenarios-003",
+    "question": "A customer needs directions to Freeport for a same-day pickup. What do we provide?",
+    "answer": "Share the 133 W Sunrise Hwy address, mention validated parking behind the shop, and remind them to bring ID and the ticket for release.",
+    "category": "customer_scenarios",
+    "tags": ["freeport", "directions", "customer scenario", "pickup", "parking"]
+  },
+  {
+    "id": "scenarios-004",
+    "question": "A borrower is on day 118 and still wants the item. What do we do?",
+    "answer": "Explain the 120-day limit, collect the interest due, and renew the loan immediately in XPawn so they keep another 120-day term.",
+    "category": "customer_scenarios",
+    "tags": ["renewal", "120 day loan", "customer scenario", "xpawn", "article 5"]
+  },
+  {
+    "id": "scenarios-005",
+    "question": "A Pitkin Ave customer wants to pawn both gold and a PS5. How do we handle it?",
+    "answer": "Process separate line items in XPawn, test the PS5 onsite, acid-test the gold, and print a combined ticket showing each valuation.",
+    "category": "customer_scenarios",
+    "tags": ["pitkin ave", "ps5", "gold", "customer scenario", "xpawn"]
+  },
+  {
+    "id": "scenarios-006",
+    "question": "A Sunset Park shopper requests layaway on a Rolex. What do we explain?",
+    "answer": "Layaway requires 20% down, biweekly payments, and completion within 60 days. XPawn sends Twilio reminders so they stay on schedule.",
+    "category": "customer_scenarios",
+    "tags": ["sunset park", "layaway", "twilio", "customer scenario", "retail"]
+  },
+  {
+    "id": "scenarios-007",
+    "question": "A customer claims their reminder text had the wrong payoff. How do we respond?",
+    "answer": "Review the Twilio log linked in XPawn, verify the amount, and correct any entry errors. Provide the accurate payoff verbally and via new SMS.",
+    "category": "customer_scenarios",
+    "tags": ["twilio", "reminder", "customer scenario", "xpawn", "payment"]
+  },
+  {
+    "id": "scenarios-008",
+    "question": "A Lawrence jewelry client asks about private intake. Can we accommodate?",
+    "answer": "Yes. Schedule them in the private appraisal room, limit foot traffic, and ensure only authorized staff handle the jewelry for discretion.",
+    "category": "customer_scenarios",
+    "tags": ["lawrence", "private intake", "customer scenario", "luxury", "service"]
+  },
+  {
+    "id": "scenarios-009",
+    "question": "A first-time borrower is anxious about Article 5 rights. What do we provide?",
+    "answer": "Review the 120-day timeline, 10-day sale notice, interest structure, and give them the printed rights sheet plus a translated copy if needed.",
+    "category": "customer_scenarios",
+    "tags": ["article 5", "customer scenario", "compliance", "rights", "pawn shop nyc"]
+  },
+  {
+    "id": "scenarios-010",
+    "question": "A Bronx regular wants to change their contact number. How is that done?",
+    "answer": "Verify ID, update the phone field in XPawn, resend the latest ticket receipt via text, and confirm Twilio reminders now route to the new number.",
+    "category": "customer_scenarios",
+    "tags": ["bronx", "contact update", "twilio", "customer scenario", "xpawn"]
+  },
+  {
+    "id": "scenarios-011",
+    "question": "A customer needs a notarized statement showing their item is in your vault. What’s the process?",
+    "answer": "Managers print the ticket, attach a notarized affidavit referencing the XPawn record, and email or hand the document to the customer within 24 hours.",
+    "category": "customer_scenarios",
+    "tags": ["notary", "customer scenario", "xpawn", "documentation", "vault"]
+  },
+  {
+    "id": "scenarios-012",
+    "question": "A Spanish-speaking shopper in New Rochelle needs help bridging a small cash gap. How do we assist?",
+    "answer": "Bring in the bilingual associate, review their items, provide transparent valuations, and explain repayment steps in Spanish so they feel confident.",
+    "category": "customer_scenarios",
+    "tags": ["new rochelle", "spanish", "customer scenario", "bilingual", "loan"]
+  },
+  {
+    "id": "scenarios-013",
+    "question": "A customer dropped off a MacBook but forgot the charger. What do we do?",
+    "answer": "Mark the ticket as missing accessories, remind them to bring the charger within seven days, and note the follow-up in XPawn tasks.",
+    "category": "customer_scenarios",
+    "tags": ["macbook", "electronics", "customer scenario", "xpawn", "accessories"]
+  },
+  {
+    "id": "scenarios-014",
+    "question": "A customer wants to pawn a lawn tool that’s muddy. How should staff respond?",
+    "answer": "Ask them to clean it first. Intake only proceeds when equipment is clean enough to test safely. Document the condition photos in XPawn.",
+    "category": "customer_scenarios",
+    "tags": ["tools", "intake", "customer scenario", "xpawn", "condition"]
+  },
+  {
+    "id": "scenarios-015",
+    "question": "A borrower wants to use Zelle to pay interest. Is that allowed?",
+    "answer": "No. We accept cash, debit, or certified funds. Direct them to the nearest store or phone payment desk for a compliant transaction.",
+    "category": "customer_scenarios",
+    "tags": ["payment", "policy", "customer scenario", "loan", "compliance"]
+  },
+  {
+    "id": "scenarios-016",
+    "question": "A senior customer in Westchester South needs extra time due to hospitalization. How do we help?",
+    "answer": "Log the hardship note, collect interest to renew if possible, and offer to set up Twilio reminders for family members with signed consent.",
+    "category": "customer_scenarios",
+    "tags": ["westchester", "hardship", "customer scenario", "twilio", "renewal"]
+  },
+  {
+    "id": "scenarios-017",
+    "question": "A customer disputes the weight of their gold chain. What is the escalation path?",
+    "answer": "Re-weigh the item in their presence, show the cal scale calibration log, and if they still disagree, involve the manager for final review.",
+    "category": "customer_scenarios",
+    "tags": ["gold", "dispute", "customer scenario", "calibration", "manager"]
+  },
+  {
+    "id": "scenarios-018",
+    "question": "A New Rochelle customer wants to pawn heirloom silver flatware. How do we secure it?",
+    "answer": "Document each set, photograph hallmarks, pack with anti-tarnish wraps, and store in the humidity-controlled vault section.",
+    "category": "customer_scenarios",
+    "tags": ["silver", "new rochelle", "customer scenario", "storage", "intake"]
+  },
+  {
+    "id": "scenarios-019",
+    "question": "A Brooklyn East customer requests a bilingual reminder call. How is that scheduled?",
+    "answer": "In XPawn, add a manual task for a Spanish-speaking team member to call within 24 hours, and log the outcome afterward.",
+    "category": "customer_scenarios",
+    "tags": ["brooklyn", "bilingual", "customer scenario", "reminder", "xpawn"]
+  },
+  {
+    "id": "scenarios-020",
+    "question": "A customer wants to know if their forfeited item is now for sale. How do we respond?",
+    "answer": "Check the ticket status. If forfeited and processed to retail, confirm which store will have it and when it hits the sales floor. We cannot hold items once for sale.",
+    "category": "customer_scenarios",
+    "tags": ["forfeiture", "retail", "customer scenario", "policy", "inventory"]
+  },
+  {
+    "id": "scenarios-021",
+    "question": "A customer receiving SSI needs proof of loan payoff for their records. What do we provide?",
+    "answer": "Print or email the payoff receipt from XPawn, include the ticket number, payoff date, and balance zero notation.",
+    "category": "customer_scenarios",
+    "tags": ["ssi", "proof", "customer scenario", "xpawn", "documentation"]
+  },
+  {
+    "id": "scenarios-022",
+    "question": "A walk-in asks why we record serial numbers. How do we explain it?",
+    "answer": "Serial numbers protect both the customer and us. They ensure the exact item is returned and satisfy NYPD reporting requirements under Article 5.",
+    "category": "customer_scenarios",
+    "tags": ["serial number", "article 5", "customer scenario", "compliance", "intake"]
+  },
+  {
+    "id": "scenarios-023",
+    "question": "A Bronx South customer wants to renew but is out of town. What’s the option?",
+    "answer": "They can authorize a family member in writing, or call the store to pay interest by phone after identity verification. XPawn documents the permission.",
+    "category": "customer_scenarios",
+    "tags": ["renewal", "bronx", "customer scenario", "authorization", "xpawn"]
+  },
+  {
+    "id": "scenarios-024",
+    "question": "A customer suspects their friend pawned stolen property. How do we proceed?",
+    "answer": "Collect the claimant’s info, escalate to management, pull the XPawn record, and contact NYPD following Article 5 procedures without disclosing customer data to the public.",
+    "category": "customer_scenarios",
+    "tags": ["stolen", "nypd", "customer scenario", "compliance", "xpawn"]
+  },
+  {
+    "id": "scenarios-025",
+    "question": "A Sunset Park borrower wants to switch loan payments to another store. Is that allowed?",
+    "answer": "Yes. All stores can accept payments because XPawn syncs instantly. Ask for the ticket number, take the payment, and give them a receipt showing the originating location.",
+    "category": "customer_scenarios",
+    "tags": ["sunset park", "payment", "customer scenario", "xpawn", "multi store"]
+  }
+]

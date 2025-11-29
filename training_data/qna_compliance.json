@@ -1,0 +1,177 @@
+[
+  {
+    "id": "compliance-001",
+    "question": "What law governs King Gold & Pawn’s loan terms?",
+    "answer": "All stores operate under New York State General Business Law Article 5. It defines the 120-day pawn term, interest caps, ticket disclosures, and the mandatory 10-day final notice before any collateral is forfeited.",
+    "category": "compliance",
+    "tags": ["article 5", "pawn shop nyc", "king gold and pawn", "120 day loan", "10 day notice"]
+  },
+  {
+    "id": "compliance-002",
+    "question": "Why do you require a government-issued ID?",
+    "answer": "Article 5 requires us to verify and record government-issued photo ID for every transaction. XPawn stores encrypted scans so we can prove we lent to the rightful owner and meet law-enforcement reporting standards.",
+    "category": "compliance",
+    "tags": ["id requirements", "article 5", "pawn shop nyc", "xpawn", "compliance"]
+  },
+  {
+    "id": "compliance-003",
+    "question": "How long is the standard pawn loan term?",
+    "answer": "Every pawn loan runs 120 calendar days. You can redeem anytime during that window or pay the interest to renew for another 120 days. This rule applies at all seven locations.",
+    "category": "compliance",
+    "tags": ["120 day loan", "article 5", "pawn shop nyc", "king gold and pawn", "loan term"]
+  },
+  {
+    "id": "compliance-004",
+    "question": "What is the 10-day final notice?",
+    "answer": "If a loan reaches day 120 without redemption, XPawn automatically generates a certified letter and Twilio SMS giving you 10 additional days. We cannot sell or scrap the item until that notice expires.",
+    "category": "compliance",
+    "tags": ["10 day notice", "article 5", "pawn shop nyc", "xpawn", "twilio"]
+  },
+  {
+    "id": "compliance-005",
+    "question": "Do pawn loans impact my credit score?",
+    "answer": "No. Because the loans are collateral-based and regulated by Article 5, we do not report to credit bureaus. If you choose not to redeem, the collateral satisfies the loan with no credit impact.",
+    "category": "compliance",
+    "tags": ["credit", "pawn shop nyc", "article 5", "king gold and pawn", "loan"]
+  },
+  {
+    "id": "compliance-006",
+    "question": "What happens if a 10-day notice is returned undeliverable?",
+    "answer": "We mail the notice to the address on file and log the postal tracking plus SMS attempts. Article 5 only requires that we send the notice; that’s why keeping your contact info updated is critical.",
+    "category": "compliance",
+    "tags": ["notice", "article 5", "twilio", "xpawn", "compliance"]
+  },
+  {
+    "id": "compliance-007",
+    "question": "Do you report transactions to the police?",
+    "answer": "Yes. Daily exports to LeadsOnline include customer ID, item descriptions, serial numbers, and ticket numbers. This is mandated for pawnshops in NYC to deter theft.",
+    "category": "compliance",
+    "tags": ["leadsonline", "police reporting", "pawn shop nyc", "article 5", "compliance"]
+  },
+  {
+    "id": "compliance-008",
+    "question": "Are pawn tickets available in other languages?",
+    "answer": "Tickets are in English, but staff provides bilingual explanations, especially in Bronx, Pitkin, Sunset Park, and Brighton Beach. We log the language preference in XPawn for future visits.",
+    "category": "compliance",
+    "tags": ["bilingual", "pawn shop nyc", "article 5", "xpawn", "customer service"]
+  },
+  {
+    "id": "compliance-009",
+    "question": "Can someone else pick up my item?",
+    "answer": "Only the person named on the ticket can redeem unless they provide notarized authorization plus matching ID. Article 5 compliance requires strict ID matching at redemption.",
+    "category": "compliance",
+    "tags": ["redemption", "authorization", "pawn shop nyc", "compliance", "article 5"]
+  },
+  {
+    "id": "compliance-010",
+    "question": "Why do you take a thumbprint?",
+    "answer": "NYC regulations allow pawnbrokers to capture thumbprints to help law enforcement. Prints are stored securely and only shared when legally required.",
+    "category": "compliance",
+    "tags": ["thumbprint", "law enforcement", "pawn shop nyc", "compliance", "article 5"]
+  },
+  {
+    "id": "compliance-011",
+    "question": "What fees are allowed on pawn loans?",
+    "answer": "Only the regulated interest and posted storage/insurance charges described on the ticket. We do not add late fees or hidden charges. Everything appears on the ticket you sign.",
+    "category": "compliance",
+    "tags": ["fees", "interest", "article 5", "pawn shop nyc", "transparency"]
+  },
+  {
+    "id": "compliance-012",
+    "question": "How do you ensure vault access is compliant?",
+    "answer": "Vaults require dual-control access—two keyholders sign in and out. XPawn logs every access, and CCTV footage is retained for 90 days per compliance policy.",
+    "category": "compliance",
+    "tags": ["vault", "security", "xpawn", "pawn shop nyc", "compliance"]
+  },
+  {
+    "id": "compliance-013",
+    "question": "What documentation do I take home?",
+    "answer": "You receive a printed ticket with loan terms, principal, interest schedule, and item descriptions. We can also text or email a copy via Twilio. Keep it safe; you’ll need it for redemption.",
+    "category": "compliance",
+    "tags": ["ticket", "twilio", "xpawn", "pawn shop nyc", "article 5"]
+  },
+  {
+    "id": "compliance-014",
+    "question": "How fast are items reported to LeadsOnline?",
+    "answer": "Transactions are uploaded at least once every 24 hours. High-risk categories may be uploaded multiple times per day, keeping us compliant with NYPD expectations.",
+    "category": "compliance",
+    "tags": ["leadsonline", "nypd", "pawn shop nyc", "compliance", "reporting"]
+  },
+  {
+    "id": "compliance-015",
+    "question": "What is Article 5’s rule on early redemption?",
+    "answer": "You can redeem anytime by paying principal plus interest accrued to that date. There are no penalties for early payoff, and interest stops once you settle the ticket.",
+    "category": "compliance",
+    "tags": ["early redemption", "article 5", "pawn shop nyc", "loan", "compliance"]
+  },
+  {
+    "id": "compliance-016",
+    "question": "Can you extend a loan beyond 120 days?",
+    "answer": "Yes, by renewing. Pay the interest due before maturity and we issue a new 120-day ticket. Renewals are unlimited as long as interest remains current and the collateral stays in good condition.",
+    "category": "compliance",
+    "tags": ["renewal", "article 5", "pawn shop nyc", "xpawn", "loan term"]
+  },
+  {
+    "id": "compliance-017",
+    "question": "What if I lose my pawn ticket?",
+    "answer": "Bring your ID. We’ll print a lost-ticket affidavit, have you sign it, and reissue documentation. This prevents unauthorized redemption while keeping you compliant with Article 5.",
+    "category": "compliance",
+    "tags": ["lost ticket", "id", "pawn shop nyc", "article 5", "compliance"]
+  },
+  {
+    "id": "compliance-018",
+    "question": "Do you audit your compliance procedures?",
+    "answer": "Yes. Internal compliance officers review XPawn logs, LeadsOnline submissions, and notice records weekly. This ensures every store maintains Article 5 standards and insurance requirements.",
+    "category": "compliance",
+    "tags": ["audit", "compliance", "xpawn", "pawn shop nyc", "article 5"]
+  },
+  {
+    "id": "compliance-019",
+    "question": "Are pawn receipts required to list serial numbers?",
+    "answer": "Yes for items that have them. Serial numbers, model info, and descriptive notes must appear on the ticket. This protects customers and satisfies police-reporting rules.",
+    "category": "compliance",
+    "tags": ["serial number", "ticket", "pawn shop nyc", "compliance", "article 5"]
+  },
+  {
+    "id": "compliance-020",
+    "question": "How long do you keep surveillance footage?",
+    "answer": "CCTV footage is retained for at least 90 days and mirrored to cloud storage. This supports investigations and shows regulators we maintain secure facilities.",
+    "category": "compliance",
+    "tags": ["cctv", "security", "pawn shop nyc", "compliance", "article 5"]
+  },
+  {
+    "id": "compliance-021",
+    "question": "What happens after an item is forfeited?",
+    "answer": "Once the 10-day notice expires, the item becomes store property. It moves into merchandising queues or scrap channels, but we retain all documentation in case of future inquiries.",
+    "category": "compliance",
+    "tags": ["forfeiture", "article 5", "pawn shop nyc", "compliance", "notice"]
+  },
+  {
+    "id": "compliance-022",
+    "question": "Can I get a written interest schedule?",
+    "answer": "Yes. The ticket lists the monthly interest calculation. We can also print or text a payoff schedule from XPawn so you know exactly what’s due each month.",
+    "category": "compliance",
+    "tags": ["interest", "schedule", "xpawn", "pawn shop nyc", "article 5"]
+  },
+  {
+    "id": "compliance-023",
+    "question": "Do you run credit checks or require income verification?",
+    "answer": "No. Pawn loans are secured solely by the collateral, so there’s no credit check or income documentation. The ID requirement satisfies Article 5.",
+    "category": "compliance",
+    "tags": ["credit check", "article 5", "pawn shop nyc", "loan", "compliance"]
+  },
+  {
+    "id": "compliance-024",
+    "question": "How are complaints handled?",
+    "answer": "We log every complaint in XPawn CRM, review CCTV if needed, and respond within two business days. Resolutions are documented for audit readiness.",
+    "category": "compliance",
+    "tags": ["complaint", "xpawn", "pawn shop nyc", "compliance", "customer service"]
+  },
+  {
+    "id": "compliance-025",
+    "question": "What if I suspect a stolen item is in your store?",
+    "answer": "Contact the store or law enforcement with the police case number. We cooperate fully, providing LeadsOnline records, CCTV, and ticket data as required while following Article 5 protocols.",
+    "category": "compliance",
+    "tags": ["stolen property", "leadsonline", "pawn shop nyc", "article 5", "compliance"]
+  }
+]
