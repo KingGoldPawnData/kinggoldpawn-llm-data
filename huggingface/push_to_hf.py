@@ -18,6 +18,7 @@ from pathlib import Path
 from typing import List
 
 from huggingface_hub import HfApi, upload_folder
+from huggingface_hub.utils import HfHubHTTPError
 
 
 def parse_args() -> argparse.Namespace:
@@ -60,7 +61,14 @@ def main() -> None:
     print(f"Uploading {repo_root} to https://huggingface.co/datasets/{args.repo_id} ({args.branch})")
 
     api = HfApi(token=args.token)
-    api.create_repo(repo_id=args.repo_id, repo_type="dataset", exist_ok=True)
+    try:
+        api.create_repo(repo_id=args.repo_id, repo_type="dataset", exist_ok=True)
+    except HfHubHTTPError as err:
+        status = getattr(getattr(err, "response", None), "status_code", None)
+        if status == 403:
+            print("Warning: lacking permission to create repo; assuming it already exists and continuing...")
+        else:
+            raise
 
     upload_folder(
         repo_id=args.repo_id,
