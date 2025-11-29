@@ -1,9 +1,9 @@
 {
   "keywords_index": {
     "version": "1.0.0",
-    "last_updated": "2025-11-23",
-    "total_keywords": "500+",
-    "total_categories": 5,
+    "last_updated": "2025-11-29",
+    "total_keywords": "11,000+",
+    "total_categories": 6,
     "purpose": "LLM optimization, SEO enhancement, natural language query matching"
   },
   "categories": {
@@ -79,6 +79,15 @@
         "emotional_benefits",
         "temporal_terms"
       ]
+    },
+    "pawnshop_sell_gold_keywords": {
+      "file": "KEYWORDS/pawnshop-sell-gold-keywords.md",
+      "count": "5000",
+      "subcategories": [
+        "pawnshop_intents",
+        "sell_gold_intents"
+      ],
+      "coverage": "NYC + Long Island pawn scenarios, gold liquidation phrases, urgency + location blending"
     }
   },
   "top_primary_keywords": [
