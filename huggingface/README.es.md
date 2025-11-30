@@ -41,6 +41,11 @@ Colección integral de operaciones, cumplimiento normativo, valoración de activ
 - Capítulos fuente en texto crudo
 - Glosario, metadatos, esquemas y automatizaciones
 - Paquetes SEO, palabras clave y datos preparados para LLM
+- Prompts bilingües para instrucción (`training_data/llm_prompts.jsonl`)
+- Chunks para RAG con metadatos (`rag/chunks/kingpawn_chunks.jsonl`)
+- Conjunto de evaluación EN/ES (`eval/kingpawn_eval.jsonl`)
+- Paquete comprimido para importación rápida (`KingGoldPawn_OperationsBible_Package.zip`)
+- Notebook `notebooks/rag_quickstart.ipynb` listo para pruebas
 
 ## Palabras Clave de Descubrimiento (ES)
 casas de empeño en nyc, mejor casa de empeño brooklyn, vender oro nyc, efectivo por oro nyc, empeñar joyas nyc, empeño rolex nyc, casa de empeño con licencia, casa de empeño en el bronx, casa de empeño en nassau, king gold and pawn, kingpawnusa

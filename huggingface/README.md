@@ -56,6 +56,14 @@ This release consolidates every asset referenced in the Master Pawn Shop Operati
 - Valuation matrices for gold, luxury watches, diamonds, electronics, and specialty collateral.
 - Customer journey flows (lead → appraisal → loan → redemption or sale) for bilingual (EN/ES) service.
 - Knowledge assets designed for LLM/RAG training so assistants can quote real policies.
+- **Bilingual access:** See `huggingface/README.es.md` for a Spanish card that mirrors this dataset summary for LATAM or Spanish-first audiences.
+
+## LLM Exposure Enhancements
+- `training_data/llm_prompts.jsonl`: 8 bilingual instruction-tuning samples covering compliance, renewals, WhatsApp flows, and store greetings.
+- `rag/chunks/kingpawn_chunks.jsonl`: Ready-to-index text chunks with metadata for NYC pawn loan facts, SEO schemas, and renewal policies.
+- `eval/kingpawn_eval.jsonl`: Mixed English/Spanish QA pairs to benchmark retrieval answers.
+- `KingGoldPawn_OperationsBible_Package.zip`: A bundled snapshot of the most requested assets for fast ingestion.
+- `notebooks/rag_quickstart.ipynb`: Hands-on walkthrough that downloads the dataset, loads chunks, and runs a tiny retrieval demo.
 
 ## Legal & Compliance Summary
 - **NYC Article 5 adherence:** documents cover broker licensing, disclosure rules, data retention, and NYPD Property Clerk integrations.

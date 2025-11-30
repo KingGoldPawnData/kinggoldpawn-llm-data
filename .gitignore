@@ -75,6 +75,8 @@ _site/
 *.tar
 *.tar.gz
 *.rar
+# Always include the bundled dataset package for Hugging Face uploads
+!KingGoldPawn_OperationsBible_Package.zip
 
 # Ignore local development files
 local/

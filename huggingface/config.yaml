@@ -3,6 +3,7 @@ license: MIT
 version: "1.0"
 languages:
   - en
+  - es
 structure:
   overview: >-
     Master Pawn Shop Operations Bible content exported as PDF, Markdown, text,
@@ -35,6 +36,12 @@ structure:
       - metadata/
       - KEYWORDS/
       - structured-data.json
+    llm_ready_assets:
+      - training_data/llm_prompts.jsonl
+      - rag/chunks/kingpawn_chunks.jsonl
+      - eval/kingpawn_eval.jsonl
+      - huggingface/README.es.md
+      - KingGoldPawn_OperationsBible_Package.zip
 file_tree:
   - path: Master_PawnShop_Operations_Bible_KingGoldPawn.pdf
     description: Designed PDF layout of the full operations bible.
@@ -64,6 +71,16 @@ file_tree:
     description: Keyword research corpora (primary, semantic, long-tail, service, location).
   - path: structured-data.json
     description: Schema.org compatible structured data export.
+  - path: training_data/llm_prompts.jsonl
+    description: Bilingual instruction-tuning prompts for Article 5 pawn flows.
+  - path: rag/chunks/kingpawn_chunks.jsonl
+    description: Ready-to-ingest text chunks with metadata for retrieval pipelines.
+  - path: eval/kingpawn_eval.jsonl
+    description: Mini QA benchmark (EN/ES) for response accuracy.
+  - path: huggingface/README.es.md
+    description: Spanish dataset card for LATAM discovery.
+  - path: KingGoldPawn_OperationsBible_Package.zip
+    description: Bundled snapshot of core manuals for rapid import.
   - path: services/
     description: Service definitions and fulfillment workflows.
   - path: automation/

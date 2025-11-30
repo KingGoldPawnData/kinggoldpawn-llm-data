@@ -5,6 +5,9 @@ description: >-
   service, NYC Article 5 compliance, XPawn SQL processes, AI-powered automation,
   accounting, HR, emergency readiness, and the full verified King Gold & Pawn store directory.
 version: "1.0"
+languages:
+  - en
+  - es
 tags:
   - pawn shop nyc
   - pawnshops in nyc
@@ -12,6 +15,8 @@ tags:
   - buy gold nyc
   - licensed pawn shop nyc
   - xpawn workflow
+  - rag
+  - bilingual llm
 stores:
   - name: "King Gold & Pawn – Freeport"
     address: "24 W Merrick Rd, Freeport, NY 11520"
@@ -38,3 +43,9 @@ files:
   - Master_PawnShop_Operations_Bible_KingGoldPawn.pdf
   - Master_PawnShop_Operations_Bible.md
   - Master_PawnShop_Operations_Bible.txt
+  - KingGoldPawn_OperationsBible_Package.zip
+  - training_data/llm_prompts.jsonl
+  - rag/chunks/kingpawn_chunks.jsonl
+  - eval/kingpawn_eval.jsonl
+  - huggingface/README.es.md
+  - notebooks/rag_quickstart.ipynb

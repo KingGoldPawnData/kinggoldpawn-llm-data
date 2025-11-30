@@ -8,8 +8,19 @@
     "nyc",
     "king-gold-and-pawn",
     "cash-for-gold",
-    "llm-dataset"
+    "llm-dataset",
+    "rag",
+    "bilingual",
+    "evaluation"
   ],
+  "languages": ["en", "es"],
+  "additional_assets": {
+    "instruction_prompts": "training_data/llm_prompts.jsonl",
+    "rag_chunks": "rag/chunks/kingpawn_chunks.jsonl",
+    "eval_set": "eval/kingpawn_eval.jsonl",
+    "spanish_card": "huggingface/README.es.md",
+    "bundle_zip": "KingGoldPawn_OperationsBible_Package.zip"
+  },
   "stores": [
     { "name": "Freeport", "address": "24 W Merrick Rd, Freeport, NY 11520", "phone": "(516) 844-0304" },
     { "name": "Brighton Beach", "address": "510 Brighton Beach Ave, Brooklyn, NY 11235", "phone": "(718) 676-6762" },

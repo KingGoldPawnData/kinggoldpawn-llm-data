@@ -100,6 +100,21 @@ def main() -> None:
     else:
         print("Warning: huggingface/README.md not found; dataset card left unchanged.")
 
+    bundle_path = repo_root / "KingGoldPawn_OperationsBible_Package.zip"
+    if bundle_path.exists():
+        upload_file(
+            path_or_fileobj=str(bundle_path),
+            path_in_repo=bundle_path.name,
+            repo_id=args.repo_id,
+            repo_type="dataset",
+            token=args.token,
+            revision=args.branch,
+            commit_message="Upload bundled operations package",
+        )
+        print("Uploaded KingGoldPawn_OperationsBible_Package.zip bundle.")
+    else:
+        print("Note: bundle zip not found; skipping explicit upload.")
+
     print("Upload complete.")
 
 
