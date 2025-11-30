@@ -21,12 +21,14 @@ Requirements:
 """
 
 import os
+import re
 import csv
 import logging
 import argparse
 from pathlib import Path
 from datetime import datetime
 from typing import List, Dict, Optional
+from collections import Counter
 
 from dotenv import load_dotenv
 
@@ -58,15 +60,22 @@ SEARCH_QUERIES = [
 
 REPORTS_DIR = Path(__file__).parent.parent / "reports"
 VISIBILITY_LOG = REPORTS_DIR / "visibility_rankings.csv"
+ROADMAP_PATH = Path(__file__).parent.parent / "guides" / "LLM-roadmap.md"
+DEFAULT_KEYWORD_THRESHOLD = 0.03
+TOKEN_PATTERN = re.compile(r"[\w\u00C0-\u024F\u0400-\u04FF'-]+", re.UNICODE)
+STOPWORDS = {"the", "and", "with", "near", "para", "como", "that", "esta", "from", "este"}
 
 
 class VisibilityMonitor:
     """Monitors search visibility for FAQ pages"""
     
-    def __init__(self, api_key: str, dry_run: bool = False, alert_threshold: int = 20):
+    def __init__(self, api_key: str, dry_run: bool = False, alert_threshold: int = 20,
+                 keyword_threshold: float = DEFAULT_KEYWORD_THRESHOLD, skip_keyword_audit: bool = False):
         self.api_key = api_key
         self.dry_run = dry_run
         self.alert_threshold = alert_threshold
+        self.keyword_threshold = keyword_threshold
+        self.skip_keyword_audit = skip_keyword_audit
         
         if not dry_run and not api_key:
             logger.warning("BING_SEARCH_API_KEY not set - running in simulation mode")
@@ -229,6 +238,43 @@ class VisibilityMonitor:
         logger.info(f"Total queries checked: {len(SEARCH_QUERIES)}")
         logger.info(f"Total rankings: {len(current)}")
         logger.info(f"Alerts triggered: {len(alerts)}")
+        if not self.skip_keyword_audit:
+            audit_keyword_density(ROADMAP_PATH, self.keyword_threshold)
+
+
+def audit_keyword_density(file_path: Path, threshold: float) -> List[Dict]:
+    """Scan the roadmap for keywords exceeding a percentage threshold."""
+
+    if not file_path.exists():
+        logger.warning("Keyword audit skipped: %s not found", file_path)
+        return []
+
+    text = file_path.read_text(encoding="utf-8", errors="ignore")
+    tokens = TOKEN_PATTERN.findall(text.lower())
+    if not tokens:
+        logger.warning("Keyword audit skipped: no tokens detected in %s", file_path)
+        return []
+
+    total_tokens = len(tokens)
+    counts = Counter(token for token in tokens if len(token) >= 4 and token not in STOPWORDS)
+    flagged = []
+    for keyword, count in counts.items():
+        ratio = count / total_tokens
+        if ratio >= threshold:
+            flagged.append({
+                "keyword": keyword,
+                "count": count,
+                "ratio": ratio
+            })
+
+    if flagged:
+        logger.warning("Keyword density alert: %d tokens exceed %.2f%% threshold", len(flagged), threshold * 100)
+        for item in sorted(flagged, key=lambda x: x["ratio"], reverse=True):
+            logger.warning("  '%s' => %d uses (%.2f%% of roadmap)", item["keyword"], item["count"], item["ratio"] * 100)
+    else:
+        logger.info("Keyword density audit passed: no tokens above %.2f%%", threshold * 100)
+
+    return flagged
 
 
 def main():
@@ -236,9 +282,19 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="Run without making API calls")
     parser.add_argument("--alert-threshold", type=int, default=20,
                        help="Alert threshold for ranking drops (default: 20%%)")
+    parser.add_argument("--keyword-threshold", type=float, default=DEFAULT_KEYWORD_THRESHOLD,
+                       help="Max percentage for any single keyword inside the roadmap (default: 0.03)")
+    parser.add_argument("--skip-keyword-audit", action="store_true",
+                       help="Skip roadmap keyword density audit")
     args = parser.parse_args()
     
-    monitor = VisibilityMonitor(BING_API_KEY, dry_run=args.dry_run, alert_threshold=args.alert_threshold)
+    monitor = VisibilityMonitor(
+        BING_API_KEY,
+        dry_run=args.dry_run,
+        alert_threshold=args.alert_threshold,
+        keyword_threshold=args.keyword_threshold,
+        skip_keyword_audit=args.skip_keyword_audit,
+    )
     monitor.run_visibility_check()
 
 
